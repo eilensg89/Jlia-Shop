@@ -1,0 +1,6 @@
+JLIAS SHOP — VERSIÓN DE UN SOLO ARCHIVO
+
+1. Sube únicamente index.html a la raíz del repositorio de GitHub.
+2. No necesitas crear carpetas ni subir imágenes por separado.
+3. En Vercel, conecta ese repositorio y realiza Deploy.
+4. Todas las imágenes, productos, estilos y funciones están integrados en index.html.
