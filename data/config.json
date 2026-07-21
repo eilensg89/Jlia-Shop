@@ -1,0 +1,71 @@
+{
+  "marca": {
+    "nombre": "Jlia’s Shop",
+    "lema": "Online Fashion Store",
+    "moneda": "$"
+  },
+  "contacto": {
+    "whatsappNumero": "12393673388",
+    "whatsappVisible": "+1 (239) 367-3388",
+    "instagram": "https://www.instagram.com/jlia_online_shop/",
+    "tiktok": "https://www.tiktok.com/@jliaonlineshop0?_r=1&_t=ZP-98DYZ3aioXP",
+    "grupoWhatsapp": "https://wa.me/12393673388?text=Hola%2C%20Jlia%E2%80%99s%20Shop.%20Quiero%20unirme%20al%20grupo%20privado%20de%20WhatsApp%20para%20conocer%20la%20disponibilidad%20diaria%2C%20nuevos%20modelos%20y%20ofertas."
+  },
+  "anuncio": {
+    "activo": true,
+    "texto": "Síguenos en TikTok para nuestros en vivos de ventas, ofertas y nuevas colecciones.",
+    "boton": "Ver TikTok",
+    "enlace": "tiktok"
+  },
+  "mascota": {
+    "activa": true,
+    "retrasoInicial": 4500,
+    "intervalo": 14000,
+    "mensajes": [
+      {
+        "texto": "Únete a nuestro grupo privado para conocer la disponibilidad diaria, nuevos modelos y ofertas.",
+        "boton": "Unirme al grupo privado",
+        "enlace": "grupoWhatsapp"
+      },
+      {
+        "texto": "Tu estilo también habla de ti. Elige lo que te haga sentir increíble.",
+        "boton": "Ver catálogo",
+        "enlace": "catalogo"
+      },
+      {
+        "texto": "¿Buscas algo específico? Te ayudamos por WhatsApp.",
+        "boton": "Consultar",
+        "enlace": "whatsapp"
+      },
+      {
+        "texto": "Acompáñanos en los en vivos de ventas, ofertas y novedades.",
+        "boton": "Ver TikTok",
+        "enlace": "tiktok"
+      }
+    ]
+  },
+  "carousel": {
+    "activo": true,
+    "intervalo": 3500,
+    "imagenes": [
+      "assets/carousel/01.webp",
+      "assets/carousel/02.webp",
+      "assets/carousel/03.webp",
+      "assets/carousel/04.webp",
+      "assets/carousel/05.webp",
+      "assets/carousel/06.webp",
+      "assets/carousel/07.webp",
+      "assets/carousel/08.webp",
+      "assets/carousel/09.webp",
+      "assets/carousel/10.webp",
+      "assets/carousel/11.webp",
+      "assets/carousel/12.webp",
+      "assets/carousel/13.webp",
+      "assets/carousel/14.webp",
+      "assets/carousel/15.webp",
+      "assets/carousel/16.webp",
+      "assets/carousel/17.webp",
+      "assets/carousel/18.webp"
+    ]
+  }
+}

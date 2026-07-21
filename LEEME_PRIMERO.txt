@@ -1,0 +1,8 @@
+JLIAS SHOP — ENTREGA DEFINITIVA
+
+1. Descomprime esta carpeta completa.
+2. Para verla correctamente, súbela completa a GitHub/Vercel o ábrela con un servidor local.
+3. Los archivos JSON son texto normal. En Windows: clic derecho > Abrir con > Bloc de notas.
+4. Para editar productos usa data/productos.json.
+5. No cambies los nombres de las carpetas assets, css, data o js.
+6. El enlace del grupo privado usa WhatsApp directo para solicitar acceso; no depende de un canal.
