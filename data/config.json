@@ -9,7 +9,7 @@
     "whatsappVisible": "+1 (239) 367-3388",
     "instagram": "https://www.instagram.com/jlia_online_shop/",
     "tiktok": "https://www.tiktok.com/@jliaonlineshop0?_r=1&_t=ZP-98DYZ3aioXP",
-    "grupoWhatsapp": "https://wa.me/12393673388?text=Hola%2C%20Jlia%E2%80%99s%20Shop.%20Quiero%20unirme%20al%20grupo%20privado%20de%20WhatsApp%20para%20conocer%20la%20disponibilidad%20diaria%2C%20nuevos%20modelos%20y%20ofertas."
+    "grupoWhatsapp": "https://chat.whatsapp.com/Hron3pNPIO958GOhBiG8fI?s=sh&p=i&mlu=0&ilr=0"
   },
   "anuncio": {
     "activo": true,
@@ -19,28 +19,33 @@
   },
   "mascota": {
     "activa": true,
-    "retrasoInicial": 4500,
-    "intervalo": 14000,
+    "retrasoInicial": 1200,
+    "intervalo": 9000,
     "mensajes": [
       {
-        "texto": "Únete a nuestro grupo privado para conocer la disponibilidad diaria, nuevos modelos y ofertas.",
+        "texto": "¿Quieres ver primero las nuevas colecciones?",
         "boton": "Unirme al grupo privado",
         "enlace": "grupoWhatsapp"
       },
       {
-        "texto": "Tu estilo también habla de ti. Elige lo que te haga sentir increíble.",
-        "boton": "Ver catálogo",
+        "texto": "Hoy también mereces verte y sentirte linda.",
+        "boton": "Ver favoritos",
         "enlace": "catalogo"
       },
       {
-        "texto": "¿Buscas algo específico? Te ayudamos por WhatsApp.",
-        "boton": "Consultar",
-        "enlace": "whatsapp"
+        "texto": "¿Qué estás buscando? Vestidos, conjuntos, calzado y más.",
+        "boton": "Explorar catálogo",
+        "enlace": "catalogo"
       },
       {
-        "texto": "Acompáñanos en los en vivos de ventas, ofertas y novedades.",
+        "texto": "Acompáñanos en TikTok para ventas en vivo y novedades.",
         "boton": "Ver TikTok",
         "enlace": "tiktok"
+      },
+      {
+        "texto": "¿Necesitas ayuda para elegir? Hablemos por WhatsApp.",
+        "boton": "Hablar con Jlia’s Shop",
+        "enlace": "whatsapp"
       }
     ]
   },
@@ -67,5 +72,11 @@
       "assets/carousel/17.webp",
       "assets/carousel/18.webp"
     ]
-  }
+  },
+  "destacados": [
+    "CON-001",
+    "VES-002",
+    "ENT-001",
+    "PIJ-001"
+  ]
 }

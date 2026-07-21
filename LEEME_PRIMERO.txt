@@ -5,4 +5,4 @@ JLIAS SHOP — ENTREGA DEFINITIVA
 3. Los archivos JSON son texto normal. En Windows: clic derecho > Abrir con > Bloc de notas.
 4. Para editar productos usa data/productos.json.
 5. No cambies los nombres de las carpetas assets, css, data o js.
-6. El enlace del grupo privado usa WhatsApp directo para solicitar acceso; no depende de un canal.
+6. El grupo privado abre directamente con el enlace oficial de invitación de WhatsApp.

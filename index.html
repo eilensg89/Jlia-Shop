@@ -16,11 +16,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=4.0">
+  <link rel="stylesheet" href="css/style.css?v=5.0">
 </head>
 <body>
-  <div id="announcement" class="announcement" hidden>
-    <a id="announcementLink" target="_blank" rel="noopener"><span id="announcementText"></span> <strong id="announcementButton"></strong></a>
+  <div id="announcement" class="announcement">
+    <a id="announcementLink" href="https://www.tiktok.com/@jliaonlineshop0" target="_blank" rel="noopener"><span id="announcementText">Síguenos en TikTok para nuestros en vivos de ventas, ofertas y nuevas colecciones.</span> <strong id="announcementButton">Ver TikTok</strong></a>
     <button id="announcementClose" aria-label="Cerrar anuncio">×</button>
   </div>
 
@@ -29,11 +29,11 @@
     <nav class="quick-nav" aria-label="Navegación principal">
       <a href="#inicio">Inicio</a>
       <a href="#categorias">Categorías</a>
-      <a href="#catalogo">Catálogo</a>
+      <a href="#catalogo" data-show-all>Catálogo</a>
     </nav>
     <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
     <nav id="mainNav" class="secondary-nav">
-      <a href="#inicio">Inicio</a><a href="#categorias">Categorías</a><a href="#catalogo">Catálogo</a>
+      <a href="#inicio">Inicio</a><a href="#categorias">Categorías</a><a href="#catalogo" data-show-all>Catálogo</a>
       <a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
     </nav>
     <a class="header-cta" id="headerWhatsapp" target="_blank" rel="noopener">WhatsApp</a>
@@ -47,7 +47,7 @@
         <p class="eyebrow">JLIAS SHOP · ONLINE FASHION STORE</p>
         <h1>Tu estilo versión Jlia’s Shop</h1>
         <p>Explora ropa, calzado, carteras y accesorios. La disponibilidad se confirma en tiempo real.</p>
-        <div class="hero-actions"><a class="btn btn-primary" href="#categorias">Comprar por categoría</a><a class="btn btn-ghost" id="heroGroup" target="_blank" rel="noopener">Grupo privado de WhatsApp</a></div>
+        <div class="hero-actions"><a class="btn btn-primary" href="#categorias">Comprar por categoría</a><a class="btn btn-ghost" id="heroGroup" href="https://chat.whatsapp.com/Hron3pNPIO958GOhBiG8fI?s=sh&p=i&mlu=0&ilr=0" target="_blank" rel="noopener">Unirme al grupo privado</a></div>
       </div>
     </section>
 
@@ -104,70 +104,7 @@
     <section class="section featured">
       <div class="section-heading"><div><p class="eyebrow">SELECCIÓN JLIAS</p><h2>Algunos favoritos</h2></div></div>
       <div id="featuredGrid" class="product-grid">
-<article class="product-card">
-          <div class="product-image" data-open="CON-001">
-            <span class="badge">Destacado</span>
-            <img src="assets/productos/CON-001/1.webp" alt="Conjunto Deportivo Casual" loading="lazy">
-            <span class="photo-count">📷 6</span>
-          </div>
-          <div class="product-copy">
-            <span class="product-type">Casual</span>
-            <h3>Conjunto Deportivo Casual</h3>
-            <p class="price">$32</p>
-            <div class="card-actions">
-              <button data-open="CON-001">Ver fotos</button>
-              <a href="https://wa.me/12393673388?text=Hola%2C%20Jlias%20Shop.%0A%0AEstoy%20interesada%20en%3A%0AProducto%3A%20Conjunto%20Deportivo%20Casual%0AC%C3%B3digo%3A%20CON-001%0APrecio%3A%20%2432%0A%0A%C2%BFPodr%C3%ADan%20indicarme%20disponibilidad%2C%20colores%2C%20tallas%20y%20c%C3%B3mo%20realizar%20el%20pedido%3F" target="_blank" rel="noopener">Consultar</a>
-            </div>
-          </div>
-        </article>
-<article class="product-card">
-          <div class="product-image" data-open="CON-004">
-            <span class="badge">Destacado</span>
-            <img src="assets/productos/CON-004/1.webp" alt="Conjunto Deportivo Legging 2 Piezas" loading="lazy">
-            <span class="photo-count">📷 3</span>
-          </div>
-          <div class="product-copy">
-            <span class="product-type">Legging</span>
-            <h3>Conjunto Deportivo Legging 2 Piezas</h3>
-            <p class="price">$36</p>
-            <div class="card-actions">
-              <button data-open="CON-004">Ver fotos</button>
-              <a href="https://wa.me/12393673388?text=Hola%2C%20Jlias%20Shop.%0A%0AEstoy%20interesada%20en%3A%0AProducto%3A%20Conjunto%20Deportivo%20Legging%202%20Piezas%0AC%C3%B3digo%3A%20CON-004%0APrecio%3A%20%2436%0A%0A%C2%BFPodr%C3%ADan%20indicarme%20disponibilidad%2C%20colores%2C%20tallas%20y%20c%C3%B3mo%20realizar%20el%20pedido%3F" target="_blank" rel="noopener">Consultar</a>
-            </div>
-          </div>
-        </article>
-<article class="product-card">
-          <div class="product-image" data-open="CON-006">
-            <span class="badge">Destacado</span>
-            <img src="assets/productos/CON-006/1.webp" alt="Conjunto Deportivo 3 Piezas" loading="lazy">
-            <span class="photo-count">📷 4</span>
-          </div>
-          <div class="product-copy">
-            <span class="product-type">3 piezas</span>
-            <h3>Conjunto Deportivo 3 Piezas</h3>
-            <p class="price">$36</p>
-            <div class="card-actions">
-              <button data-open="CON-006">Ver fotos</button>
-              <a href="https://wa.me/12393673388?text=Hola%2C%20Jlias%20Shop.%0A%0AEstoy%20interesada%20en%3A%0AProducto%3A%20Conjunto%20Deportivo%203%20Piezas%0AC%C3%B3digo%3A%20CON-006%0APrecio%3A%20%2436%0A%0A%C2%BFPodr%C3%ADan%20indicarme%20disponibilidad%2C%20colores%2C%20tallas%20y%20c%C3%B3mo%20realizar%20el%20pedido%3F" target="_blank" rel="noopener">Consultar</a>
-            </div>
-          </div>
-        </article>
-<article class="product-card">
-          <div class="product-image" data-open="CON-007">
-            <span class="badge">Destacado</span>
-            <img src="assets/productos/CON-007/1.webp" alt="Conjunto Deportivo Pantalón" loading="lazy">
-            <span class="photo-count">📷 6</span>
-          </div>
-          <div class="product-copy">
-            <span class="product-type">Pantalón</span>
-            <h3>Conjunto Deportivo Pantalón</h3>
-            <p class="price">$40</p>
-            <div class="card-actions">
-              <button data-open="CON-007">Ver fotos</button>
-              <a href="https://wa.me/12393673388?text=Hola%2C%20Jlias%20Shop.%0A%0AEstoy%20interesada%20en%3A%0AProducto%3A%20Conjunto%20Deportivo%20Pantal%C3%B3n%0AC%C3%B3digo%3A%20CON-007%0APrecio%3A%20%2440%0A%0A%C2%BFPodr%C3%ADan%20indicarme%20disponibilidad%2C%20colores%2C%20tallas%20y%20c%C3%B3mo%20realizar%20el%20pedido%3F" target="_blank" rel="noopener">Consultar</a>
-            </div>
-          </div>
-        </article>
+<article class="product-card"><button class="product-image" type="button" data-open="CON-001" aria-label="Ver Conjunto Deportivo Casual"><span class="badge">Destacado</span><img src="assets/productos/CON-001/1.webp" alt="Conjunto Deportivo Casual" loading="lazy"><span class="photo-count">📷 6</span></button><div class="product-copy"><span class="product-type">Casual</span><h3>Conjunto Deportivo Casual</h3><p class="price">$32</p><div class="card-actions"><button type="button" data-open="CON-001">Ver fotos</button><a href="https://wa.me/12393673388" target="_blank" rel="noopener">Consultar</a></div></div></article><article class="product-card"><button class="product-image" type="button" data-open="VES-002" aria-label="Ver Vestido Bubble"><span class="badge">Destacado</span><img src="assets/productos/VES-002/1.webp" alt="Vestido Bubble" loading="lazy"><span class="photo-count">📷 2</span></button><div class="product-copy"><span class="product-type">Bubble</span><h3>Vestido Bubble</h3><p class="price">$35</p><div class="card-actions"><button type="button" data-open="VES-002">Ver fotos</button><a href="https://wa.me/12393673388" target="_blank" rel="noopener">Consultar</a></div></div></article><article class="product-card"><button class="product-image" type="button" data-open="ENT-001" aria-label="Ver Enterizo Deportivo Largo"><span class="badge">Destacado</span><img src="assets/productos/ENT-001/1.webp" alt="Enterizo Deportivo Largo" loading="lazy"><span class="photo-count">📷 3</span></button><div class="product-copy"><span class="product-type">Largos</span><h3>Enterizo Deportivo Largo</h3><p class="price">$38</p><div class="card-actions"><button type="button" data-open="ENT-001">Ver fotos</button><a href="https://wa.me/12393673388" target="_blank" rel="noopener">Consultar</a></div></div></article><article class="product-card"><button class="product-image" type="button" data-open="PIJ-001" aria-label="Ver Pijama 3 Piezas"><span class="badge">Destacado</span><img src="assets/productos/PIJ-001/1.webp" alt="Pijama 3 Piezas" loading="lazy"><span class="photo-count">📷 4</span></button><div class="product-copy"><span class="product-type">3 piezas</span><h3>Pijama 3 Piezas</h3><p class="price">$25</p><div class="card-actions"><button type="button" data-open="PIJ-001">Ver fotos</button><a href="https://wa.me/12393673388" target="_blank" rel="noopener">Consultar</a></div></div></article>
 </div>
     </section>
 
@@ -210,12 +147,11 @@
   </footer>
 
   <button id="scrollTop" class="scroll-top" aria-label="Subir al inicio">↑</button>
-  <button id="floatingWhatsapp" class="floating-whatsapp" aria-label="Consultar por WhatsApp">WA</button>
 
   <aside id="mascotWidget" class="mascot-widget">
     <button id="mascotClose" class="mascot-close" aria-label="Cerrar">×</button>
     <img src="assets/branding/mascota.png" alt="Mascota de Jlias Shop">
-    <div class="mascot-bubble"><p id="mascotText">¿Quieres ver primero las nuevas colecciones?</p><a id="mascotAction" class="mini-btn" href="#" target="_blank" rel="noopener">Unirme al grupo privado</a></div>
+    <div class="mascot-bubble"><p id="mascotText">¿Quieres ver primero las nuevas colecciones?</p><a id="mascotAction" class="mini-btn" href="https://chat.whatsapp.com/Hron3pNPIO958GOhBiG8fI?s=sh&p=i&mlu=0&ilr=0" target="_blank" rel="noopener">Unirme al grupo privado</a></div>
   </aside>
 
   <div id="productModal" class="modal" hidden>
@@ -234,6 +170,6 @@
       </div>
     </article>
   </div>
-  <script src="js/app.js?v=4.0" defer></script>
+  <script src="js/app.js?v=5.0" defer></script>
 </body>
 </html>

@@ -48,3 +48,17 @@
 .inspiration{overflow:hidden}.auto-slider{position:relative;overflow:hidden;border-radius:24px}.slider-track{display:flex;transition:transform .55s ease;will-change:transform}.slider-slide{min-width:100%;aspect-ratio:16/8;overflow:hidden}.slider-slide img{width:100%;height:100%;object-fit:cover;display:block}.slider-control{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.9);font-size:30px;cursor:pointer}.slider-control.prev{left:14px}.slider-control.next{right:14px}.slider-dots{display:flex;gap:7px;justify-content:center;margin-top:14px}.slider-dots button{width:8px;height:8px;border:0;border-radius:50%;background:#d7c6df;padding:0}.slider-dots button.active{background:#7b2cbf;transform:scale(1.35)}.slider-cta{text-align:center;margin-top:20px}
 .floating-whatsapp{right:18px;bottom:18px}.mascot-widget{right:18px;bottom:84px}.mascot-widget.minimized .mascot-bubble{display:none}.mascot-widget.minimized img{width:74px}
 @media(max-width:760px){.brand img{width:54px;height:54px}.site-header{gap:8px}.quick-nav,.header-cta{display:none}.menu-toggle{display:inline-flex}.secondary-nav{top:100%;right:12px;left:12px}.slider-slide{aspect-ratio:4/5}.mascot-widget{max-width:220px;right:10px;bottom:82px}.floating-whatsapp{right:12px;bottom:14px}.announcement{font-size:12px}}
+/* Correcciones funcionales v5 */
+.category-card{border:0;padding:0;text-align:left;background:transparent;width:100%;font:inherit}
+.product-image{border:0;padding:0;width:100%;display:block}
+.floating-whatsapp{display:none!important}
+.inspiration{display:block!important;visibility:visible!important}
+.auto-slider{min-height:360px;background:#f5edf5}
+.slider-track{display:flex;height:100%;transition:transform .6s ease}
+.slider-slide{min-width:100%;height:100%;aspect-ratio:16/8;overflow:hidden}
+.slider-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.mascot-widget{left:18px!important;right:auto!important}
+.announcement{display:flex;min-height:42px;align-items:center;justify-content:center;position:sticky;top:0;z-index:120}
+.announcement[hidden]{display:none!important}
+.scroll-top{bottom:24px!important}
+@media(max-width:700px){.slider-slide{aspect-ratio:4/5}.auto-slider{min-height:420px}.scroll-top{bottom:20px!important}.mascot-widget{left:8px!important;right:auto!important}}
