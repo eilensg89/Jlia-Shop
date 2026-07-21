@@ -1,0 +1,17 @@
+JLIAS SHOP — CARGA CORRECTA EN VERCEL
+
+Este ZIP está preparado con index.html en la raíz.
+
+IMPORTANTE:
+1. Elimina o reemplaza el deployment anterior.
+2. Descomprime este ZIP.
+3. Sube a Vercel la carpeta Jlias-Shop-Vercel-Ready completa, o importa este ZIP si la interfaz lo permite.
+4. Al abrir la carpeta, debes ver inmediatamente:
+   index.html
+   assets
+   css
+   js
+   data
+   vercel.json
+
+NO subas una carpeta que contenga otra carpeta Jlias-Shop-Vercel-Ready dentro.
