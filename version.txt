@@ -1,2 +1,0 @@
-Jlias Shop V3.2 Fixed
-Categorías, destacados y mascota con fallback estático y datos integrados.
