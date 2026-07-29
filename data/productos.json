@@ -15,7 +15,7 @@
       "assets/productos/CON-001/5.webp",
       "assets/productos/CON-001/6.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -91,7 +91,7 @@
       "assets/productos/CON-004/2.webp",
       "assets/productos/CON-004/3.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -117,7 +117,7 @@
       "assets/productos/CON-005/3.webp",
       "assets/productos/CON-005/4.webp"
     ],
-    "destacado": false,
+    "destacado": true,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -143,7 +143,7 @@
       "assets/productos/CON-006/3.webp",
       "assets/productos/CON-006/4.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -171,7 +171,7 @@
       "assets/productos/CON-007/5.webp",
       "assets/productos/CON-007/6.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -202,7 +202,7 @@
       "assets/productos/CON-008/8.webp",
       "assets/productos/CON-008/9.webp"
     ],
-    "destacado": false,
+    "destacado": true,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -210,6 +210,91 @@
       "Conjuntos",
       "3 piezas",
       "CON-008",
+      "leggin",
+      "legging"
+    ]
+  },
+  {
+    "codigo": "CON-009",
+    "carpeta": "CON-009",
+    "categoria": "Conjuntos",
+    "subcategoria": "3 piezas",
+    "nombre": "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
+    "precio": 40,
+    "colores": "Varios",
+    "imagenes": [
+      "assets/productos/CON-009/1.webp",
+      "assets/productos/CON-009/2.webp",
+      "assets/productos/CON-009/3.webp",
+      "assets/productos/CON-009/4.webp",
+      "assets/productos/CON-009/5.webp",
+      "assets/productos/CON-009/6.webp",
+      "assets/productos/CON-009/7.webp"
+    ],
+    "destacado": true,
+    "estado": "Activo",
+    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+    "palabrasClave": [
+      "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
+      "Conjuntos",
+      "3 piezas",
+      "Pantalón",
+      "CON-009",
+      "leggin",
+      "legging"
+    ]
+  },
+  {
+    "codigo": "CON-010",
+    "carpeta": "CON-010",
+    "categoria": "Conjuntos",
+    "subcategoria": "3 piezas",
+    "nombre": "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
+    "precio": 40,
+    "colores": "Varios",
+    "imagenes": [
+      "assets/productos/CON-010/1.webp",
+      "assets/productos/CON-010/2.webp"
+    ],
+    "destacado": false,
+    "estado": "Activo",
+    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+    "palabrasClave": [
+      "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
+      "Conjuntos",
+      "3 piezas",
+      "Pantalón",
+      "CON-010",
+      "leggin",
+      "legging"
+    ]
+  },
+  {
+    "codigo": "CON-011",
+    "carpeta": "CON-011",
+    "categoria": "Conjuntos",
+    "subcategoria": "3 piezas",
+    "nombre": "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
+    "precio": 40,
+    "colores": "Varios",
+    "imagenes": [
+      "assets/productos/CON-011/1.webp",
+      "assets/productos/CON-011/2.webp",
+      "assets/productos/CON-011/3.webp",
+      "assets/productos/CON-011/4.webp",
+      "assets/productos/CON-011/5.webp",
+      "assets/productos/CON-011/6.webp",
+      "assets/productos/CON-011/7.webp"
+    ],
+    "destacado": true,
+    "estado": "Activo",
+    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+    "palabrasClave": [
+      "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
+      "Conjuntos",
+      "3 piezas",
+      "Pantalón",
+      "CON-011",
       "leggin",
       "legging"
     ]
@@ -251,7 +336,7 @@
       "assets/productos/VES-002/1.webp",
       "assets/productos/VES-002/2.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -299,7 +384,7 @@
       "assets/productos/ENT-001/2.webp",
       "assets/productos/ENT-001/3.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -425,7 +510,7 @@
       "assets/productos/CAL-001/2.webp",
       "assets/productos/CAL-001/3.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -450,7 +535,7 @@
       "assets/productos/CAL-002/2.webp",
       "assets/productos/CAL-002/3.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -473,7 +558,7 @@
       "assets/productos/CAR-001/1.webp",
       "assets/productos/CAR-001/2.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -497,7 +582,7 @@
       "assets/productos/CAR-002/2.webp",
       "assets/productos/CAR-002/3.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
@@ -592,7 +677,7 @@
       "assets/productos/ACC-002/2.webp",
       "assets/productos/ACC-002/3.webp"
     ],
-    "destacado": true,
+    "destacado": false,
     "estado": "Activo",
     "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
     "palabrasClave": [
