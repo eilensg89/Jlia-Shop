@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Administración | Jlia’s Shop</title>
+  <link rel="icon" href="/assets/branding/logo.png">
+  <link rel="stylesheet" href="/admin/panel.css">
+</head>
+<body>
+  <div id="loginView" class="login-view">
+    <img class="login-logo" src="/assets/branding/logo.png" alt="Jlia’s Shop">
+    <h1>Jlia’s Shop</h1>
+    <p>Panel de administración</p>
+    <button id="loginBtn" class="btn btn-primary btn-large" type="button">Iniciar sesión con GitHub</button>
+    <a class="back-site" href="/">← Regresar a la tienda</a>
+  </div>
+
+  <div id="appView" class="app" hidden>
+    <header class="topbar">
+      <div class="brand-mini">
+        <img src="/assets/branding/logo.png" alt="Jlia’s Shop">
+        <div><strong>Jlia’s Shop</strong><span>Administración</span></div>
+      </div>
+      <div class="top-actions">
+        <span id="saveStatus" class="save-status">Sin cambios</span>
+        <button id="logoutBtn" class="btn btn-ghost" type="button">Cerrar sesión</button>
+      </div>
+    </header>
+
+    <main class="shell">
+      <aside class="sidebar">
+        <button class="nav-btn active" data-section="categories" type="button">Categorías</button>
+        <button class="nav-btn" data-section="store" type="button">Datos de la tienda</button>
+        <a class="nav-link" href="/" target="_blank" rel="noopener">Ver tienda ↗</a>
+      </aside>
+
+      <section class="content">
+        <div id="loadingView" class="loading-card">Cargando catálogo…</div>
+
+        <section id="categoriesSection" hidden>
+          <div id="categoryListView">
+            <div class="section-head">
+              <div><p class="eyebrow">CATÁLOGO</p><h2>Categorías</h2><p>Entra en una categoría para ver y administrar solamente sus productos.</p></div>
+              <button id="addCategoryBtn" class="btn btn-primary" type="button">+ Nueva categoría</button>
+            </div>
+            <div id="categoryGrid" class="category-grid"></div>
+          </div>
+
+          <div id="categoryDetailView" hidden>
+            <button id="backCategoriesBtn" class="back-btn" type="button">← Categorías</button>
+            <div class="category-detail-head">
+              <div class="category-title-wrap">
+                <img id="categoryDetailImage" class="category-detail-image" alt="">
+                <div><p class="eyebrow">CATEGORÍA</p><h2 id="categoryDetailName"></h2><p id="categoryDetailCount"></p></div>
+              </div>
+              <div class="row-actions">
+                <button id="editCategoryBtn" class="btn btn-secondary" type="button">Editar categoría</button>
+                <button id="addProductBtn" class="btn btn-primary" type="button">+ Agregar producto</button>
+              </div>
+            </div>
+            <div class="search-row"><input id="productSearch" type="search" placeholder="Buscar producto dentro de esta categoría…"></div>
+            <div id="productGrid" class="product-grid"></div>
+          </div>
+        </section>
+
+        <section id="storeSection" hidden>
+          <div class="section-head"><div><p class="eyebrow">CONFIGURACIÓN</p><h2>Datos de la tienda</h2><p>Redes, WhatsApp, anuncio superior y textos administrables.</p></div></div>
+          <form id="storeForm" class="form-card"></form>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="productDialog" class="modal">
+    <form id="productForm" class="modal-card modal-wide" novalidate>
+      <div class="modal-head"><div><p class="eyebrow">PRODUCTO</p><h3 id="productDialogTitle">Producto</h3></div><button id="closeProductBtn" class="icon-btn" type="button" aria-label="Cerrar">×</button></div>
+      <input type="hidden" id="productOriginalCode">
+      <div class="form-grid">
+        <label class="field span-2">Nombre del producto<input id="pName"><small class="field-help">Obligatorio solo al guardar.</small></label>
+        <label class="field">Precio<input id="pPrice" type="number" min="0" step="0.01"><small class="field-help">Obligatorio solo al guardar.</small></label>
+        <label class="field">Estilo / modelo del producto<input id="pSubcategory" placeholder="Ej. Cinta de pelo, Bubble, Tirantes…"><small id="pSubcategoryHelp" class="field-help">Esta etiqueta aparece sobre el nombre del producto. Si la dejas vacía al crear uno nuevo, el sistema la obtiene automáticamente del nombre.</small></label>
+        <label class="field span-2">Colores o variantes<input id="pColors" placeholder="Ej. Negro, rosa, azul"></label>
+        <label class="field span-2">Descripción<textarea id="pDescription" rows="3"></textarea></label>
+        <label class="field">Estado<select id="pStatus"><option>Activo</option><option>Inactivo</option></select></label>
+        <label class="check-field"><input id="pFeatured" type="checkbox"> Mostrar en Selección Jlia’s <span class="field-help inline-help">Aparecerá automáticamente al publicar.</span></label>
+
+        <div class="promo-box span-2">
+          <div class="promo-head"><div><strong>Oferta / descuento</strong><small>Activa una promoción temporal sin cambiar la categoría ni el estilo del producto.</small></div><label class="promo-switch"><input id="pPromoActive" type="checkbox"> Producto en oferta</label></div>
+          <div id="promoFields" class="promo-fields" hidden>
+            <label class="field">Tipo de oferta<select id="pPromoType"><option value="porcentaje">Porcentaje</option><option value="precio">Precio especial</option></select></label>
+            <label class="field" id="promoPercentField">Descuento %<input id="pPromoPercent" type="number" min="1" max="99" step="1" placeholder="Ej. 50"></label>
+            <label class="field" id="promoPriceField" hidden>Precio de oferta<input id="pPromoPrice" type="number" min="0" step="0.01" placeholder="Ej. 18"></label>
+            <label class="field">Etiqueta visible<input id="pPromoLabel" placeholder="Ej. 50% OFF"><small class="field-help">Si la dejas vacía, el sistema genera la etiqueta.</small></label>
+            <div class="promo-preview"><span>Vista previa</span><strong id="promoPreviewText">Oferta activa</strong><small id="promoPreviewPrice"></small></div>
+          </div>
+        </div>
+
+        <label class="field span-2">Palabras clave para búsqueda
+          <input id="pKeywords" placeholder="Ej. vestido, corto, tirantes, rosa">
+          <small class="field-help">Ayudan a que el buscador encuentre el producto. El sistema añade automáticamente palabras del nombre, categoría y subcategoría.</small>
+          <div class="keyword-row"><div id="keywordSuggestions" class="keyword-suggestions"></div><button id="pUseKeywordsBtn" class="btn btn-mini" type="button">Usar sugerencias</button></div>
+        </label>
+      </div>
+
+      <div class="images-block">
+        <div class="images-head"><div><h4>Imágenes del producto</h4><p>Puedes agregar todas las imágenes que necesites, ahora o más adelante. La primera será la portada.</p></div><label class="btn btn-secondary file-btn">+ Agregar imágenes<input id="pImagesInput" type="file" accept="image/*" multiple hidden></label></div>
+        <div id="productImages" class="image-gallery-admin"></div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="deleteProductBtn" class="btn btn-danger" type="button">Eliminar producto</button>
+        <div class="footer-right"><button id="cancelProductBtn" class="btn btn-ghost" type="button">Cancelar</button><button id="saveProductBtn" class="btn btn-primary" type="button">Guardar producto</button></div>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="categoryDialog" class="modal">
+    <form id="categoryForm" method="dialog" class="modal-card">
+      <div class="modal-head"><div><p class="eyebrow">CATEGORÍA</p><h3 id="categoryDialogTitle">Categoría</h3></div><button class="icon-btn" value="cancel">×</button></div>
+      <input type="hidden" id="categoryOriginalId">
+      <label class="field">Nombre de la categoría<input id="cName" required></label>
+      <label class="field">Imagen de portada<input id="cImageInput" type="file" accept="image/*"></label>
+      <div id="categoryImagePreview" class="category-image-preview"></div>
+      <div class="modal-footer"><button id="deleteCategoryBtn" class="btn btn-danger" type="button">Eliminar categoría</button><div class="footer-right"><button class="btn btn-ghost" value="cancel">Cancelar</button><button id="saveCategoryBtn" class="btn btn-primary" type="button">Guardar categoría</button></div></div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" hidden></div>
+  <script src="/admin/panel.js"></script>
+</body>
+</html>

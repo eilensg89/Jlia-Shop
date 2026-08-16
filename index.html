@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=5.0">
+  <link rel="stylesheet" href="css/style.css?v=10.0">
 </head>
 <body>
   <div id="announcement" class="announcement">
@@ -30,11 +30,11 @@
     <nav class="quick-nav" aria-label="Navegación principal">
       <a href="#inicio">Inicio</a>
       <a href="#categorias">Categorías</a>
-      <a href="#catalogo" data-show-all>Catálogo</a>
+      <a href="#catalogo" data-show-all>Catálogo</a><a id="quickOffersLink" class="offers-nav-link" href="#ofertas" hidden>Ofertas</a>
     </nav>
     <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
     <nav id="mainNav" class="secondary-nav">
-      <a href="#inicio">Inicio</a><a href="#categorias">Categorías</a><a href="#catalogo" data-show-all>Catálogo</a>
+      <a href="#inicio">Inicio</a><a href="#categorias">Categorías</a><a href="#catalogo" data-show-all>Catálogo</a><a id="menuOffersLink" href="#ofertas" hidden>Ofertas</a>
       <a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
     </nav>
     <a class="header-cta" id="headerWhatsapp" target="_blank" rel="noopener">WhatsApp</a>
@@ -102,6 +102,19 @@
 </div>
     </section>
 
+
+    <section id="ofertas" class="section offers-section" hidden>
+      <div class="offers-shell">
+        <div class="offers-copy">
+          <p class="eyebrow">OFERTAS DEL MOMENTO</p>
+          <h2>Precios especiales por tiempo limitado</h2>
+          <p>Estos productos tienen una promoción activa. Cuando la oferta termina, desaparecen automáticamente de esta sección y continúan en su categoría original.</p>
+        </div>
+        <img class="offers-mascot" src="assets/branding/mascota.png" alt="Mascota de Jlia’s Shop anunciando ofertas">
+      </div>
+      <div id="offersGrid" class="product-grid offers-grid"></div>
+    </section>
+
     <section class="section featured">
       <div class="section-heading"><div><p class="eyebrow">SELECCIÓN JLIAS</p><h2>Algunos favoritos</h2></div></div>
       <div id="featuredGrid" class="product-grid">
@@ -127,7 +140,7 @@
 
     <section id="nosotros" class="section about">
       <div class="about-image"><img src="assets/banners/sobre.webp" alt="Colección Jlias Shop"></div>
-      <div class="about-copy"><p class="eyebrow">SOBRE JLIAS SHOP</p><h2>Moda seleccionada para acompañar tu estilo.</h2><p>Jlias Shop es un catálogo visual de ropa, calzado, carteras y accesorios. Publicamos disponibilidad y novedades en nuestro grupo privado y atendemos solicitudes específicas directamente por WhatsApp.</p><a class="btn btn-primary" id="aboutWhatsapp" target="_blank" rel="noopener">Hablar con nosotros</a></div>
+      <div class="about-copy"><p class="eyebrow" id="aboutEyebrow">SOBRE JLIAS SHOP</p><h2>Moda seleccionada para acompañar tu estilo.</h2><p>Jlias Shop es un catálogo visual de ropa, calzado, carteras y accesorios. Publicamos disponibilidad y novedades en nuestro grupo privado y atendemos solicitudes específicas directamente por WhatsApp.</p><a class="btn btn-primary" id="aboutWhatsapp" target="_blank" rel="noopener">Hablar con nosotros</a></div>
     </section>
 
 
@@ -140,11 +153,11 @@
   </main>
 
   <footer id="contacto">
-    <div class="footer-brand"><img src="assets/branding/logo-letras.png" alt="Jlias Shop"><p>Online Fashion Store</p></div>
+    <div class="footer-brand"><img src="assets/branding/logo-letras.png" alt="Jlias Shop"><p id="footerTagline">Online Fashion Store</p></div>
     <div><h3>Explora</h3><a href="#categorias">Categorías</a><a href="#catalogo" data-show-all>Catálogo</a><a href="#nosotros">Nosotros</a></div>
     <div><h3>Síguenos</h3><a id="footerInstagram" target="_blank" rel="noopener">Instagram</a><a id="footerTiktok" target="_blank" rel="noopener">TikTok</a><a id="footerGroup" target="_blank" rel="noopener">Grupo privado de WhatsApp</a></div>
     <div><h3>Contacto</h3><a id="footerWhatsapp" target="_blank" rel="noopener"></a><p>Disponibilidad confirmada por mensaje.</p></div>
-    <p class="copyright">© <span id="year"></span> Jlias Shop. Todos los derechos reservados.</p>
+    <p class="copyright">© <span id="year"></span> <span id="copyrightBrand">Jlias Shop</span>. Todos los derechos reservados.</p>
   </footer>
 
   <button id="scrollTop" class="scroll-top" aria-label="Subir al inicio">↑</button>
@@ -154,6 +167,16 @@
     <img src="assets/branding/mascota.png" alt="Mascota de Jlias Shop">
     <div class="mascot-bubble"><p id="mascotText">¿Quieres ver primero las nuevas colecciones?</p><a id="mascotAction" class="mini-btn" href="https://chat.whatsapp.com/Hron3pNPIO958GOhBiG8fI?s=sh&p=i&mlu=0&ilr=0" target="_blank" rel="noopener">Unirme al grupo privado</a></div>
   </aside>
+
+
+  <div id="offerPopup" class="offer-popup" hidden>
+    <div class="offer-popup-backdrop" data-close-offer></div>
+    <aside class="offer-popup-card" role="dialog" aria-modal="true" aria-labelledby="offerPopupTitle">
+      <button class="offer-popup-close" type="button" data-close-offer aria-label="Cerrar">×</button>
+      <div class="offer-popup-mascot-wrap"><img src="assets/branding/mascota.png" alt="Mascota de Jlia’s Shop"></div>
+      <div class="offer-popup-copy"><p class="eyebrow">JLIA’S SHOP · OFERTAS</p><h2 id="offerPopupTitle">Tenemos ofertas activas</h2><p id="offerPopupText">Mira los productos con precios especiales disponibles ahora.</p><button id="offerPopupAction" class="btn btn-offer" type="button">Ver ofertas del momento</button></div>
+    </aside>
+  </div>
 
   <div id="productModal" class="modal" hidden>
     <div class="modal-backdrop" data-close-modal></div>
@@ -171,6 +194,6 @@
       </div>
     </article>
   </div>
-  <script src="js/app.js?v=5.0" defer></script>
+  <script src="js/app.js?v=cms10" defer></script>
 </body>
 </html>

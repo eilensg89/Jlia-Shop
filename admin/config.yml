@@ -1,0 +1,182 @@
+backend:
+  name: github
+  repo: eilensg89/Jlia-Shop
+  branch: main
+  base_url: https://jlia-shop.vercel.app
+  auth_endpoint: api/auth
+  commit_messages:
+    create: 'Jlia CMS: crear {{collection}} "{{slug}}"'
+    update: 'Jlia CMS: actualizar {{collection}} "{{slug}}"'
+    delete: 'Jlia CMS: eliminar {{collection}} "{{slug}}"'
+    uploadMedia: 'Jlia CMS: subir imagen "{{path}}"'
+    deleteMedia: 'Jlia CMS: eliminar imagen "{{path}}"'
+
+site_url: https://jlia-shop.vercel.app
+display_url: https://jlia-shop.vercel.app
+show_preview_links: false
+publish_mode: simple
+locale: es
+
+logo:
+  src: /assets/branding/logo.png
+  show_in_header: true
+
+media_folder: assets/productos/uploads
+public_folder: /assets/productos/uploads
+collections:
+  - name: catalogo
+    label: Catálogo
+    description: Agrega, edita, oculta o elimina productos. Los botones de la tienda y WhatsApp se generan automáticamente.
+    files:
+      - name: productos
+        label: Productos
+        file: data/productos.json
+        format: json
+        editor:
+          preview: false
+        fields:
+          - label: Productos de Jlia’s Shop
+            name: productos
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            add_to_top: true
+            label_singular: Agregar producto
+            summary: '{{fields.codigo}} · {{fields.nombre}} · ${{fields.precio}}'
+            fields:
+              - { label: Código interno, name: codigo, widget: string, required: false, hint: 'Déjalo vacío en productos nuevos. El sistema genera el código.' }
+              - { label: Carpeta interna, name: carpeta, widget: string, required: false, hint: 'Se completa automáticamente junto con el código.' }
+              - { label: Nombre del producto, name: nombre, widget: string }
+              - { label: Categoría, name: categoria, widget: string }
+              - { label: Subcategoría, name: subcategoria, widget: string, required: false }
+              - { label: Precio, name: precio, widget: number, value_type: float, min: 0 }
+              - { label: Colores o variantes, name: colores, widget: string, required: false, default: 'Varios' }
+              - label: Imágenes
+                name: imagenes
+                widget: list
+                min: 1
+                label_singular: Agregar imagen
+                hint: 'La primera imagen será la portada. Puedes cambiar el orden.'
+                field:
+                  label: Imagen
+                  name: imagen
+                  widget: image
+                  choose_url: false
+              - { label: Selección Jlia’s, name: destacado, widget: boolean, default: false }
+              - label: Estado
+                name: estado
+                widget: select
+                default: Activo
+                options: [Activo, Inactivo]
+              - { label: Descripción, name: descripcion, widget: text, default: 'Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.' }
+              - label: Palabras clave
+                name: palabrasClave
+                widget: list
+                required: false
+                label_singular: Agregar palabra
+                field: { label: Palabra, name: palabra, widget: string }
+
+  - name: categorias
+    label: Categorías
+    description: Administra las tarjetas principales de categorías y su orden.
+    files:
+      - name: categorias
+        label: Categorías de la tienda
+        file: data/categorias.json
+        format: json
+        editor:
+          preview: false
+        fields:
+          - label: Categorías
+            name: categorias
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            label_singular: Agregar categoría
+            summary: '{{fields.nombre}}'
+            fields:
+              - { label: ID interno, name: id, widget: string, required: false, hint: 'Se completa automáticamente con el nombre.' }
+              - { label: Nombre de la categoría, name: nombre, widget: string }
+              - { label: Imagen de la categoría, name: imagen, widget: image, choose_url: false }
+
+  - name: tienda
+    label: Datos de la tienda
+    description: Información general, redes, WhatsApp y anuncio superior. No modifica el diseño de la web.
+    files:
+      - name: configuracion
+        label: Configuración de Jlia’s Shop
+        file: data/config.json
+        format: json
+        editor:
+          preview: false
+        fields:
+          - label: Marca
+            name: marca
+            widget: object
+            fields:
+              - { label: Nombre de la tienda, name: nombre, widget: string }
+              - { label: Lema, name: lema, widget: string, required: false }
+              - { label: Símbolo de moneda, name: moneda, widget: string, default: '$' }
+          - label: Contacto y redes
+            name: contacto
+            widget: object
+            fields:
+              - { label: WhatsApp — solo números con código de país, name: whatsappNumero, widget: string, hint: 'Ejemplo: 12393673388' }
+              - { label: WhatsApp visible, name: whatsappVisible, widget: string, hint: 'Ejemplo: +1 (239) 367-3388' }
+              - { label: Instagram, name: instagram, widget: string, required: false }
+              - { label: TikTok, name: tiktok, widget: string, required: false }
+              - { label: Grupo privado de WhatsApp, name: grupoWhatsapp, widget: string, required: false }
+          - label: Anuncio superior
+            name: anuncio
+            widget: object
+            fields:
+              - { label: Mostrar anuncio, name: activo, widget: boolean, default: true }
+              - { label: Mensaje, name: texto, widget: text }
+              - { label: Texto del botón, name: boton, widget: string }
+              - label: Destino del botón
+                name: enlace
+                widget: select
+                options:
+                  - { label: TikTok, value: tiktok }
+                  - { label: Instagram, value: instagram }
+                  - { label: WhatsApp, value: whatsapp }
+                  - { label: Grupo privado de WhatsApp, value: grupoWhatsapp }
+                  - { label: Catálogo, value: catalogo }
+          - label: Mascota
+            name: mascota
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Activa, name: activa, widget: boolean, default: true }
+              - { label: Retraso inicial (ms), name: retrasoInicial, widget: number, value_type: int, min: 0 }
+              - { label: Intervalo entre mensajes (ms), name: intervalo, widget: number, value_type: int, min: 1000 }
+              - label: Mensajes
+                name: mensajes
+                widget: list
+                collapsed: true
+                summary: '{{fields.texto}}'
+                fields:
+                  - { label: Texto, name: texto, widget: text }
+                  - { label: Texto del botón, name: boton, widget: string }
+                  - label: Destino
+                    name: enlace
+                    widget: select
+                    options: [grupoWhatsapp, catalogo, tiktok, instagram, whatsapp]
+          - label: Carrusel
+            name: carousel
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Activo, name: activo, widget: boolean, default: true }
+              - { label: Intervalo (ms), name: intervalo, widget: number, value_type: int, min: 1000 }
+              - label: Imágenes
+                name: imagenes
+                widget: list
+                required: false
+                field: { label: Imagen, name: imagen, widget: image, choose_url: false }
+          - label: Códigos de Selección Jlia’s
+            name: destacados
+            widget: list
+            required: false
+            hint: 'Se conserva como respaldo del sistema actual.'
+            field: { label: Código, name: codigo, widget: string }
