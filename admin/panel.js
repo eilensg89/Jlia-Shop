@@ -69,7 +69,15 @@ window.addEventListener('message',e=>{
   }
   if(typeof e.data==='string'&&e.data.startsWith('authorization:github:error:'))showFatal(new Error('No se pudo iniciar sesión con GitHub.'));
 });
-function showApp(){state.token=state.token||sessionStorage.getItem('jlias_token');if(!state.token)return;$('#loginView').hidden=true;$('#appView').hidden=false}
+function showApp(){
+  state.token=state.token||sessionStorage.getItem('jlias_token');
+  if(!state.token)return;
+  const loginView=$('#loginView');
+  const appView=$('#appView');
+  if(loginView){loginView.hidden=true;loginView.setAttribute('aria-hidden','true')}
+  if(appView){appView.hidden=false;appView.removeAttribute('aria-hidden')}
+  requestAnimationFrame(()=>{window.scrollTo({top:0,left:0,behavior:'auto'});document.documentElement.scrollTop=0;document.body.scrollTop=0});
+}
 function logout(){sessionStorage.removeItem('jlias_token');location.reload()}
 function showFatal(err){console.error(err);setStatus('Error');toast(err.message||String(err),5200)}
 
