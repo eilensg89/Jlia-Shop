@@ -1,4 +1,4 @@
-const REPO = 'eilensg89/Jlia-Shop-CMS-Prueba';
+const REPO = 'eilensg89/Jlia-Shop';
 
 module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'application/json; charset=utf-8');

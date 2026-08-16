@@ -1,7 +1,7 @@
 (()=>{
 'use strict';
 
-const REPO='eilensg89/Jlia-Shop-CMS-Prueba';
+const REPO='eilensg89/Jlia-Shop';
 const BRANCH='main';
 const API='https://api.github.com';
 const $=s=>document.querySelector(s);
