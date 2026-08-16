@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786845808167"
+    "updatedAt": "1786851303476"
   },
   "productos": [
     {
@@ -808,44 +808,6 @@
         "leggin",
         "legging"
       ]
-    },
-    {
-      "codigo": "VES-004",
-      "carpeta": "VES-004",
-      "categoria": "Vestidos",
-      "subcategoria": "Incluye cinta para el Cabello",
-      "nombre": "Vestido con cinta para el cabello",
-      "precio": 36,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/uploads/ves-004-1786845808126-1.jpeg",
-        "assets/productos/uploads/ves-004-1786845808126-2.jpeg",
-        "assets/productos/uploads/ves-004-1786845808126-3.jpeg",
-        "assets/productos/uploads/ves-004-1786845808126-4.jpeg",
-        "assets/productos/uploads/ves-004-1786845808126-5.jpeg",
-        "assets/productos/uploads/ves-004-1786845808126-6.jpeg"
-      ],
-      "destacado": true,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "vestidos",
-        "vestido con cinta para el cabello",
-        "incluye cinta para el cabello",
-        "vestido",
-        "dress",
-        "cinta",
-        "cabello",
-        "incluye",
-        "varios"
-      ],
-      "promocion": {
-        "activa": true,
-        "tipo": "porcentaje",
-        "descuento": 20,
-        "precioOferta": null,
-        "etiqueta": "20% OFF"
-      }
     }
   ]
 }
