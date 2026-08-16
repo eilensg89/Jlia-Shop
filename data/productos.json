@@ -1,808 +1,851 @@
-[
-  {
-    "codigo": "CON-001",
-    "carpeta": "CON-001",
-    "categoria": "Conjuntos",
-    "subcategoria": "Casual",
-    "nombre": "Conjunto Deportivo Casual",
-    "precio": 32,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-001/1.webp",
-      "assets/productos/CON-001/2.webp",
-      "assets/productos/CON-001/3.webp",
-      "assets/productos/CON-001/4.webp",
-      "assets/productos/CON-001/5.webp",
-      "assets/productos/CON-001/6.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Casual",
-      "Conjuntos",
-      "Casual",
-      "CON-001",
-      "leggin",
-      "legging"
-    ]
+{
+  "_meta": {
+    "updatedAt": "1786845808167"
   },
-  {
-    "codigo": "CON-002",
-    "carpeta": "CON-002",
-    "categoria": "Conjuntos",
-    "subcategoria": "Falda",
-    "nombre": "Conjunto Deportivo Falda",
-    "precio": 35,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-002/1.webp",
-      "assets/productos/CON-002/2.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Falda",
-      "Conjuntos",
-      "Falda",
-      "CON-002",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-003",
-    "carpeta": "CON-003",
-    "categoria": "Conjuntos",
-    "subcategoria": "Short",
-    "nombre": "Conjunto Deportivo Short Premium",
-    "precio": 35,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-003/1.webp",
-      "assets/productos/CON-003/2.webp",
-      "assets/productos/CON-003/3.webp",
-      "assets/productos/CON-003/4.webp",
-      "assets/productos/CON-003/5.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Short Premium",
-      "Conjuntos",
-      "Short",
-      "CON-003",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-004",
-    "carpeta": "CON-004",
-    "categoria": "Conjuntos",
-    "subcategoria": "Legging",
-    "nombre": "Conjunto Deportivo Legging 2 Piezas",
-    "precio": 36,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-004/1.webp",
-      "assets/productos/CON-004/2.webp",
-      "assets/productos/CON-004/3.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Legging 2 Piezas",
-      "Conjuntos",
-      "Legging",
-      "CON-004",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-005",
-    "carpeta": "CON-005",
-    "categoria": "Conjuntos",
-    "subcategoria": "Falda",
-    "nombre": "Conjunto Deportivo Falda + Banda",
-    "precio": 36,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-005/1.webp",
-      "assets/productos/CON-005/2.webp",
-      "assets/productos/CON-005/3.webp",
-      "assets/productos/CON-005/4.webp"
-    ],
-    "destacado": true,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Falda + Banda",
-      "Conjuntos",
-      "Falda",
-      "CON-005",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-006",
-    "carpeta": "CON-006",
-    "categoria": "Conjuntos",
-    "subcategoria": "3 piezas",
-    "nombre": "Conjunto Deportivo 3 Piezas",
-    "precio": 36,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-006/1.webp",
-      "assets/productos/CON-006/2.webp",
-      "assets/productos/CON-006/3.webp",
-      "assets/productos/CON-006/4.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo 3 Piezas",
-      "Conjuntos",
-      "3 piezas",
-      "CON-006",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-007",
-    "carpeta": "CON-007",
-    "categoria": "Conjuntos",
-    "subcategoria": "Pantalón",
-    "nombre": "Conjunto Deportivo Pantalón",
-    "precio": 40,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-007/1.webp",
-      "assets/productos/CON-007/2.webp",
-      "assets/productos/CON-007/3.webp",
-      "assets/productos/CON-007/4.webp",
-      "assets/productos/CON-007/5.webp",
-      "assets/productos/CON-007/6.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Pantalón",
-      "Conjuntos",
-      "Pantalón",
-      "CON-007",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-008",
-    "carpeta": "CON-008",
-    "categoria": "Conjuntos",
-    "subcategoria": "3 piezas",
-    "nombre": "Conjunto Deportivo Legging 3 Piezas",
-    "precio": 40,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-008/1.webp",
-      "assets/productos/CON-008/2.webp",
-      "assets/productos/CON-008/3.webp",
-      "assets/productos/CON-008/4.webp",
-      "assets/productos/CON-008/5.webp",
-      "assets/productos/CON-008/6.webp",
-      "assets/productos/CON-008/7.webp",
-      "assets/productos/CON-008/8.webp",
-      "assets/productos/CON-008/9.webp"
-    ],
-    "destacado": true,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Legging 3 Piezas",
-      "Conjuntos",
-      "3 piezas",
-      "CON-008",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-009",
-    "carpeta": "CON-009",
-    "categoria": "Conjuntos",
-    "subcategoria": "3 piezas",
-    "nombre": "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
-    "precio": 40,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-009/1.webp",
-      "assets/productos/CON-009/2.webp",
-      "assets/productos/CON-009/3.webp",
-      "assets/productos/CON-009/4.webp",
-      "assets/productos/CON-009/5.webp",
-      "assets/productos/CON-009/6.webp",
-      "assets/productos/CON-009/7.webp"
-    ],
-    "destacado": true,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
-      "Conjuntos",
-      "3 piezas",
-      "Pantalón",
-      "CON-009",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-010",
-    "carpeta": "CON-010",
-    "categoria": "Conjuntos",
-    "subcategoria": "3 piezas",
-    "nombre": "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
-    "precio": 40,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-010/1.webp",
-      "assets/productos/CON-010/2.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
-      "Conjuntos",
-      "3 piezas",
-      "Pantalón",
-      "CON-010",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CON-011",
-    "carpeta": "CON-011",
-    "categoria": "Conjuntos",
-    "subcategoria": "3 piezas",
-    "nombre": "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
-    "precio": 40,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CON-011/1.webp",
-      "assets/productos/CON-011/2.webp",
-      "assets/productos/CON-011/3.webp",
-      "assets/productos/CON-011/4.webp",
-      "assets/productos/CON-011/5.webp",
-      "assets/productos/CON-011/6.webp",
-      "assets/productos/CON-011/7.webp"
-    ],
-    "destacado": true,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
-      "Conjuntos",
-      "3 piezas",
-      "Pantalón",
-      "CON-011",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "VES-001",
-    "carpeta": "VES-001",
-    "categoria": "Vestidos",
-    "subcategoria": "Casual",
-    "nombre": "Vestido Deportivo Casual",
-    "precio": 32,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/VES-001/1.webp",
-      "assets/productos/VES-001/2.webp",
-      "assets/productos/VES-001/3.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Vestido Deportivo Casual",
-      "Vestidos",
-      "Casual",
-      "VES-001",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "VES-002",
-    "carpeta": "VES-002",
-    "categoria": "Vestidos",
-    "subcategoria": "Bubble",
-    "nombre": "Vestido Bubble",
-    "precio": 35,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/VES-002/1.webp",
-      "assets/productos/VES-002/2.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Vestido Bubble",
-      "Vestidos",
-      "Bubble",
-      "VES-002",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "VES-003",
-    "carpeta": "VES-003",
-    "categoria": "Vestidos",
-    "subcategoria": "Tirantes",
-    "nombre": "Vestido Deportivo de Tirantes",
-    "precio": 35,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/VES-003/1.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Vestido Deportivo de Tirantes",
-      "Vestidos",
-      "Tirantes",
-      "VES-003",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "ENT-001",
-    "carpeta": "ENT-001",
-    "categoria": "Enterizos",
-    "subcategoria": "Largos",
-    "nombre": "Enterizo Deportivo Largo",
-    "precio": 38,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/ENT-001/1.webp",
-      "assets/productos/ENT-001/2.webp",
-      "assets/productos/ENT-001/3.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Enterizo Deportivo Largo",
-      "Enterizos",
-      "Largos",
-      "ENT-001",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "PIJ-001",
-    "carpeta": "PIJ-001",
-    "categoria": "Pijamas",
-    "subcategoria": "3 piezas",
-    "nombre": "Pijama 3 Piezas",
-    "precio": 25,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/PIJ-001/1.webp",
-      "assets/productos/PIJ-001/2.webp",
-      "assets/productos/PIJ-001/3.webp",
-      "assets/productos/PIJ-001/4.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Pijama 3 Piezas",
-      "Pijamas",
-      "3 piezas",
-      "PIJ-001",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "PAN-001",
-    "carpeta": "PAN-001",
-    "categoria": "Pantalones",
-    "subcategoria": "Casual",
-    "nombre": "Pantalón Deportivo",
-    "precio": 30,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/PAN-001/1.webp",
-      "assets/productos/PAN-001/2.webp",
-      "assets/productos/PAN-001/3.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Pantalón Deportivo",
-      "Pantalones",
-      "Casual",
-      "PAN-001",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "BLU-001",
-    "carpeta": "BLU-001",
-    "categoria": "Blusas",
-    "subcategoria": "Básicas",
-    "nombre": "Blusa Básica",
-    "precio": 20,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/BLU-001/1.webp",
-      "assets/productos/BLU-001/2.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Blusa Básica",
-      "Blusas",
-      "Básicas",
-      "BLU-001",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "BLU-002",
-    "carpeta": "BLU-002",
-    "categoria": "Blusas",
-    "subcategoria": "Premium",
-    "nombre": "Blusa Premium",
-    "precio": 25,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/BLU-002/1.webp",
-      "assets/productos/BLU-002/2.webp",
-      "assets/productos/BLU-002/3.webp",
-      "assets/productos/BLU-002/4.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Blusa Premium",
-      "Blusas",
-      "Premium",
-      "BLU-002",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CAL-001",
-    "carpeta": "CAL-001",
-    "categoria": "Calzado",
-    "subcategoria": "Zapatillas",
-    "nombre": "Zapatillas Deportivas (solo por encargo)",
-    "precio": 55,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CAL-001/1.webp",
-      "assets/productos/CAL-001/2.webp",
-      "assets/productos/CAL-001/3.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Zapatillas Deportivas (solo por encargo)",
-      "Calzado",
-      "Zapatillas",
-      "CAL-001",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CAL-002",
-    "carpeta": "CAL-002",
-    "categoria": "Calzado",
-    "subcategoria": "Sandalias",
-    "nombre": "Sandalias",
-    "precio": 40,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CAL-002/1.webp",
-      "assets/productos/CAL-002/2.webp",
-      "assets/productos/CAL-002/3.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Sandalias",
-      "Calzado",
-      "CAL-002",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CAR-001",
-    "carpeta": "CAR-001",
-    "categoria": "Carteras",
-    "subcategoria": "Carteras",
-    "nombre": "Cartera",
-    "precio": 45,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CAR-001/1.webp",
-      "assets/productos/CAR-001/2.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Cartera",
-      "Carteras",
-      "CAR-001",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CAR-002",
-    "carpeta": "CAR-002",
-    "categoria": "Carteras",
-    "subcategoria": "Sets",
-    "nombre": "Set Cartera + Sandalias",
-    "precio": 55,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CAR-002/1.webp",
-      "assets/productos/CAR-002/2.webp",
-      "assets/productos/CAR-002/3.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Set Cartera + Sandalias",
-      "Carteras",
-      "Sets",
-      "CAR-002",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CAR-003",
-    "carpeta": "CAR-003",
-    "categoria": "Carteras",
-    "subcategoria": "Billeteras",
-    "nombre": "Billetera",
-    "precio": 30,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CAR-003/1.webp",
-      "assets/productos/CAR-003/2.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Billetera",
-      "Carteras",
-      "Billeteras",
-      "CAR-003",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "CAR-004",
-    "carpeta": "CAR-004",
-    "categoria": "Carteras",
-    "subcategoria": "Monederos",
-    "nombre": "Monedero",
-    "precio": 35,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/CAR-004/1.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Monedero",
-      "Carteras",
-      "Monederos",
-      "CAR-004",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "ACC-001",
-    "carpeta": "ACC-001",
-    "categoria": "Accesorios",
-    "subcategoria": "Cabello",
-    "nombre": "Clip para Cabello",
-    "precio": 10,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/ACC-001/1.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Clip para Cabello",
-      "Accesorios",
-      "Cabello",
-      "ACC-001",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "ACC-002",
-    "carpeta": "ACC-002",
-    "categoria": "Accesorios",
-    "subcategoria": "Gafas",
-    "nombre": "Gafas",
-    "precio": 40,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/ACC-002/1.webp",
-      "assets/productos/ACC-002/2.webp",
-      "assets/productos/ACC-002/3.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Gafas",
-      "Accesorios",
-      "ACC-002",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "ACC-003",
-    "carpeta": "ACC-003",
-    "categoria": "Accesorios",
-    "subcategoria": "Gorras",
-    "nombre": "Gorra",
-    "precio": 20,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/ACC-003/1.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Gorra",
-      "Accesorios",
-      "Gorras",
-      "ACC-003",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "ACC-004",
-    "carpeta": "ACC-004",
-    "categoria": "Accesorios",
-    "subcategoria": "Viseras",
-    "nombre": "Visera Efecto Espejo",
-    "precio": 22,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/ACC-004/1.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Visera Efecto Espejo",
-      "Accesorios",
-      "Viseras",
-      "ACC-004",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "ACC-005",
-    "carpeta": "ACC-005",
-    "categoria": "Accesorios",
-    "subcategoria": "Medias",
-    "nombre": "Medias Deportivas",
-    "precio": 10,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/ACC-005/1.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Medias Deportivas",
-      "Accesorios",
-      "Medias",
-      "ACC-005",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "ACC-006",
-    "carpeta": "ACC-006",
-    "categoria": "Accesorios",
-    "subcategoria": "Cabello",
-    "nombre": "Banda para Cabello",
-    "precio": 10,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/ACC-006/1.webp",
-      "assets/productos/ACC-006/2.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Banda para Cabello",
-      "Accesorios",
-      "Cabello",
-      "ACC-006",
-      "leggin",
-      "legging"
-    ]
-  },
-  {
-    "codigo": "ACC-007",
-    "carpeta": "ACC-007",
-    "categoria": "Accesorios",
-    "subcategoria": "Viseras",
-    "nombre": "Visera Regular",
-    "precio": 18,
-    "colores": "Varios",
-    "imagenes": [
-      "assets/productos/ACC-007/1.webp",
-      "assets/productos/ACC-007/2.webp"
-    ],
-    "destacado": false,
-    "estado": "Activo",
-    "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-    "palabrasClave": [
-      "Visera Regular",
-      "Accesorios",
-      "Viseras",
-      "ACC-007",
-      "leggin",
-      "legging"
-    ]
-  }
-]
+  "productos": [
+    {
+      "codigo": "CON-001",
+      "carpeta": "CON-001",
+      "categoria": "Conjuntos",
+      "subcategoria": "Casual",
+      "nombre": "Conjunto Deportivo Casual",
+      "precio": 32,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-001/1.webp",
+        "assets/productos/CON-001/2.webp",
+        "assets/productos/CON-001/3.webp",
+        "assets/productos/CON-001/4.webp",
+        "assets/productos/CON-001/5.webp",
+        "assets/productos/CON-001/6.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Casual",
+        "Conjuntos",
+        "Casual",
+        "CON-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-002",
+      "carpeta": "CON-002",
+      "categoria": "Conjuntos",
+      "subcategoria": "Falda",
+      "nombre": "Conjunto Deportivo Falda",
+      "precio": 35,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-002/1.webp",
+        "assets/productos/CON-002/2.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Falda",
+        "Conjuntos",
+        "Falda",
+        "CON-002",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-003",
+      "carpeta": "CON-003",
+      "categoria": "Conjuntos",
+      "subcategoria": "Short",
+      "nombre": "Conjunto Deportivo Short Premium",
+      "precio": 35,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-003/1.webp",
+        "assets/productos/CON-003/2.webp",
+        "assets/productos/CON-003/3.webp",
+        "assets/productos/CON-003/4.webp",
+        "assets/productos/CON-003/5.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Short Premium",
+        "Conjuntos",
+        "Short",
+        "CON-003",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-004",
+      "carpeta": "CON-004",
+      "categoria": "Conjuntos",
+      "subcategoria": "Legging",
+      "nombre": "Conjunto Deportivo Legging 2 Piezas",
+      "precio": 36,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-004/1.webp",
+        "assets/productos/CON-004/2.webp",
+        "assets/productos/CON-004/3.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Legging 2 Piezas",
+        "Conjuntos",
+        "Legging",
+        "CON-004",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-005",
+      "carpeta": "CON-005",
+      "categoria": "Conjuntos",
+      "subcategoria": "Falda",
+      "nombre": "Conjunto Deportivo Falda + Banda",
+      "precio": 36,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-005/1.webp",
+        "assets/productos/CON-005/2.webp",
+        "assets/productos/CON-005/3.webp",
+        "assets/productos/CON-005/4.webp"
+      ],
+      "destacado": true,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Falda + Banda",
+        "Conjuntos",
+        "Falda",
+        "CON-005",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-006",
+      "carpeta": "CON-006",
+      "categoria": "Conjuntos",
+      "subcategoria": "3 piezas",
+      "nombre": "Conjunto Deportivo 3 Piezas",
+      "precio": 36,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-006/1.webp",
+        "assets/productos/CON-006/2.webp",
+        "assets/productos/CON-006/3.webp",
+        "assets/productos/CON-006/4.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo 3 Piezas",
+        "Conjuntos",
+        "3 piezas",
+        "CON-006",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-007",
+      "carpeta": "CON-007",
+      "categoria": "Conjuntos",
+      "subcategoria": "Pantalón",
+      "nombre": "Conjunto Deportivo Pantalón",
+      "precio": 40,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-007/1.webp",
+        "assets/productos/CON-007/2.webp",
+        "assets/productos/CON-007/3.webp",
+        "assets/productos/CON-007/4.webp",
+        "assets/productos/CON-007/5.webp",
+        "assets/productos/CON-007/6.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Pantalón",
+        "Conjuntos",
+        "Pantalón",
+        "CON-007",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-008",
+      "carpeta": "CON-008",
+      "categoria": "Conjuntos",
+      "subcategoria": "3 piezas",
+      "nombre": "Conjunto Deportivo Legging 3 Piezas",
+      "precio": 40,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-008/1.webp",
+        "assets/productos/CON-008/2.webp",
+        "assets/productos/CON-008/3.webp",
+        "assets/productos/CON-008/4.webp",
+        "assets/productos/CON-008/5.webp",
+        "assets/productos/CON-008/6.webp",
+        "assets/productos/CON-008/7.webp",
+        "assets/productos/CON-008/8.webp",
+        "assets/productos/CON-008/9.webp"
+      ],
+      "destacado": true,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Legging 3 Piezas",
+        "Conjuntos",
+        "3 piezas",
+        "CON-008",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-009",
+      "carpeta": "CON-009",
+      "categoria": "Conjuntos",
+      "subcategoria": "3 piezas",
+      "nombre": "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
+      "precio": 40,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-009/1.webp",
+        "assets/productos/CON-009/2.webp",
+        "assets/productos/CON-009/3.webp",
+        "assets/productos/CON-009/4.webp",
+        "assets/productos/CON-009/5.webp",
+        "assets/productos/CON-009/6.webp",
+        "assets/productos/CON-009/7.webp"
+      ],
+      "destacado": true,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
+        "Conjuntos",
+        "3 piezas",
+        "Pantalón",
+        "CON-009",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-010",
+      "carpeta": "CON-010",
+      "categoria": "Conjuntos",
+      "subcategoria": "3 piezas",
+      "nombre": "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
+      "precio": 40,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-010/1.webp",
+        "assets/productos/CON-010/2.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
+        "Conjuntos",
+        "3 piezas",
+        "Pantalón",
+        "CON-010",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CON-011",
+      "carpeta": "CON-011",
+      "categoria": "Conjuntos",
+      "subcategoria": "3 piezas",
+      "nombre": "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
+      "precio": 40,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CON-011/1.webp",
+        "assets/productos/CON-011/2.webp",
+        "assets/productos/CON-011/3.webp",
+        "assets/productos/CON-011/4.webp",
+        "assets/productos/CON-011/5.webp",
+        "assets/productos/CON-011/6.webp",
+        "assets/productos/CON-011/7.webp"
+      ],
+      "destacado": true,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
+        "Conjuntos",
+        "3 piezas",
+        "Pantalón",
+        "CON-011",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "VES-001",
+      "carpeta": "VES-001",
+      "categoria": "Vestidos",
+      "subcategoria": "Casual",
+      "nombre": "Vestido Deportivo Casual",
+      "precio": 32,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/VES-001/1.webp",
+        "assets/productos/VES-001/2.webp",
+        "assets/productos/VES-001/3.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Vestido Deportivo Casual",
+        "Vestidos",
+        "Casual",
+        "VES-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "VES-002",
+      "carpeta": "VES-002",
+      "categoria": "Vestidos",
+      "subcategoria": "Bubble",
+      "nombre": "Vestido Bubble",
+      "precio": 35,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/VES-002/1.webp",
+        "assets/productos/VES-002/2.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Vestido Bubble",
+        "Vestidos",
+        "Bubble",
+        "VES-002",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "VES-003",
+      "carpeta": "VES-003",
+      "categoria": "Vestidos",
+      "subcategoria": "Tirantes",
+      "nombre": "Vestido Deportivo de Tirantes",
+      "precio": 35,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/VES-003/1.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Vestido Deportivo de Tirantes",
+        "Vestidos",
+        "Tirantes",
+        "VES-003",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "ENT-001",
+      "carpeta": "ENT-001",
+      "categoria": "Enterizos",
+      "subcategoria": "Largos",
+      "nombre": "Enterizo Deportivo Largo",
+      "precio": 38,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/ENT-001/1.webp",
+        "assets/productos/ENT-001/2.webp",
+        "assets/productos/ENT-001/3.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Enterizo Deportivo Largo",
+        "Enterizos",
+        "Largos",
+        "ENT-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "PIJ-001",
+      "carpeta": "PIJ-001",
+      "categoria": "Pijamas",
+      "subcategoria": "3 piezas",
+      "nombre": "Pijama 3 Piezas",
+      "precio": 25,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/PIJ-001/1.webp",
+        "assets/productos/PIJ-001/2.webp",
+        "assets/productos/PIJ-001/3.webp",
+        "assets/productos/PIJ-001/4.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Pijama 3 Piezas",
+        "Pijamas",
+        "3 piezas",
+        "PIJ-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "PAN-001",
+      "carpeta": "PAN-001",
+      "categoria": "Pantalones",
+      "subcategoria": "Casual",
+      "nombre": "Pantalón Deportivo",
+      "precio": 30,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/PAN-001/1.webp",
+        "assets/productos/PAN-001/2.webp",
+        "assets/productos/PAN-001/3.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Pantalón Deportivo",
+        "Pantalones",
+        "Casual",
+        "PAN-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "BLU-001",
+      "carpeta": "BLU-001",
+      "categoria": "Blusas",
+      "subcategoria": "Básicas",
+      "nombre": "Blusa Básica",
+      "precio": 20,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/BLU-001/1.webp",
+        "assets/productos/BLU-001/2.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Blusa Básica",
+        "Blusas",
+        "Básicas",
+        "BLU-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "BLU-002",
+      "carpeta": "BLU-002",
+      "categoria": "Blusas",
+      "subcategoria": "Premium",
+      "nombre": "Blusa Premium",
+      "precio": 25,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/BLU-002/1.webp",
+        "assets/productos/BLU-002/2.webp",
+        "assets/productos/BLU-002/3.webp",
+        "assets/productos/BLU-002/4.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Blusa Premium",
+        "Blusas",
+        "Premium",
+        "BLU-002",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CAL-001",
+      "carpeta": "CAL-001",
+      "categoria": "Calzado",
+      "subcategoria": "Zapatillas",
+      "nombre": "Zapatillas Deportivas (solo por encargo)",
+      "precio": 55,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CAL-001/1.webp",
+        "assets/productos/CAL-001/2.webp",
+        "assets/productos/CAL-001/3.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Zapatillas Deportivas (solo por encargo)",
+        "Calzado",
+        "Zapatillas",
+        "CAL-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CAL-002",
+      "carpeta": "CAL-002",
+      "categoria": "Calzado",
+      "subcategoria": "Sandalias",
+      "nombre": "Sandalias",
+      "precio": 40,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CAL-002/1.webp",
+        "assets/productos/CAL-002/2.webp",
+        "assets/productos/CAL-002/3.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Sandalias",
+        "Calzado",
+        "CAL-002",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CAR-001",
+      "carpeta": "CAR-001",
+      "categoria": "Carteras",
+      "subcategoria": "Carteras",
+      "nombre": "Cartera",
+      "precio": 45,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CAR-001/1.webp",
+        "assets/productos/CAR-001/2.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Cartera",
+        "Carteras",
+        "CAR-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CAR-002",
+      "carpeta": "CAR-002",
+      "categoria": "Carteras",
+      "subcategoria": "Sets",
+      "nombre": "Set Cartera + Sandalias",
+      "precio": 55,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CAR-002/1.webp",
+        "assets/productos/CAR-002/2.webp",
+        "assets/productos/CAR-002/3.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Set Cartera + Sandalias",
+        "Carteras",
+        "Sets",
+        "CAR-002",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CAR-003",
+      "carpeta": "CAR-003",
+      "categoria": "Carteras",
+      "subcategoria": "Billeteras",
+      "nombre": "Billetera",
+      "precio": 30,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CAR-003/1.webp",
+        "assets/productos/CAR-003/2.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Billetera",
+        "Carteras",
+        "Billeteras",
+        "CAR-003",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "CAR-004",
+      "carpeta": "CAR-004",
+      "categoria": "Carteras",
+      "subcategoria": "Monederos",
+      "nombre": "Monedero",
+      "precio": 35,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/CAR-004/1.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Monedero",
+        "Carteras",
+        "Monederos",
+        "CAR-004",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "ACC-001",
+      "carpeta": "ACC-001",
+      "categoria": "Accesorios",
+      "subcategoria": "Cabello",
+      "nombre": "Clip para Cabello",
+      "precio": 10,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/ACC-001/1.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Clip para Cabello",
+        "Accesorios",
+        "Cabello",
+        "ACC-001",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "ACC-002",
+      "carpeta": "ACC-002",
+      "categoria": "Accesorios",
+      "subcategoria": "Gafas",
+      "nombre": "Gafas",
+      "precio": 40,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/ACC-002/1.webp",
+        "assets/productos/ACC-002/2.webp",
+        "assets/productos/ACC-002/3.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Gafas",
+        "Accesorios",
+        "ACC-002",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "ACC-003",
+      "carpeta": "ACC-003",
+      "categoria": "Accesorios",
+      "subcategoria": "Gorras",
+      "nombre": "Gorra",
+      "precio": 20,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/ACC-003/1.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Gorra",
+        "Accesorios",
+        "Gorras",
+        "ACC-003",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "ACC-004",
+      "carpeta": "ACC-004",
+      "categoria": "Accesorios",
+      "subcategoria": "Viseras",
+      "nombre": "Visera Efecto Espejo",
+      "precio": 22,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/ACC-004/1.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Visera Efecto Espejo",
+        "Accesorios",
+        "Viseras",
+        "ACC-004",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "ACC-005",
+      "carpeta": "ACC-005",
+      "categoria": "Accesorios",
+      "subcategoria": "Medias",
+      "nombre": "Medias Deportivas",
+      "precio": 10,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/ACC-005/1.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Medias Deportivas",
+        "Accesorios",
+        "Medias",
+        "ACC-005",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "ACC-006",
+      "carpeta": "ACC-006",
+      "categoria": "Accesorios",
+      "subcategoria": "Cabello",
+      "nombre": "Banda para Cabello",
+      "precio": 10,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/ACC-006/1.webp",
+        "assets/productos/ACC-006/2.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Banda para Cabello",
+        "Accesorios",
+        "Cabello",
+        "ACC-006",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "ACC-007",
+      "carpeta": "ACC-007",
+      "categoria": "Accesorios",
+      "subcategoria": "Viseras",
+      "nombre": "Visera Regular",
+      "precio": 18,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/ACC-007/1.webp",
+        "assets/productos/ACC-007/2.webp"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Visera Regular",
+        "Accesorios",
+        "Viseras",
+        "ACC-007",
+        "leggin",
+        "legging"
+      ]
+    },
+    {
+      "codigo": "VES-004",
+      "carpeta": "VES-004",
+      "categoria": "Vestidos",
+      "subcategoria": "Incluye cinta para el Cabello",
+      "nombre": "Vestido con cinta para el cabello",
+      "precio": 36,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/uploads/ves-004-1786845808126-1.jpeg",
+        "assets/productos/uploads/ves-004-1786845808126-2.jpeg",
+        "assets/productos/uploads/ves-004-1786845808126-3.jpeg",
+        "assets/productos/uploads/ves-004-1786845808126-4.jpeg",
+        "assets/productos/uploads/ves-004-1786845808126-5.jpeg",
+        "assets/productos/uploads/ves-004-1786845808126-6.jpeg"
+      ],
+      "destacado": true,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "vestidos",
+        "vestido con cinta para el cabello",
+        "incluye cinta para el cabello",
+        "vestido",
+        "dress",
+        "cinta",
+        "cabello",
+        "incluye",
+        "varios"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "porcentaje",
+        "descuento": 20,
+        "precioOferta": null,
+        "etiqueta": "20% OFF"
+      }
+    }
+  ]
+}
