@@ -69,3 +69,69 @@
 
 /* Enlaces individuales y compartir producto */
 .card-actions{flex-wrap:wrap}.card-actions .share-product-btn{flex-basis:100%;background:#f7eff8;color:var(--purple);border-color:#e7d8ea}.btn-share{width:100%;margin-top:10px;background:#f7eff8;color:var(--purple);border:1px solid #e7d8ea;cursor:pointer}.btn-share:hover,.share-product-btn:hover{background:#efe1f2}
+
+/* ==========================================================
+   FIX JLIA MOBILE GALLERY — 2026-08-16
+   Mantiene cualquier proporción de foto dentro de la galería
+   y evita que invada el bloque de información del producto.
+   ========================================================== */
+@media (max-width:700px){
+  #productModal .modal-card{
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    height:100dvh;
+    max-height:100dvh;
+    overflow-y:auto;
+    overflow-x:hidden;
+    overscroll-behavior:contain;
+  }
+
+  #productModal .modal-gallery{
+    display:grid;
+    place-items:center;
+    flex:0 0 auto;
+    width:100%;
+    height:58dvh;
+    min-height:0;
+    max-height:58dvh;
+    overflow:hidden;
+    position:relative;
+    background:#f3edf3;
+  }
+
+  #productModal .modal-gallery > #modalImage{
+    display:block;
+    width:100%;
+    height:100%;
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+    object-position:center center;
+    margin:0;
+  }
+
+  #productModal .modal-info{
+    position:relative;
+    z-index:1;
+    flex:0 0 auto;
+    width:100%;
+    min-width:0;
+    padding:26px 22px calc(34px + env(safe-area-inset-bottom));
+    background:#fff;
+  }
+
+  #productModal .gallery-dots{
+    left:50%;
+    transform:translateX(-50%);
+    max-width:70%;
+    overflow:hidden;
+  }
+}
+
+@media (max-width:420px){
+  #productModal .modal-gallery{
+    height:55dvh;
+    max-height:55dvh;
+  }
+}
