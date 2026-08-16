@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786852808139"
+    "updatedAt": "1786852957948"
   },
   "productos": [
     {
@@ -496,7 +496,7 @@
       "categoria": "Blusas",
       "subcategoria": "Premium",
       "nombre": "Blusa Premium",
-      "precio": 25,
+      "precio": 20,
       "colores": "Varios",
       "imagenes": [
         "assets/productos/BLU-002/1.webp",
@@ -513,8 +513,22 @@
         "Premium",
         "BLU-002",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "blusas",
+        "blusa premium",
+        "premium",
+        "blusa",
+        "top",
+        "tops",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "CAL-001",
