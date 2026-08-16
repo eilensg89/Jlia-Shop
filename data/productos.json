@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786851303476"
+    "updatedAt": "1786852808139"
   },
   "productos": [
     {
@@ -457,7 +457,7 @@
       "categoria": "Blusas",
       "subcategoria": "Básicas",
       "nombre": "Blusa Básica",
-      "precio": 20,
+      "precio": 25,
       "colores": "Varios",
       "imagenes": [
         "assets/productos/BLU-001/1.webp",
@@ -472,8 +472,23 @@
         "Básicas",
         "BLU-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "blusas",
+        "blusa básica",
+        "básicas",
+        "blusa",
+        "top",
+        "tops",
+        "básica",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "BLU-002",
