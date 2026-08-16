@@ -9,6 +9,9 @@ const $$=s=>[...document.querySelectorAll(s)];
 const clone=o=>JSON.parse(JSON.stringify(o));
 const clean=s=>(s??'').toString().trim();
 const slug=s=>clean(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-|-$/g,'').toLowerCase();
+const publicProductSlug=p=>`${slug(p?.nombre||'producto')}-${slug(p?.codigo||'item')}`;
+const publicProductUrl=p=>`${location.origin}/producto/${publicProductSlug(p)}`;
+function refreshProductPublicLink(){const box=$('#productPublicLinkBox'),input=$('#productPublicLink');if(!box||!input||!state.editingProduct)return;const name=clean($('#pName')?.value)||state.editingProduct.nombre;const code=clean(state.editingProduct.codigo);if(!name||!code){box.hidden=true;return}const p={...state.editingProduct,nombre:name,codigo:code};input.value=publicProductUrl(p);box.hidden=false}
 const prefixes={Conjuntos:'CON',Vestidos:'VES',Enterizos:'ENT',Pijamas:'PIJ',Pantalones:'PAN',Blusas:'BLU',Calzado:'CAL',Carteras:'CAR',Accesorios:'ACC'};
 const prefixFor=cat=>prefixes[cat]||clean(cat).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]/g,'').slice(0,3).toUpperCase()||'PRD';
 
@@ -192,6 +195,7 @@ function openProduct(code=null){
   state.editingProduct.carpeta=state.editingProduct.codigo;
   $('#productDialogTitle').textContent=p?'Editar producto':'Nuevo producto';
   $('#productOriginalCode').value=p?.codigo||'';
+  refreshProductPublicLink();
   $('#pName').value=state.editingProduct.nombre||'';
   $('#pPrice').value=state.editingProduct.precio??'';
   $('#pSubcategory').value=state.editingProduct.subcategoria||'';
@@ -404,7 +408,9 @@ function escAttr(s){return esc(s)}
 $('#loginBtn').onclick=login;$('#logoutBtn').onclick=logout;
 $('#backCategoriesBtn').onclick=()=>{$('#categoryDetailView').hidden=true;$('#categoryListView').hidden=false;state.activeCategory=null;$('#productSearch').value=''};
 $('#addCategoryBtn').onclick=()=>openCategoryDialog(true);$('#editCategoryBtn').onclick=()=>openCategoryDialog(false);$('#addProductBtn').onclick=()=>openProduct();$('#productSearch').oninput=renderProducts;
-$('#saveProductBtn').onclick=saveProduct;$('#deleteProductBtn').onclick=deleteProduct;
+$('#saveProductBtn').onclick=saveProduct;
+$('#pName').addEventListener('input',refreshProductPublicLink);
+$('#copyProductLinkBtn').onclick=async()=>{const v=$('#productPublicLink').value;if(!v)return;try{await navigator.clipboard.writeText(v);toast('Enlace copiado.')}catch(e){$('#productPublicLink').select();document.execCommand('copy');toast('Enlace copiado.')}};$('#deleteProductBtn').onclick=deleteProduct;
 $('#closeProductBtn').onclick=()=>closeProductDialog(false);$('#cancelProductBtn').onclick=()=>closeProductDialog(false);
 $('#productDialog').addEventListener('cancel',e=>{e.preventDefault();closeProductDialog(false)});
 ['pName','pSubcategory','pColors'].forEach(id=>$('#'+id).addEventListener('input',updateProductHelpers));

@@ -79,6 +79,7 @@
       <input type="hidden" id="productOriginalCode">
       <div class="form-grid">
         <label class="field span-2">Nombre del producto<input id="pName"><small class="field-help">Obligatorio solo al guardar.</small></label>
+        <div id="productPublicLinkBox" class="field span-2" hidden><span>Enlace público del producto</span><div style="display:flex;gap:8px;align-items:center"><input id="productPublicLink" readonly style="flex:1"><button id="copyProductLinkBtn" class="btn btn-mini" type="button">Copiar enlace</button></div><small class="field-help">Úsalo en Pinterest, Facebook, historias, WhatsApp o cualquier publicación.</small></div>
         <label class="field">Precio<input id="pPrice" type="number" min="0" step="0.01"><small class="field-help">Obligatorio solo al guardar.</small></label>
         <label class="field">Estilo / modelo del producto<input id="pSubcategory" placeholder="Ej. Cinta de pelo, Bubble, Tirantes…"><small id="pSubcategoryHelp" class="field-help">Esta etiqueta aparece sobre el nombre del producto. Si la dejas vacía al crear uno nuevo, el sistema la obtiene automáticamente del nombre.</small></label>
         <label class="field span-2">Colores o variantes<input id="pColors" placeholder="Ej. Negro, rosa, azul"></label>
