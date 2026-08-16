@@ -61,7 +61,7 @@ async function loadAll(){
   buildStoreForm();
 }
 
-function login(){window.open('/api/auth','jlias_oauth','width=700,height=760')}
+function login(){window.location.assign('/api/auth')}
 window.addEventListener('message',e=>{
   if(e.data==='authorizing:github'){e.source?.postMessage('authorizing:github',e.origin);return}
   if(typeof e.data==='string'&&e.data.startsWith('authorization:github:success:')){

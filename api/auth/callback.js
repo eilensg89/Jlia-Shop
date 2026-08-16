@@ -6,26 +6,27 @@ function parseCookies(header='') {
 }
 
 function render(status, content) {
-  const message = `authorization:github:${status}:${JSON.stringify(content)}`;
-  const safe = JSON.stringify(message).replace(/</g, '\\u003c');
-  return `<!doctype html><html><head><meta charset="utf-8"><title>Jlia Shop CMS</title></head><body><script>
+  // Flujo principal: misma pestaña. Es más estable en iPhone/Android y evita
+  // depender de window.opener, que los navegadores móviles pueden perder.
+  const payload = JSON.stringify(content).replace(/</g, '\\u003c');
+  const safeStatus = JSON.stringify(status);
+  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jlia Shop CMS</title></head><body><script>
   (function(){
-    var msg=${safe};
-    function send(origin){
-      if(window.opener && !window.opener.closed){
-        window.opener.postMessage(msg, origin || '*');
-      }
+    var status=${safeStatus};
+    var data=${payload};
+    if(status === 'success' && data && data.token){
+      try {
+        sessionStorage.setItem('jlias_token', data.token);
+        window.location.replace('/admin/');
+        return;
+      } catch(e) {}
     }
-    function receiveMessage(event){
-      send(event.origin);
-      window.removeEventListener('message', receiveMessage, false);
-      setTimeout(function(){ window.close(); }, 150);
-    }
-    window.addEventListener('message', receiveMessage, false);
-    if(window.opener && !window.opener.closed){
-      window.opener.postMessage('authorizing:github','*');
-    } else {
-      document.body.textContent='Autorización completada. Puedes cerrar esta ventana.';
+    var text = status === 'success'
+      ? 'Autorización completada. Regresando al administrador…'
+      : 'No se pudo iniciar sesión con GitHub. Regresa al administrador e inténtalo nuevamente.';
+    document.body.textContent = text;
+    if(status !== 'success'){
+      setTimeout(function(){ window.location.replace('/admin/'); }, 1800);
     }
   })();
   </script></body></html>`;
