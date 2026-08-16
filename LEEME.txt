@@ -1,0 +1,10 @@
+FIX RUTA PRODUCTO
+
+Reemplazar solamente:
+- index.html
+- js/app.js
+
+Qué corrige:
+1. Las rutas /producto/... cargan CSS, JS, JSON e imágenes desde la raíz del sitio.
+2. Al abrir un link individual, el producto correspondiente se abre automáticamente.
+3. No toca OAuth, administrador, productos, categorías ni deploy.
