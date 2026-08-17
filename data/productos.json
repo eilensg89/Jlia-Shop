@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786995619420"
+    "updatedAt": "1786995742453"
   },
   "productos": [
     {
@@ -1303,7 +1303,10 @@
       "nombre": "Vestido Corto con Volantes",
       "precio": 28,
       "colores": "Según disponibilidad en fotos",
-      "imagenes": [],
+      "imagenes": [
+        "assets/productos/uploads/ves-007-1786995742388-1.jpeg",
+        "assets/productos/uploads/ves-007-1786995742388-2.jpeg"
+      ],
       "destacado": false,
       "estado": "Activo",
       "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
