@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786995214390"
+    "updatedAt": "1786995348629"
   },
   "productos": [
     {
@@ -924,13 +924,12 @@
       "codigo": "VES-004",
       "carpeta": "VES-004",
       "categoria": "Vestidos",
-      "subcategoria": "Vestido",
-      "nombre": "Vestido deportivo incluye calcetas y banda de cabello",
+      "subcategoria": "One Size: S/M Incluye: banda para el cabello + calcetines",
+      "nombre": "Vestido Deportivo Plisado",
       "precio": 36,
-      "colores": "Varios",
+      "colores": "Según disponibilidad en fotos",
       "imagenes": [
         "assets/productos/uploads/ves-004-1786925822595-1.jpeg",
-        "assets/productos/uploads/ves-004-1786925822595-2.jpeg",
         "assets/productos/uploads/ves-004-1786925822595-3.jpeg",
         "assets/productos/uploads/ves-004-1786925822595-4.jpeg"
       ],
@@ -948,7 +947,17 @@
         "calcetas",
         "banda",
         "cabello",
-        "varios"
+        "varios",
+        "vestido deportivo plisado",
+        "one size: s/m incluye: banda para el cabello + calcetines",
+        "plisado",
+        "one",
+        "size:",
+        "incluye:",
+        "calcetines",
+        "según",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
