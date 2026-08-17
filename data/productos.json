@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786994552140"
+    "updatedAt": "1786994644956"
   },
   "productos": [
     {
@@ -334,13 +334,12 @@
       "codigo": "VES-001",
       "carpeta": "VES-001",
       "categoria": "Vestidos",
-      "subcategoria": "Casual",
+      "subcategoria": "One Size: S/M",
       "nombre": "Vestido Deportivo Casual",
       "precio": 32,
-      "colores": "Varios",
+      "colores": "Según disponibilidad en fotos",
       "imagenes": [
         "assets/productos/VES-001/1.webp",
-        "assets/productos/VES-001/2.webp",
         "assets/productos/VES-001/3.webp"
       ],
       "destacado": false,
@@ -352,8 +351,27 @@
         "Casual",
         "VES-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "vestidos",
+        "vestido deportivo casual",
+        "one size: s/m",
+        "vestido",
+        "dress",
+        "deportivo",
+        "casual",
+        "one",
+        "size:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
+      }
     },
     {
       "codigo": "VES-002",
