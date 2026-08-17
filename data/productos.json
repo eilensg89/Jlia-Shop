@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786996195865"
+    "updatedAt": "1786996384735"
   },
   "productos": [
     {
@@ -958,6 +958,40 @@
         "descuento": 0,
         "precioOferta": 25,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "ENT-003",
+      "carpeta": "ENT-003",
+      "categoria": "Enterizos",
+      "subcategoria": "Talla disponible: M",
+      "nombre": "Enterizo Deportivo con Cierre",
+      "precio": 32,
+      "colores": "Blanco",
+      "imagenes": [
+        "assets/productos/uploads/ent-003-1786996384716-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo deportivo con cierre",
+        "talla disponible: m",
+        "enterizo",
+        "jumpsuit",
+        "deportivo",
+        "cierre",
+        "talla",
+        "disponible:",
+        "blanco"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
