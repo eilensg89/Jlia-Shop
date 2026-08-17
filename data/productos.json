@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786993122361"
+    "updatedAt": "1786993208361"
   },
   "productos": [
     {
@@ -917,15 +917,14 @@
       "codigo": "PIJ-002",
       "carpeta": "PIJ-002",
       "categoria": "Pijamas",
-      "subcategoria": "One Size (S-M)",
+      "subcategoria": "One Size: S/M",
       "nombre": "Blusones pijamas con ropa interior",
       "precio": 22,
-      "colores": "Disponibles en las fotos",
+      "colores": "Según disponibilidad en fotos",
       "imagenes": [
         "assets/productos/uploads/pij-002-1786992279865-1.jpeg",
         "assets/productos/uploads/pij-002-1786992279865-2.jpeg",
-        "assets/productos/uploads/pij-002-1786992279865-3.jpeg",
-        "assets/productos/uploads/pij-002-1786992279865-4.jpeg"
+        "assets/productos/uploads/pij-002-1786992279865-3.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -942,7 +941,11 @@
         "size",
         "(s-m)",
         "disponibles",
-        "fotos"
+        "fotos",
+        "one size: s/m",
+        "size:",
+        "según",
+        "disponibilidad"
       ],
       "promocion": {
         "activa": true,
