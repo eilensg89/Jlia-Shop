@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787004368091"
+    "updatedAt": "1787004553000"
   },
   "productos": [
     {
@@ -1114,12 +1114,6 @@
       "precio": 40,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/uploads/ent-007-1787004173590-1.jpeg",
-        "assets/productos/uploads/ent-007-1787004173590-2.jpeg",
-        "assets/productos/uploads/ent-007-1787004180587-1.jpeg",
-        "assets/productos/uploads/ent-007-1787004180587-2.jpeg",
-        "assets/productos/uploads/ent-007-1787004184689-1.jpeg",
-        "assets/productos/uploads/ent-007-1787004184689-2.jpeg",
         "assets/productos/uploads/ent-007-1787004368075-1.jpeg",
         "assets/productos/uploads/ent-007-1787004368075-2.jpeg"
       ],
