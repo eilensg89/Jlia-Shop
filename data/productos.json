@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787003483319"
+    "updatedAt": "1787003660428"
   },
   "productos": [
     {
@@ -998,7 +998,7 @@
       "codigo": "ENT-004",
       "carpeta": "ENT-004",
       "categoria": "Enterizos",
-      "subcategoria": "Tallas disponibles S y M",
+      "subcategoria": "Tallas disponibles: S y M",
       "nombre": "Enterizo Deportivo Alo Manga Larga",
       "precio": 35,
       "colores": "Según disponibilidad en fotos",
@@ -1023,7 +1023,9 @@
         "disponibles",
         "según",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "tallas disponibles: s y m",
+        "disponibles:"
       ],
       "promocion": {
         "activa": true,
