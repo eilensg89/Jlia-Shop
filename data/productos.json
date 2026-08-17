@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786994644956"
+    "updatedAt": "1786994809280"
   },
   "productos": [
     {
@@ -1189,6 +1189,43 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 6,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "VES-005",
+      "carpeta": "VES-005",
+      "categoria": "Vestidos",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Vestido Midi Deportivo",
+      "precio": 30,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ves-005-1786994809235-1.jpeg",
+        "assets/productos/uploads/ves-005-1786994809235-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "vestidos",
+        "vestido midi deportivo",
+        "tallas disponibles: s y m",
+        "vestido",
+        "dress",
+        "midi",
+        "deportivo",
+        "tallas",
+        "disponibles:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 25,
         "etiqueta": "OFERTA"
       }
     }
