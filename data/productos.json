@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786994809280"
+    "updatedAt": "1786995214390"
   },
   "productos": [
     {
@@ -1214,6 +1214,43 @@
         "vestido",
         "dress",
         "midi",
+        "deportivo",
+        "tallas",
+        "disponibles:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 25,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "VES-006",
+      "carpeta": "VES-006",
+      "categoria": "Vestidos",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Vestido Corto Deportivo",
+      "precio": 30,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ves-006-1786995214358-1.jpeg",
+        "assets/productos/uploads/ves-006-1786995214358-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "vestidos",
+        "vestido corto deportivo",
+        "tallas disponibles: s y m",
+        "vestido",
+        "dress",
+        "corto",
         "deportivo",
         "tallas",
         "disponibles:",
