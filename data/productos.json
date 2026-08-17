@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787004143986"
+    "updatedAt": "1787004368091"
   },
   "productos": [
     {
@@ -1113,7 +1113,16 @@
       "nombre": "Enterizo Deportivo Espalda Abierta",
       "precio": 40,
       "colores": "Disponibilidad en fotos",
-      "imagenes": [],
+      "imagenes": [
+        "assets/productos/uploads/ent-007-1787004173590-1.jpeg",
+        "assets/productos/uploads/ent-007-1787004173590-2.jpeg",
+        "assets/productos/uploads/ent-007-1787004180587-1.jpeg",
+        "assets/productos/uploads/ent-007-1787004180587-2.jpeg",
+        "assets/productos/uploads/ent-007-1787004184689-1.jpeg",
+        "assets/productos/uploads/ent-007-1787004184689-2.jpeg",
+        "assets/productos/uploads/ent-007-1787004368075-1.jpeg",
+        "assets/productos/uploads/ent-007-1787004368075-2.jpeg"
+      ],
       "destacado": false,
       "estado": "Activo",
       "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
