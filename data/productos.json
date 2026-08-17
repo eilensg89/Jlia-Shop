@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786993639601"
+    "updatedAt": "1786993827749"
   },
   "productos": [
     {
@@ -431,10 +431,10 @@
       "codigo": "PIJ-001",
       "carpeta": "PIJ-001",
       "categoria": "Pijamas",
-      "subcategoria": "3 piezas",
-      "nombre": "Pijama 3 Piezas",
+      "subcategoria": "One Size: S/M/L",
+      "nombre": "Pijama 3 Piezas – Pantalón + Short",
       "precio": 25,
-      "colores": "Varios",
+      "colores": "Según disponibilidad en fotos",
       "imagenes": [
         "assets/productos/PIJ-001/1.webp",
         "assets/productos/PIJ-001/2.webp"
@@ -453,7 +453,16 @@
         "pijama 3 piezas",
         "pijama",
         "piezas",
-        "varios"
+        "varios",
+        "pijama 3 piezas – pantalón + short",
+        "one size: s/m/l",
+        "pantalón",
+        "short",
+        "one",
+        "size:",
+        "según",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": true,
