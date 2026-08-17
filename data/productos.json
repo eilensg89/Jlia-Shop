@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787003774331"
+    "updatedAt": "1787003919123"
   },
   "productos": [
     {
@@ -1060,6 +1060,42 @@
         "tallas",
         "disponibles:",
         "amarillo"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-006",
+      "carpeta": "ENT-006",
+      "categoria": "Enterizos",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Enterizo Alo Strapless Largo",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-006-1787003919108-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo alo strapless largo",
+        "one size: s/m",
+        "enterizo",
+        "jumpsuit",
+        "alo",
+        "strapless",
+        "largo",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
