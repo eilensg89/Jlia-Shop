@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786936885463"
+    "updatedAt": "1786991452686"
   },
   "productos": [
     {
@@ -15,9 +15,7 @@
         "assets/productos/CON-001/1.webp",
         "assets/productos/CON-001/2.webp",
         "assets/productos/CON-001/3.webp",
-        "assets/productos/CON-001/4.webp",
-        "assets/productos/CON-001/5.webp",
-        "assets/productos/CON-001/6.webp"
+        "assets/productos/CON-001/4.webp"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -28,8 +26,23 @@
         "Casual",
         "CON-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "conjuntos",
+        "conjunto deportivo casual",
+        "casual",
+        "conjunto",
+        "set",
+        "ropa",
+        "deportivo",
+        "varios"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
+      }
     },
     {
       "codigo": "CON-002",
