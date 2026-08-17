@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787004553000"
+    "updatedAt": "1787006635028"
   },
   "productos": [
     {
@@ -1131,6 +1131,44 @@
         "abierta",
         "one",
         "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-008",
+      "carpeta": "ENT-008",
+      "categoria": "Enterizos",
+      "subcategoria": "One Size: S/M/L Incluye banda para el cabello",
+      "nombre": "Enterizo Acampanado Deportivo",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-008-1787006635011-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo acampanado deportivo",
+        "one size: s/m/l incluye banda para el cabello",
+        "enterizo",
+        "jumpsuit",
+        "acampanado",
+        "deportivo",
+        "one",
+        "size:",
+        "incluye",
+        "banda",
+        "cabello",
         "disponibilidad",
         "fotos"
       ],
