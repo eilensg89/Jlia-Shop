@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786996018138"
+    "updatedAt": "1786996195865"
   },
   "productos": [
     {
@@ -921,6 +921,43 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-002",
+      "carpeta": "ENT-002",
+      "categoria": "Enterizos",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Enterizo Short Manga Corta",
+      "precio": 28,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-002-1786996195844-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo short manga corta",
+        "one size: s/m",
+        "enterizo",
+        "jumpsuit",
+        "short",
+        "manga",
+        "corta",
+        "one",
+        "size:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 25,
+        "etiqueta": "OFERTA"
       }
     }
   ]
