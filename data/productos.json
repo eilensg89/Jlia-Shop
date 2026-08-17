@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787003660428"
+    "updatedAt": "1787003774331"
   },
   "productos": [
     {
@@ -1033,6 +1033,40 @@
         "descuento": 0,
         "precioOferta": 26,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "ENT-005",
+      "carpeta": "ENT-005",
+      "categoria": "Enterizos",
+      "subcategoria": "Tallas disponibles: M",
+      "nombre": "Enterizo Sport Corto",
+      "precio": 28,
+      "colores": "Amarillo",
+      "imagenes": [
+        "assets/productos/uploads/ent-005-1787003774316-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo sport corto",
+        "tallas disponibles: m",
+        "enterizo",
+        "jumpsuit",
+        "sport",
+        "corto",
+        "tallas",
+        "disponibles:",
+        "amarillo"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
