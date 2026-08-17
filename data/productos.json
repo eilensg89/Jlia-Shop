@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786994082340"
+    "updatedAt": "1786994349928"
   },
   "productos": [
     {
@@ -1115,6 +1115,45 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "PIJ-007",
+      "carpeta": "PIJ-007",
+      "categoria": "Pijamas",
+      "subcategoria": "Tallas disponibles: L y XL",
+      "nombre": "Pijama Vestido",
+      "precio": 10,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-007-1786994349874-1.jpeg",
+        "assets/productos/uploads/pij-007-1786994349874-2.jpeg",
+        "assets/productos/uploads/pij-007-1786994349874-3.jpeg",
+        "assets/productos/uploads/pij-007-1786994349874-4.jpeg",
+        "assets/productos/uploads/pij-007-1786994349874-5.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "pijama vestido",
+        "tallas disponibles: l y xl",
+        "pijama",
+        "vestido",
+        "tallas",
+        "disponibles:",
+        "xl",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 6,
+        "etiqueta": "OFERTA"
       }
     }
   ]
