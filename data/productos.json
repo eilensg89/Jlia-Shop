@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786993379838"
+    "updatedAt": "1786993639601"
   },
   "productos": [
     {
@@ -1033,6 +1033,43 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 18,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "PIJ-005",
+      "carpeta": "PIJ-005",
+      "categoria": "Pijamas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Pijama Enterizo Corto Manga Larga",
+      "precio": 20,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-005-1786993639577-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "pijama enterizo corto manga larga",
+        "one size: s/m",
+        "pijama",
+        "enterizo",
+        "corto",
+        "manga",
+        "larga",
+        "one",
+        "size:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 16,
         "etiqueta": "OFERTA"
       }
     }
