@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787006635028"
+    "updatedAt": "1787007537185"
   },
   "productos": [
     {
@@ -1178,6 +1178,40 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "PAN-002",
+      "carpeta": "PAN-002",
+      "categoria": "Pantalones",
+      "subcategoria": "One Size : S/M/L",
+      "nombre": "Pantalón Cargo",
+      "precio": 21,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pan-002-1787007537169-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pantalones",
+        "pantalón cargo",
+        "one size : s/m/l",
+        "pantalón",
+        "pantalon",
+        "cargo",
+        "one",
+        "size",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 18,
+        "etiqueta": "OFERTA"
       }
     }
   ]
