@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786925822631"
+    "updatedAt": "1786936885463"
   },
   "productos": [
     {
@@ -40,7 +40,6 @@
       "precio": 35,
       "colores": "Varios",
       "imagenes": [
-        "assets/productos/CON-002/1.webp",
         "assets/productos/CON-002/2.webp"
       ],
       "destacado": false,
@@ -52,8 +51,23 @@
         "Falda",
         "CON-002",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "conjuntos",
+        "conjunto deportivo falda",
+        "falda",
+        "conjunto",
+        "set",
+        "ropa",
+        "deportivo",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "CON-003",
