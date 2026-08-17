@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786995348629"
+    "updatedAt": "1786995475740"
   },
   "productos": [
     {
@@ -1273,6 +1273,40 @@
         "descuento": 0,
         "precioOferta": 25,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "VES-007",
+      "carpeta": "VES-007",
+      "categoria": "Vestidos",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Vestido Corto con Volantes",
+      "precio": 28,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "vestidos",
+        "vestido corto con volantes",
+        "tallas disponibles: s y m",
+        "vestido",
+        "dress",
+        "corto",
+        "volantes",
+        "tallas",
+        "disponibles:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
