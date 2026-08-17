@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786993208361"
+    "updatedAt": "1786993274689"
   },
   "productos": [
     {
@@ -918,7 +918,7 @@
       "carpeta": "PIJ-002",
       "categoria": "Pijamas",
       "subcategoria": "One Size: S/M",
-      "nombre": "Blusones pijamas con ropa interior",
+      "nombre": "Pijama Oversize + Ropa Interior",
       "precio": 22,
       "colores": "Según disponibilidad en fotos",
       "imagenes": [
@@ -945,7 +945,9 @@
         "one size: s/m",
         "size:",
         "según",
-        "disponibilidad"
+        "disponibilidad",
+        "pijama oversize + ropa interior",
+        "oversize"
       ],
       "promocion": {
         "activa": true,
