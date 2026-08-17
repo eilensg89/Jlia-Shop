@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786852957948"
+    "updatedAt": "1786925822631"
   },
   "productos": [
     {
@@ -837,6 +837,44 @@
         "leggin",
         "legging"
       ]
+    },
+    {
+      "codigo": "VES-004",
+      "carpeta": "VES-004",
+      "categoria": "Vestidos",
+      "subcategoria": "Vestido",
+      "nombre": "Vestido deportivo incluye calcetas y banda de cabello",
+      "precio": 36,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/uploads/ves-004-1786925822595-1.jpeg",
+        "assets/productos/uploads/ves-004-1786925822595-2.jpeg",
+        "assets/productos/uploads/ves-004-1786925822595-3.jpeg",
+        "assets/productos/uploads/ves-004-1786925822595-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Vestidos",
+        "vestidos",
+        "vestido deportivo incluye calcetas y banda de cabello",
+        "vestido",
+        "dress",
+        "deportivo",
+        "incluye",
+        "calcetas",
+        "banda",
+        "cabello",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     }
   ]
 }
