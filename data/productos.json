@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786995475740"
+    "updatedAt": "1786995619420"
   },
   "productos": [
     {
@@ -419,12 +419,13 @@
       "codigo": "VES-003",
       "carpeta": "VES-003",
       "categoria": "Vestidos",
-      "subcategoria": "Tirantes",
+      "subcategoria": "One Size: S/M",
       "nombre": "Vestido Deportivo de Tirantes",
-      "precio": 35,
-      "colores": "Varios",
+      "precio": 32,
+      "colores": "Según disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/VES-003/1.webp"
+        "assets/productos/VES-003/1.webp",
+        "assets/productos/uploads/ves-003-1786995619405-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -435,8 +436,27 @@
         "Tirantes",
         "VES-003",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "vestidos",
+        "vestido deportivo de tirantes",
+        "one size: s/m",
+        "vestido",
+        "dress",
+        "deportivo",
+        "tirantes",
+        "one",
+        "size:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "ENT-001",
