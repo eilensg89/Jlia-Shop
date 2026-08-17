@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786993827749"
+    "updatedAt": "1786994082340"
   },
   "productos": [
     {
@@ -1080,6 +1080,41 @@
         "descuento": 0,
         "precioOferta": 16,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "PIJ-006",
+      "carpeta": "PIJ-006",
+      "categoria": "Pijamas",
+      "subcategoria": "Tallas disponibles: M y L",
+      "nombre": "Pijama Short 2 Piezas",
+      "precio": 10,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-006-1786994082285-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "pijama short 2 piezas",
+        "tallas disponibles: m y l",
+        "pijama",
+        "short",
+        "piezas",
+        "tallas",
+        "disponibles:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
