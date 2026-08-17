@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1786996384735"
+    "updatedAt": "1787003483319"
   },
   "productos": [
     {
@@ -992,6 +992,45 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-004",
+      "carpeta": "ENT-004",
+      "categoria": "Enterizos",
+      "subcategoria": "Tallas disponibles S y M",
+      "nombre": "Enterizo Deportivo Alo Manga Larga",
+      "precio": 35,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-004-1787003483296-1.jpeg",
+        "assets/productos/uploads/ent-004-1787003483296-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo deportivo alo manga larga",
+        "tallas disponibles s y m",
+        "enterizo",
+        "jumpsuit",
+        "deportivo",
+        "alo",
+        "manga",
+        "larga",
+        "tallas",
+        "disponibles",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
       }
     }
   ]
