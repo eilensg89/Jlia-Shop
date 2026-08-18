@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787031459053"
+    "updatedAt": "1787031538999"
   },
   "productos": [
     {
@@ -1748,6 +1748,39 @@
         "disponibles:",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-031",
+      "carpeta": "CON-031",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Falda con Top",
+      "precio": 32,
+      "colores": "Azul",
+      "imagenes": [
+        "assets/productos/uploads/con-031-1787031538980-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda con top",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "top",
+        "one",
+        "size:",
+        "azul"
       ],
       "promocion": {
         "activa": false,
