@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787025321441"
+    "updatedAt": "1787025486331"
   },
   "productos": [
     {
@@ -1452,6 +1452,42 @@
         "descuento": 0,
         "precioOferta": 28,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-018",
+      "carpeta": "CON-018",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto Casual de Short con Rayas Laterales",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-018-1787025486259-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto casual de short con rayas laterales",
+        "one size: s/m",
+        "conjunto",
+        "casual",
+        "short",
+        "rayas",
+        "laterales",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
