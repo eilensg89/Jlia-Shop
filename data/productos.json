@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787032497621"
+    "updatedAt": "1787032624766"
   },
   "productos": [
     {
@@ -1828,6 +1828,48 @@
         "descuento": 0,
         "precioOferta": 35,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-033",
+      "carpeta": "CON-033",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Talla disponibles: S Incluye: Top + Chaqueta manga larga + Leggings",
+      "nombre": "Conjunto de Leggings 3 Piezas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-033-1787032624711-1.jpeg",
+        "assets/productos/uploads/con-033-1787032624711-2.jpeg",
+        "assets/productos/uploads/con-033-1787032624711-3.jpeg",
+        "assets/productos/uploads/con-033-1787032624711-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings 3 piezas",
+        "talla disponibles: s incluye: top + chaqueta manga larga + leggings",
+        "conjunto",
+        "leggings",
+        "piezas",
+        "talla",
+        "disponibles:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "manga",
+        "larga",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
