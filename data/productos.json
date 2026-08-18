@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "updatedAt": "1787027825746"
+    "updatedAt": "1787028064394"
   },
   "productos": [
     {
       "codigo": "CON-002",
       "carpeta": "CON-002",
       "categoria": "Conjuntos de Faldas",
-      "subcategoria": "Falda",
+      "subcategoria": "Tallas disponibles: S-M y L",
       "nombre": "Conjunto Deportivo Falda",
       "precio": 35,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
         "assets/productos/CON-002/2.webp"
       ],
@@ -31,14 +31,21 @@
         "set",
         "ropa",
         "deportivo",
-        "varios"
+        "varios",
+        "conjuntos de faldas",
+        "tallas disponibles: s-m y l",
+        "tallas",
+        "disponibles:",
+        "s-m",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
+        "activa": true,
+        "tipo": "precio",
         "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
+        "precioOferta": 28,
+        "etiqueta": "OFERTA"
       }
     },
     {
