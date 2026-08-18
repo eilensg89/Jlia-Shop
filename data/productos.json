@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787024787379"
+    "updatedAt": "1787024945797"
   },
   "productos": [
     {
@@ -1370,6 +1370,44 @@
         "size:",
         "xl",
         "beige"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-016",
+      "carpeta": "CON-016",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M y L/XL",
+      "nombre": "Conjunto Casual de Short con Polo",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-016-1787024945775-1.jpeg",
+        "assets/productos/uploads/con-016-1787024945775-2.jpeg",
+        "assets/productos/uploads/con-016-1787024945775-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto casual de short con polo",
+        "one size: s/m y l/xl",
+        "conjunto",
+        "casual",
+        "short",
+        "polo",
+        "one",
+        "size:",
+        "xl",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
