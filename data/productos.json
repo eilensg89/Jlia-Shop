@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787008851919"
+    "updatedAt": "1787024370764"
   },
   "productos": [
     {
@@ -1240,6 +1240,39 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 18,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-012",
+      "carpeta": "CON-012",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto Mafalda Short",
+      "precio": 22,
+      "colores": "Azul",
+      "imagenes": [
+        "assets/productos/uploads/con-012-1787024370739-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto mafalda short",
+        "one size: s/m",
+        "conjunto",
+        "mafalda",
+        "short",
+        "one",
+        "size:",
+        "azul"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 20,
         "etiqueta": "OFERTA"
       }
     }
