@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787029106743"
+    "updatedAt": "1787029899735"
   },
   "productos": [
     {
@@ -172,36 +172,6 @@
         "3 piezas",
         "Pantalón",
         "CON-010",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-011",
-      "carpeta": "CON-011",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-011/1.webp",
-        "assets/productos/CON-011/2.webp",
-        "assets/productos/CON-011/3.webp",
-        "assets/productos/CON-011/4.webp",
-        "assets/productos/CON-011/5.webp",
-        "assets/productos/CON-011/6.webp",
-        "assets/productos/CON-011/7.webp"
-      ],
-      "destacado": true,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "Pantalón",
-        "CON-011",
         "leggin",
         "legging"
       ]
