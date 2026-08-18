@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787028730722"
+    "updatedAt": "1787028901033"
   },
   "productos": [
     {
@@ -89,32 +89,6 @@
         "precioOferta": null,
         "etiqueta": ""
       }
-    },
-    {
-      "codigo": "CON-006",
-      "carpeta": "CON-006",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo 3 Piezas",
-      "precio": 36,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-006/1.webp",
-        "assets/productos/CON-006/2.webp",
-        "assets/productos/CON-006/3.webp",
-        "assets/productos/CON-006/4.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "CON-006",
-        "leggin",
-        "legging"
-      ]
     },
     {
       "codigo": "CON-007",
