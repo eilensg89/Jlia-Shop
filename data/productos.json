@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787032624766"
+    "updatedAt": "1787032824904"
   },
   "productos": [
     {
@@ -1861,6 +1861,45 @@
         "chaqueta",
         "manga",
         "larga",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-034",
+      "carpeta": "CON-034",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size: S/M Incluye: Top + Leggings + Chaqueta",
+      "nombre": "Conjunto de Leggings 3 Piezas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-034-1787032824833-1.jpeg",
+        "assets/productos/uploads/con-034-1787032824833-2.jpeg",
+        "assets/productos/uploads/con-034-1787032824833-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings 3 piezas",
+        "one size: s/m incluye: top + leggings + chaqueta",
+        "conjunto",
+        "leggings",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "chaqueta",
         "disponibilidad",
         "fotos"
       ],
