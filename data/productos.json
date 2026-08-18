@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787026046328"
+    "updatedAt": "1787026106695"
   },
   "productos": [
     {
@@ -376,10 +376,10 @@
       "codigo": "VES-002",
       "carpeta": "VES-002",
       "categoria": "Vestidos",
-      "subcategoria": "Bubble",
+      "subcategoria": "Tallas disponibles: S y M",
       "nombre": "Vestido Bubble",
       "precio": 35,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
         "assets/productos/VES-002/1.webp",
         "assets/productos/VES-002/2.webp"
@@ -393,8 +393,25 @@
         "Bubble",
         "VES-002",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "vestidos",
+        "vestido bubble",
+        "tallas disponibles: s y m",
+        "vestido",
+        "dress",
+        "bubble",
+        "tallas",
+        "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "VES-003",
