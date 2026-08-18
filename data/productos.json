@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787028064394"
+    "updatedAt": "1787028183943"
   },
   "productos": [
     {
@@ -47,31 +47,6 @@
         "precioOferta": 28,
         "etiqueta": "OFERTA"
       }
-    },
-    {
-      "codigo": "CON-004",
-      "carpeta": "CON-004",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "Legging",
-      "nombre": "Conjunto Deportivo Legging 2 Piezas",
-      "precio": 36,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-004/1.webp",
-        "assets/productos/CON-004/2.webp",
-        "assets/productos/CON-004/3.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Legging 2 Piezas",
-        "Conjuntos",
-        "Legging",
-        "CON-004",
-        "leggin",
-        "legging"
-      ]
     },
     {
       "codigo": "CON-005",
