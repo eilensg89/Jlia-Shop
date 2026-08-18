@@ -1,12 +1,9 @@
 {
-  "_meta": {
-    "updatedAt": "1787026993118"
-  },
   "productos": [
     {
       "codigo": "CON-001",
       "carpeta": "CON-001",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "Casual",
       "nombre": "Conjunto Deportivo Casual",
       "precio": 32,
@@ -47,7 +44,7 @@
     {
       "codigo": "CON-002",
       "carpeta": "CON-002",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "Falda",
       "nombre": "Conjunto Deportivo Falda",
       "precio": 35,
@@ -85,7 +82,7 @@
     {
       "codigo": "CON-004",
       "carpeta": "CON-004",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "Legging",
       "nombre": "Conjunto Deportivo Legging 2 Piezas",
       "precio": 36,
@@ -110,7 +107,7 @@
     {
       "codigo": "CON-005",
       "carpeta": "CON-005",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "Falda",
       "nombre": "Conjunto Deportivo Falda + Banda",
       "precio": 36,
@@ -136,7 +133,7 @@
     {
       "codigo": "CON-006",
       "carpeta": "CON-006",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "3 piezas",
       "nombre": "Conjunto Deportivo 3 Piezas",
       "precio": 36,
@@ -162,7 +159,7 @@
     {
       "codigo": "CON-007",
       "carpeta": "CON-007",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "Pantalón",
       "nombre": "Conjunto Deportivo Pantalón",
       "precio": 40,
@@ -190,7 +187,7 @@
     {
       "codigo": "CON-008",
       "carpeta": "CON-008",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "3 piezas",
       "nombre": "Conjunto Deportivo Legging 3 Piezas",
       "precio": 40,
@@ -221,7 +218,7 @@
     {
       "codigo": "CON-009",
       "carpeta": "CON-009",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "3 piezas",
       "nombre": "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
       "precio": 40,
@@ -251,7 +248,7 @@
     {
       "codigo": "CON-010",
       "carpeta": "CON-010",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "3 piezas",
       "nombre": "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
       "precio": 40,
@@ -276,7 +273,7 @@
     {
       "codigo": "CON-011",
       "carpeta": "CON-011",
-      "categoria": "Conjuntos",
+      "categoria": "Conjuntos de Faldas",
       "subcategoria": "3 piezas",
       "nombre": "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
       "precio": 40,
