@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787033118299"
+    "updatedAt": "1787083177261"
   },
   "productos": [
     {
@@ -415,7 +415,7 @@
         "assets/productos/CAL-001/3.webp"
       ],
       "destacado": false,
-      "estado": "Inactivo",
+      "estado": "Activo",
       "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
       "palabrasClave": [
         "Zapatillas Deportivas (solo por encargo)",
