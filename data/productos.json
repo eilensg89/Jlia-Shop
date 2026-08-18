@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787029022305"
+    "updatedAt": "1787029106743"
   },
   "productos": [
     {
@@ -1575,6 +1575,45 @@
         "incluye:",
         "top",
         "chaqueta",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-023",
+      "carpeta": "CON-023",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M Incluye: Top + Falda + Banda para el cabello",
+      "nombre": "Conjunto de Falda Plisada con Top",
+      "precio": 36,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-023-1787029106722-1.jpeg",
+        "assets/productos/uploads/con-023-1787029106722-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda plisada con top",
+        "one size: s/m incluye: top + falda + banda para el cabello",
+        "conjunto",
+        "falda",
+        "plisada",
+        "top",
+        "one",
+        "size:",
+        "incluye:",
+        "banda",
+        "cabello",
         "disponibilidad",
         "fotos"
       ],
