@@ -1,52 +1,64 @@
-[
-  {
-    "id": "todos",
-    "nombre": "Todo",
-    "imagen": "assets/banners/principal.webp"
-  },
-  {
-    "id": "Conjuntos",
-    "nombre": "Conjuntos",
-    "imagen": "assets/banners/conjuntos.webp"
-  },
-  {
-    "id": "Vestidos",
-    "nombre": "Vestidos",
-    "imagen": "assets/banners/vestidos.webp"
-  },
-  {
-    "id": "Enterizos",
-    "nombre": "Enterizos",
-    "imagen": "assets/banners/enterizos.webp"
-  },
-  {
-    "id": "Pijamas",
-    "nombre": "Pijamas",
-    "imagen": "assets/banners/pijamas.webp"
-  },
-  {
-    "id": "Pantalones",
-    "nombre": "Pantalones",
-    "imagen": "assets/banners/pantalones.webp"
-  },
-  {
-    "id": "Blusas",
-    "nombre": "Blusas",
-    "imagen": "assets/banners/blusas.webp"
-  },
-  {
-    "id": "Calzado",
-    "nombre": "Calzado",
-    "imagen": "assets/banners/calzado.webp"
-  },
-  {
-    "id": "Carteras",
-    "nombre": "Carteras",
-    "imagen": "assets/banners/carteras.webp"
-  },
-  {
-    "id": "Accesorios",
-    "nombre": "Accesorios",
-    "imagen": "assets/banners/accesorios.webp"
-  }
-]
+{
+  "categorias": [
+    {
+      "id": "todos",
+      "nombre": "Todo",
+      "imagen": "assets/banners/principal.webp"
+    },
+    {
+      "id": "Conjuntos de Faldas",
+      "nombre": "Conjuntos de Faldas",
+      "imagen": "assets/banners/conjuntos.webp"
+    },
+    {
+      "id": "Vestidos",
+      "nombre": "Vestidos",
+      "imagen": "assets/banners/vestidos.webp"
+    },
+    {
+      "id": "Enterizos",
+      "nombre": "Enterizos",
+      "imagen": "assets/banners/enterizos.webp"
+    },
+    {
+      "id": "Pijamas",
+      "nombre": "Pijamas",
+      "imagen": "assets/banners/pijamas.webp"
+    },
+    {
+      "id": "Pantalones",
+      "nombre": "Pantalones",
+      "imagen": "assets/banners/pantalones.webp"
+    },
+    {
+      "id": "Blusas",
+      "nombre": "Blusas",
+      "imagen": "assets/banners/blusas.webp"
+    },
+    {
+      "id": "Calzado",
+      "nombre": "Calzado",
+      "imagen": "assets/banners/calzado.webp"
+    },
+    {
+      "id": "Carteras",
+      "nombre": "Carteras",
+      "imagen": "assets/banners/carteras.webp"
+    },
+    {
+      "id": "Accesorios",
+      "nombre": "Accesorios",
+      "imagen": "assets/banners/accesorios.webp"
+    },
+    {
+      "id": "Conjuntos de Short",
+      "nombre": "Conjuntos de Short",
+      "imagen": "assets/banners/conjuntos-de-short-1787024184390.jpeg"
+    },
+    {
+      "id": "Conjuntos de Leggings",
+      "nombre": "Conjuntos de Leggings",
+      "imagen": "assets/banners/conjuntos-de-leggings-1787031681311.jpeg"
+    }
+  ]
+}

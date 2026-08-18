@@ -1,46 +1,17 @@
 {
   "_meta": {
-    "updatedAt": "1786852957948"
+    "updatedAt": "1787033118299"
   },
   "productos": [
     {
-      "codigo": "CON-001",
-      "carpeta": "CON-001",
-      "categoria": "Conjuntos",
-      "subcategoria": "Casual",
-      "nombre": "Conjunto Deportivo Casual",
-      "precio": 32,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-001/1.webp",
-        "assets/productos/CON-001/2.webp",
-        "assets/productos/CON-001/3.webp",
-        "assets/productos/CON-001/4.webp",
-        "assets/productos/CON-001/5.webp",
-        "assets/productos/CON-001/6.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Casual",
-        "Conjuntos",
-        "Casual",
-        "CON-001",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
       "codigo": "CON-002",
       "carpeta": "CON-002",
-      "categoria": "Conjuntos",
-      "subcategoria": "Falda",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "Tallas disponibles: S-M y L",
       "nombre": "Conjunto Deportivo Falda",
       "precio": 35,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/CON-002/1.webp",
         "assets/productos/CON-002/2.webp"
       ],
       "destacado": false,
@@ -52,268 +23,83 @@
         "Falda",
         "CON-002",
         "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-003",
-      "carpeta": "CON-003",
-      "categoria": "Conjuntos",
-      "subcategoria": "Short",
-      "nombre": "Conjunto Deportivo Short Premium",
-      "precio": 35,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-003/1.webp",
-        "assets/productos/CON-003/2.webp",
-        "assets/productos/CON-003/3.webp",
-        "assets/productos/CON-003/4.webp",
-        "assets/productos/CON-003/5.webp"
+        "legging",
+        "conjuntos",
+        "conjunto deportivo falda",
+        "falda",
+        "conjunto",
+        "set",
+        "ropa",
+        "deportivo",
+        "varios",
+        "conjuntos de faldas",
+        "tallas disponibles: s-m y l",
+        "tallas",
+        "disponibles:",
+        "s-m",
+        "disponibilidad",
+        "fotos"
       ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Short Premium",
-        "Conjuntos",
-        "Short",
-        "CON-003",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-004",
-      "carpeta": "CON-004",
-      "categoria": "Conjuntos",
-      "subcategoria": "Legging",
-      "nombre": "Conjunto Deportivo Legging 2 Piezas",
-      "precio": 36,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-004/1.webp",
-        "assets/productos/CON-004/2.webp",
-        "assets/productos/CON-004/3.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Legging 2 Piezas",
-        "Conjuntos",
-        "Legging",
-        "CON-004",
-        "leggin",
-        "legging"
-      ]
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 28,
+        "etiqueta": "OFERTA"
+      }
     },
     {
       "codigo": "CON-005",
       "carpeta": "CON-005",
-      "categoria": "Conjuntos",
-      "subcategoria": "Falda",
-      "nombre": "Conjunto Deportivo Falda + Banda",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M Incluye: Top + Falda Short + Banda para el cabello",
+      "nombre": "Conjunto de Falda Short con Top",
       "precio": 36,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/CON-005/1.webp",
         "assets/productos/CON-005/2.webp",
-        "assets/productos/CON-005/3.webp",
-        "assets/productos/CON-005/4.webp"
+        "assets/productos/uploads/con-005-1787028414472-1.jpeg",
+        "assets/productos/uploads/con-005-1787028414472-2.jpeg",
+        "assets/productos/uploads/con-005-1787028414472-3.jpeg"
       ],
       "destacado": true,
       "estado": "Activo",
       "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
       "palabrasClave": [
-        "Conjunto Deportivo Falda + Banda",
-        "Conjuntos",
-        "Falda",
-        "CON-005",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-006",
-      "carpeta": "CON-006",
-      "categoria": "Conjuntos",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo 3 Piezas",
-      "precio": 36,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-006/1.webp",
-        "assets/productos/CON-006/2.webp",
-        "assets/productos/CON-006/3.webp",
-        "assets/productos/CON-006/4.webp"
+        "conjuntos de faldas",
+        "conjunto de falda short con top",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "short",
+        "top",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos",
+        "one size: s/m incluye: top + falda short + banda para el cabello",
+        "incluye:",
+        "banda",
+        "cabello"
       ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "CON-006",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-007",
-      "carpeta": "CON-007",
-      "categoria": "Conjuntos",
-      "subcategoria": "Pantalón",
-      "nombre": "Conjunto Deportivo Pantalón",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-007/1.webp",
-        "assets/productos/CON-007/2.webp",
-        "assets/productos/CON-007/3.webp",
-        "assets/productos/CON-007/4.webp",
-        "assets/productos/CON-007/5.webp",
-        "assets/productos/CON-007/6.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Pantalón",
-        "Conjuntos",
-        "Pantalón",
-        "CON-007",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-008",
-      "carpeta": "CON-008",
-      "categoria": "Conjuntos",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo Legging 3 Piezas",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-008/1.webp",
-        "assets/productos/CON-008/2.webp",
-        "assets/productos/CON-008/3.webp",
-        "assets/productos/CON-008/4.webp",
-        "assets/productos/CON-008/5.webp",
-        "assets/productos/CON-008/6.webp",
-        "assets/productos/CON-008/7.webp",
-        "assets/productos/CON-008/8.webp",
-        "assets/productos/CON-008/9.webp"
-      ],
-      "destacado": true,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Legging 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "CON-008",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-009",
-      "carpeta": "CON-009",
-      "categoria": "Conjuntos",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-009/1.webp",
-        "assets/productos/CON-009/2.webp",
-        "assets/productos/CON-009/3.webp",
-        "assets/productos/CON-009/4.webp",
-        "assets/productos/CON-009/5.webp",
-        "assets/productos/CON-009/6.webp",
-        "assets/productos/CON-009/7.webp"
-      ],
-      "destacado": true,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "Pantalón",
-        "CON-009",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-010",
-      "carpeta": "CON-010",
-      "categoria": "Conjuntos",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-010/1.webp",
-        "assets/productos/CON-010/2.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "Pantalón",
-        "CON-010",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CON-011",
-      "carpeta": "CON-011",
-      "categoria": "Conjuntos",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-011/1.webp",
-        "assets/productos/CON-011/2.webp",
-        "assets/productos/CON-011/3.webp",
-        "assets/productos/CON-011/4.webp",
-        "assets/productos/CON-011/5.webp",
-        "assets/productos/CON-011/6.webp",
-        "assets/productos/CON-011/7.webp"
-      ],
-      "destacado": true,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Pantalón con Cordón + Malla 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "Pantalón",
-        "CON-011",
-        "leggin",
-        "legging"
-      ]
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "VES-001",
       "carpeta": "VES-001",
       "categoria": "Vestidos",
-      "subcategoria": "Casual",
+      "subcategoria": "One Size: S/M",
       "nombre": "Vestido Deportivo Casual",
       "precio": 32,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
         "assets/productos/VES-001/1.webp",
-        "assets/productos/VES-001/2.webp",
         "assets/productos/VES-001/3.webp"
       ],
       "destacado": false,
@@ -325,17 +111,35 @@
         "Casual",
         "VES-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "vestidos",
+        "vestido deportivo casual",
+        "one size: s/m",
+        "vestido",
+        "dress",
+        "deportivo",
+        "casual",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
+      }
     },
     {
       "codigo": "VES-002",
       "carpeta": "VES-002",
       "categoria": "Vestidos",
-      "subcategoria": "Bubble",
+      "subcategoria": "Tallas disponibles: S y M",
       "nombre": "Vestido Bubble",
       "precio": 35,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
         "assets/productos/VES-002/1.webp",
         "assets/productos/VES-002/2.webp"
@@ -349,19 +153,37 @@
         "Bubble",
         "VES-002",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "vestidos",
+        "vestido bubble",
+        "tallas disponibles: s y m",
+        "vestido",
+        "dress",
+        "bubble",
+        "tallas",
+        "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 28,
+        "etiqueta": "OFERTA"
+      }
     },
     {
       "codigo": "VES-003",
       "carpeta": "VES-003",
       "categoria": "Vestidos",
-      "subcategoria": "Tirantes",
+      "subcategoria": "One Size: S/M",
       "nombre": "Vestido Deportivo de Tirantes",
-      "precio": 35,
-      "colores": "Varios",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/VES-003/1.webp"
+        "assets/productos/VES-003/1.webp",
+        "assets/productos/uploads/ves-003-1787026168161-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -372,21 +194,39 @@
         "Tirantes",
         "VES-003",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "vestidos",
+        "vestido deportivo de tirantes",
+        "one size: s/m",
+        "vestido",
+        "dress",
+        "deportivo",
+        "tirantes",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "ENT-001",
       "carpeta": "ENT-001",
       "categoria": "Enterizos",
-      "subcategoria": "Largos",
+      "subcategoria": "Tallas disponibles: S/M y L/XL",
       "nombre": "Enterizo Deportivo Largo",
       "precio": 38,
-      "colores": "Varios",
+      "colores": "Según disponibilidad en fotos",
       "imagenes": [
         "assets/productos/ENT-001/1.webp",
         "assets/productos/ENT-001/2.webp",
-        "assets/productos/ENT-001/3.webp"
+        "assets/productos/uploads/ent-001-1786996018121-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -397,8 +237,28 @@
         "Largos",
         "ENT-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "enterizos",
+        "enterizo deportivo largo",
+        "tallas disponibles: s/m y l/xl",
+        "enterizo",
+        "jumpsuit",
+        "deportivo",
+        "largo",
+        "tallas",
+        "disponibles:",
+        "xl",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 30,
+        "etiqueta": "OFERTA"
+      }
     },
     {
       "codigo": "PIJ-001",
@@ -455,10 +315,10 @@
       "codigo": "BLU-001",
       "carpeta": "BLU-001",
       "categoria": "Blusas",
-      "subcategoria": "Básicas",
+      "subcategoria": "Tallas disponibles M y L",
       "nombre": "Blusa Básica",
       "precio": 25,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
         "assets/productos/BLU-001/1.webp",
         "assets/productos/BLU-001/2.webp"
@@ -480,7 +340,12 @@
         "top",
         "tops",
         "básica",
-        "varios"
+        "varios",
+        "tallas disponibles m y l",
+        "tallas",
+        "disponibles",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
@@ -494,10 +359,10 @@
       "codigo": "BLU-002",
       "carpeta": "BLU-002",
       "categoria": "Blusas",
-      "subcategoria": "Premium",
+      "subcategoria": "Tallas disponibles S-M y L",
       "nombre": "Blusa Premium",
       "precio": 20,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
         "assets/productos/BLU-002/1.webp",
         "assets/productos/BLU-002/2.webp",
@@ -520,7 +385,13 @@
         "blusa",
         "top",
         "tops",
-        "varios"
+        "varios",
+        "tallas disponibles s-m y l",
+        "tallas",
+        "disponibles",
+        "s-m",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
@@ -544,7 +415,7 @@
         "assets/productos/CAL-001/3.webp"
       ],
       "destacado": false,
-      "estado": "Activo",
+      "estado": "Inactivo",
       "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
       "palabrasClave": [
         "Zapatillas Deportivas (solo por encargo)",
@@ -552,8 +423,26 @@
         "Zapatillas",
         "CAL-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "calzado",
+        "zapatillas deportivas (solo por encargo)",
+        "zapatillas",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "deportivas",
+        "(solo",
+        "encargo)",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "CAL-002",
@@ -837,6 +726,1227 @@
         "leggin",
         "legging"
       ]
+    },
+    {
+      "codigo": "VES-004",
+      "carpeta": "VES-004",
+      "categoria": "Vestidos",
+      "subcategoria": "One Size:S/M incluye calcetas + banda de cabello",
+      "nombre": "Vestido deportivo",
+      "precio": 36,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ves-004-1786925822595-1.jpeg",
+        "assets/productos/uploads/ves-004-1786925822595-2.jpeg",
+        "assets/productos/uploads/ves-004-1786925822595-3.jpeg",
+        "assets/productos/uploads/ves-004-1786925822595-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "Vestidos",
+        "vestidos",
+        "vestido deportivo incluye calcetas y banda de cabello",
+        "vestido",
+        "dress",
+        "deportivo",
+        "incluye",
+        "calcetas",
+        "banda",
+        "cabello",
+        "varios",
+        "one size:s/m",
+        "one",
+        "size:s",
+        "disponibilidad",
+        "fotos",
+        "vestido deportivo",
+        "one size:s/m incluye calcetas + banda de cabello"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-002",
+      "carpeta": "ENT-002",
+      "categoria": "Enterizos",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Enterizo Short Manga Corta",
+      "precio": 28,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-002-1786996195844-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo short manga corta",
+        "one size: s/m",
+        "enterizo",
+        "jumpsuit",
+        "short",
+        "manga",
+        "corta",
+        "one",
+        "size:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 25,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "ENT-003",
+      "carpeta": "ENT-003",
+      "categoria": "Enterizos",
+      "subcategoria": "Talla disponible: M",
+      "nombre": "Enterizo Deportivo con Cierre",
+      "precio": 32,
+      "colores": "Blanco",
+      "imagenes": [
+        "assets/productos/uploads/ent-003-1786996384716-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo deportivo con cierre",
+        "talla disponible: m",
+        "enterizo",
+        "jumpsuit",
+        "deportivo",
+        "cierre",
+        "talla",
+        "disponible:",
+        "blanco"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-004",
+      "carpeta": "ENT-004",
+      "categoria": "Enterizos",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Enterizo Deportivo Alo Manga Larga",
+      "precio": 35,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-004-1787003483296-1.jpeg",
+        "assets/productos/uploads/ent-004-1787003483296-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo deportivo alo manga larga",
+        "tallas disponibles s y m",
+        "enterizo",
+        "jumpsuit",
+        "deportivo",
+        "alo",
+        "manga",
+        "larga",
+        "tallas",
+        "disponibles",
+        "según",
+        "disponibilidad",
+        "fotos",
+        "tallas disponibles: s y m",
+        "disponibles:"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "ENT-005",
+      "carpeta": "ENT-005",
+      "categoria": "Enterizos",
+      "subcategoria": "Tallas disponibles: M",
+      "nombre": "Enterizo Sport Corto",
+      "precio": 28,
+      "colores": "Amarillo",
+      "imagenes": [
+        "assets/productos/uploads/ent-005-1787003774316-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo sport corto",
+        "tallas disponibles: m",
+        "enterizo",
+        "jumpsuit",
+        "sport",
+        "corto",
+        "tallas",
+        "disponibles:",
+        "amarillo"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-006",
+      "carpeta": "ENT-006",
+      "categoria": "Enterizos",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Enterizo Alo Strapless Largo",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-006-1787003919108-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo alo strapless largo",
+        "one size: s/m",
+        "enterizo",
+        "jumpsuit",
+        "alo",
+        "strapless",
+        "largo",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-007",
+      "carpeta": "ENT-007",
+      "categoria": "Enterizos",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Enterizo Deportivo Espalda Abierta",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-007-1787004368075-1.jpeg",
+        "assets/productos/uploads/ent-007-1787004368075-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo deportivo espalda abierta",
+        "one size: s/m",
+        "enterizo",
+        "jumpsuit",
+        "deportivo",
+        "espalda",
+        "abierta",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ENT-008",
+      "carpeta": "ENT-008",
+      "categoria": "Enterizos",
+      "subcategoria": "One Size: S/M/L Incluye banda para el cabello",
+      "nombre": "Enterizo Acampanado Deportivo",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ent-008-1787006635011-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "enterizos",
+        "enterizo acampanado deportivo",
+        "one size: s/m/l incluye banda para el cabello",
+        "enterizo",
+        "jumpsuit",
+        "acampanado",
+        "deportivo",
+        "one",
+        "size:",
+        "incluye",
+        "banda",
+        "cabello",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "PAN-002",
+      "carpeta": "PAN-002",
+      "categoria": "Pantalones",
+      "subcategoria": "One Size : S/M/L",
+      "nombre": "Pantalón Cargo",
+      "precio": 21,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pan-002-1787007537169-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pantalones",
+        "pantalón cargo",
+        "one size : s/m/l",
+        "pantalón",
+        "pantalon",
+        "cargo",
+        "one",
+        "size",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 18,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-012",
+      "carpeta": "CON-012",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto Mafalda Short",
+      "precio": 22,
+      "colores": "Azul",
+      "imagenes": [
+        "assets/productos/uploads/con-012-1787024370739-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto mafalda short",
+        "one size: s/m",
+        "conjunto",
+        "mafalda",
+        "short",
+        "one",
+        "size:",
+        "azul"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 20,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-013",
+      "carpeta": "CON-013",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M/L",
+      "nombre": "Conjunto Casual de Short",
+      "precio": 35,
+      "colores": "Gris",
+      "imagenes": [
+        "assets/productos/uploads/con-013-1787024501425-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto casual de short",
+        "one size: s/m/l",
+        "conjunto",
+        "casual",
+        "short",
+        "one",
+        "size:",
+        "gris"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-014",
+      "carpeta": "CON-014",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "Tallas disponibles:M y L",
+      "nombre": "Conjunto Deportivo de Short",
+      "precio": 32,
+      "colores": "Blanco y negro",
+      "imagenes": [
+        "assets/productos/uploads/con-014-1787024654562-1.jpeg",
+        "assets/productos/uploads/con-014-1787024654562-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto deportivo de short",
+        "tallas disponibles:m y l",
+        "conjunto",
+        "deportivo",
+        "short",
+        "tallas",
+        "disponibles:m",
+        "blanco",
+        "negro"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-015",
+      "carpeta": "CON-015",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M y L/XL",
+      "nombre": "Conjunto Casual de Short con Cierre",
+      "precio": 35,
+      "colores": "Beige",
+      "imagenes": [
+        "assets/productos/uploads/con-015-1787024787358-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto casual de short con cierre",
+        "one size: s/m y l/xl",
+        "conjunto",
+        "casual",
+        "short",
+        "cierre",
+        "one",
+        "size:",
+        "xl",
+        "beige"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-016",
+      "carpeta": "CON-016",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M y L/XL",
+      "nombre": "Conjunto Casual de Short con Polo",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-016-1787024945775-1.jpeg",
+        "assets/productos/uploads/con-016-1787024945775-2.jpeg",
+        "assets/productos/uploads/con-016-1787024945775-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto casual de short con polo",
+        "one size: s/m y l/xl",
+        "conjunto",
+        "casual",
+        "short",
+        "polo",
+        "one",
+        "size:",
+        "xl",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-017",
+      "carpeta": "CON-017",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Conjunto Casual de Short",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-017-1787025321391-1.jpeg",
+        "assets/productos/uploads/con-017-1787025321391-2.jpeg",
+        "assets/productos/uploads/con-017-1787025321391-3.jpeg",
+        "assets/productos/uploads/con-017-1787025321391-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto casual de short",
+        "tallas disponibles: s y m",
+        "conjunto",
+        "casual",
+        "short",
+        "tallas",
+        "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 28,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-018",
+      "carpeta": "CON-018",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto Casual de Short con Rayas Laterales",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-018-1787025486259-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto casual de short con rayas laterales",
+        "one size: s/m",
+        "conjunto",
+        "casual",
+        "short",
+        "rayas",
+        "laterales",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-019",
+      "carpeta": "CON-019",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M Incluye: Top + Short + Chaqueta",
+      "nombre": "Conjunto de Short 3 Piezas",
+      "precio": 36,
+      "colores": "Rosa",
+      "imagenes": [
+        "assets/productos/uploads/con-019-1787025595817-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto de short 3 piezas",
+        "one size: s/m incluye: top + short + chaqueta",
+        "conjunto",
+        "short",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "rosa"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-020",
+      "carpeta": "CON-020",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M/L Incluye: Top + Short + Camiseta + Banda para el cabello + Calcetines",
+      "nombre": "Conjunto de Short 3 Piezas",
+      "precio": 36,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-020-1787025741889-1.jpeg",
+        "assets/productos/uploads/con-020-1787025741889-2.jpeg",
+        "assets/productos/uploads/con-020-1787025741889-3.jpeg",
+        "assets/productos/uploads/con-020-1787025741889-4.jpeg",
+        "assets/productos/uploads/con-020-1787025741889-5.jpeg",
+        "assets/productos/uploads/con-020-1787025741889-6.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto de short 3 piezas",
+        "one size: s/m/l incluye: top + short + camiseta + banda para el cabello + calcetines",
+        "conjunto",
+        "short",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "camiseta",
+        "banda",
+        "cabello",
+        "calcetines",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-021",
+      "carpeta": "CON-021",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M/L Incluye: Top + Short + Chaqueta",
+      "nombre": "Conjunto de Short 3 Piezas",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-021-1787025835999-1.jpeg",
+        "assets/productos/uploads/con-021-1787025835999-2.jpeg",
+        "assets/productos/uploads/con-021-1787025835999-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto de short 3 piezas",
+        "one size: s/m/l incluye: top + short + chaqueta",
+        "conjunto",
+        "short",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-022",
+      "carpeta": "CON-022",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M/L Incluye: Top + Short + Chaqueta",
+      "nombre": "Conjunto de Short 3 Piezas",
+      "precio": 36,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-022-1787025945520-1.jpeg",
+        "assets/productos/uploads/con-022-1787025945520-2.jpeg",
+        "assets/productos/uploads/con-022-1787025945520-3.jpeg",
+        "assets/productos/uploads/con-022-1787025945520-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto de short 3 piezas",
+        "one size: s/m/l incluye: top + short + chaqueta",
+        "conjunto",
+        "short",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-023",
+      "carpeta": "CON-023",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M Incluye: Top + Falda + Banda para el cabello",
+      "nombre": "Conjunto de Falda Plisada con Top",
+      "precio": 36,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-023-1787029106722-1.jpeg",
+        "assets/productos/uploads/con-023-1787029106722-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda plisada con top",
+        "one size: s/m incluye: top + falda + banda para el cabello",
+        "conjunto",
+        "falda",
+        "plisada",
+        "top",
+        "one",
+        "size:",
+        "incluye:",
+        "banda",
+        "cabello",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-024",
+      "carpeta": "CON-024",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Falda",
+      "precio": 32,
+      "colores": "Azul y amarillo",
+      "imagenes": [
+        "assets/productos/uploads/con-024-1787030158231-1.jpeg",
+        "assets/productos/uploads/con-024-1787030158231-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "one",
+        "size:",
+        "azul",
+        "amarillo"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-025",
+      "carpeta": "CON-025",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Falda Tejida con Top",
+      "precio": 30,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-025-1787030318402-1.jpeg",
+        "assets/productos/uploads/con-025-1787030318402-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda tejida con top",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "tejida",
+        "top",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-026",
+      "carpeta": "CON-026",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Falda Short Casual",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-026-1787030556362-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda short casual",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "short",
+        "casual",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 25,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-027",
+      "carpeta": "CON-027",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size S/M/L",
+      "nombre": "Conjunto de Falda Polo",
+      "precio": 32,
+      "colores": "Gris",
+      "imagenes": [
+        "assets/productos/uploads/con-027-1787030984563-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda polo",
+        "one size s/m/l",
+        "conjunto",
+        "falda",
+        "polo",
+        "one",
+        "size",
+        "gris"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-028",
+      "carpeta": "CON-028",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M y L/XL",
+      "nombre": "Conjunto de Falda Estampada con Top",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-028-1787031148938-1.jpeg",
+        "assets/productos/uploads/con-028-1787031148938-2.jpeg",
+        "assets/productos/uploads/con-028-1787031148938-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda estampada con top",
+        "one size: s/m y l/xl",
+        "conjunto",
+        "falda",
+        "estampada",
+        "top",
+        "one",
+        "size:",
+        "xl",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 30,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-029",
+      "carpeta": "CON-029",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Conjunto de Falda Short con Top",
+      "precio": 32,
+      "colores": "Blanco y gris",
+      "imagenes": [
+        "assets/productos/uploads/con-029-1787031347610-1.jpeg",
+        "assets/productos/uploads/con-029-1787031347610-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda short con top",
+        "tallas disponibles: s y m",
+        "conjunto",
+        "falda",
+        "short",
+        "top",
+        "tallas",
+        "disponibles:",
+        "blanco",
+        "gris"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-030",
+      "carpeta": "CON-030",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "Tallas disponibles: S y L",
+      "nombre": "Conjunto de Falda Short Plisada con Top",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-030-1787031459031-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda short plisada con top",
+        "tallas disponibles: s y l",
+        "conjunto",
+        "falda",
+        "short",
+        "plisada",
+        "top",
+        "tallas",
+        "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-031",
+      "carpeta": "CON-031",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Falda con Top",
+      "precio": 32,
+      "colores": "Azul",
+      "imagenes": [
+        "assets/productos/uploads/con-031-1787031538980-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda con top",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "top",
+        "one",
+        "size:",
+        "azul"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-032",
+      "carpeta": "CON-032",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Tallas disponibles: S/M Incluye: Top + Leggings + Chaqueta",
+      "nombre": "Conjunto de Leggings 3 Piezas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-032-1787032497571-1.jpeg",
+        "assets/productos/uploads/con-032-1787032497571-2.jpeg",
+        "assets/productos/uploads/con-032-1787032497571-3.jpeg",
+        "assets/productos/uploads/con-032-1787032497571-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings 3 piezas",
+        "tallas disponibles: s/m incluye: top + leggings + chaqueta",
+        "conjunto",
+        "leggings",
+        "piezas",
+        "tallas",
+        "disponibles:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 35,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-033",
+      "carpeta": "CON-033",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Talla disponibles: S Incluye: Top + Chaqueta manga larga + Leggings",
+      "nombre": "Conjunto de Leggings 3 Piezas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-033-1787032624711-1.jpeg",
+        "assets/productos/uploads/con-033-1787032624711-2.jpeg",
+        "assets/productos/uploads/con-033-1787032624711-3.jpeg",
+        "assets/productos/uploads/con-033-1787032624711-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings 3 piezas",
+        "talla disponibles: s incluye: top + chaqueta manga larga + leggings",
+        "conjunto",
+        "leggings",
+        "piezas",
+        "talla",
+        "disponibles:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "manga",
+        "larga",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-034",
+      "carpeta": "CON-034",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size: S/M Incluye: Top + Leggings + Chaqueta",
+      "nombre": "Conjunto de Leggings 3 Piezas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-034-1787032824833-1.jpeg",
+        "assets/productos/uploads/con-034-1787032824833-2.jpeg",
+        "assets/productos/uploads/con-034-1787032824833-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings 3 piezas",
+        "one size: s/m incluye: top + leggings + chaqueta",
+        "conjunto",
+        "leggings",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-035",
+      "carpeta": "CON-035",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size: S/M  Incluye: Top + Leggings acampanado + Chaqueta",
+      "nombre": "Conjunto de Leggings Acampanado",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-035-1787033118282-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings acampanado",
+        "one size: s/m  incluye: top + leggings acampanado + chaqueta",
+        "conjunto",
+        "leggings",
+        "acampanado",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     }
   ]
 }
