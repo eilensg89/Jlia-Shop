@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787030042082"
+    "updatedAt": "1787030158253"
   },
   "productos": [
     {
@@ -1562,6 +1562,40 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-024",
+      "carpeta": "CON-024",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Falda",
+      "precio": 32,
+      "colores": "Azul y amarillo",
+      "imagenes": [
+        "assets/productos/uploads/con-024-1787030158231-1.jpeg",
+        "assets/productos/uploads/con-024-1787030158231-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "one",
+        "size:",
+        "azul",
+        "amarillo"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
       }
     }
   ]
