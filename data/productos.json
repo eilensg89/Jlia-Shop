@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787026677461"
+    "updatedAt": "1787026966451"
   },
   "productos": [
     {
@@ -81,33 +81,6 @@
         "precioOferta": null,
         "etiqueta": ""
       }
-    },
-    {
-      "codigo": "CON-003",
-      "carpeta": "CON-003",
-      "categoria": "Conjuntos",
-      "subcategoria": "Short",
-      "nombre": "Conjunto Deportivo Short Premium",
-      "precio": 35,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-003/1.webp",
-        "assets/productos/CON-003/2.webp",
-        "assets/productos/CON-003/3.webp",
-        "assets/productos/CON-003/4.webp",
-        "assets/productos/CON-003/5.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Short Premium",
-        "Conjuntos",
-        "Short",
-        "CON-003",
-        "leggin",
-        "legging"
-      ]
     },
     {
       "codigo": "CON-004",
