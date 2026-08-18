@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787026359813"
+    "updatedAt": "1787026431988"
   },
   "productos": [
     {
@@ -971,10 +971,10 @@
       "codigo": "VES-004",
       "carpeta": "VES-004",
       "categoria": "Vestidos",
-      "subcategoria": "Vestido",
+      "subcategoria": "One Size:S/M",
       "nombre": "Vestido deportivo incluye calcetas y banda de cabello",
       "precio": 36,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
         "assets/productos/uploads/ves-004-1786925822595-1.jpeg",
         "assets/productos/uploads/ves-004-1786925822595-2.jpeg",
@@ -995,7 +995,12 @@
         "calcetas",
         "banda",
         "cabello",
-        "varios"
+        "varios",
+        "one size:s/m",
+        "one",
+        "size:s",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
