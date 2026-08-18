@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787030318427"
+    "updatedAt": "1787030556375"
   },
   "productos": [
     {
@@ -1631,6 +1631,41 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 26,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-026",
+      "carpeta": "CON-026",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Falda Short Casual",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-026-1787030556362-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda short casual",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "short",
+        "casual",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 25,
         "etiqueta": "OFERTA"
       }
     }
