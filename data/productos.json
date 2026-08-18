@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787028901033"
+    "updatedAt": "1787029022305"
   },
   "productos": [
     {
@@ -89,34 +89,6 @@
         "precioOferta": null,
         "etiqueta": ""
       }
-    },
-    {
-      "codigo": "CON-007",
-      "carpeta": "CON-007",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "Pantalón",
-      "nombre": "Conjunto Deportivo Pantalón",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-007/1.webp",
-        "assets/productos/CON-007/2.webp",
-        "assets/productos/CON-007/3.webp",
-        "assets/productos/CON-007/4.webp",
-        "assets/productos/CON-007/5.webp",
-        "assets/productos/CON-007/6.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Pantalón",
-        "Conjuntos",
-        "Pantalón",
-        "CON-007",
-        "leggin",
-        "legging"
-      ]
     },
     {
       "codigo": "CON-008",
