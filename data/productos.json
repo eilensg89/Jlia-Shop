@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787030613638"
+    "updatedAt": "1787030984605"
   },
   "productos": [
     {
@@ -1612,6 +1612,39 @@
         "descuento": 0,
         "precioOferta": 25,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-027",
+      "carpeta": "CON-027",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size S/M/L",
+      "nombre": "Conjunto de Falda Polo",
+      "precio": 32,
+      "colores": "Gris",
+      "imagenes": [
+        "assets/productos/uploads/con-027-1787030984563-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda polo",
+        "one size s/m/l",
+        "conjunto",
+        "falda",
+        "polo",
+        "one",
+        "size",
+        "gris"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
