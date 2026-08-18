@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787028183943"
+    "updatedAt": "1787028414499"
   },
   "productos": [
     {
@@ -52,27 +52,39 @@
       "codigo": "CON-005",
       "carpeta": "CON-005",
       "categoria": "Conjuntos de Faldas",
-      "subcategoria": "Falda",
-      "nombre": "Conjunto Deportivo Falda + Banda",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Falda Short con Top",
       "precio": 36,
-      "colores": "Varios",
+      "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/CON-005/1.webp",
         "assets/productos/CON-005/2.webp",
-        "assets/productos/CON-005/3.webp",
-        "assets/productos/CON-005/4.webp"
+        "assets/productos/uploads/con-005-1787028414472-1.jpeg",
+        "assets/productos/uploads/con-005-1787028414472-2.jpeg",
+        "assets/productos/uploads/con-005-1787028414472-3.jpeg"
       ],
       "destacado": true,
       "estado": "Activo",
       "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
       "palabrasClave": [
-        "Conjunto Deportivo Falda + Banda",
-        "Conjuntos",
-        "Falda",
-        "CON-005",
-        "leggin",
-        "legging"
-      ]
+        "conjuntos de faldas",
+        "conjunto de falda short con top",
+        "one size: s/m",
+        "conjunto",
+        "falda",
+        "short",
+        "top",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "CON-006",
