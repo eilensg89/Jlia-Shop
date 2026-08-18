@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787030984605"
+    "updatedAt": "1787031148976"
   },
   "productos": [
     {
@@ -1645,6 +1645,44 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-028",
+      "carpeta": "CON-028",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "One Size: S/M y L/XL",
+      "nombre": "Conjunto de Falda Estampada con Top",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-028-1787031148938-1.jpeg",
+        "assets/productos/uploads/con-028-1787031148938-2.jpeg",
+        "assets/productos/uploads/con-028-1787031148938-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "conjunto de falda estampada con top",
+        "one size: s/m y l/xl",
+        "conjunto",
+        "falda",
+        "estampada",
+        "top",
+        "one",
+        "size:",
+        "xl",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 30,
+        "etiqueta": "OFERTA"
       }
     }
   ]
