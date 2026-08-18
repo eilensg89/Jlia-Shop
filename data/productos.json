@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787032824904"
+    "updatedAt": "1787033118299"
   },
   "productos": [
     {
@@ -1895,6 +1895,43 @@
         "conjunto",
         "leggings",
         "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-035",
+      "carpeta": "CON-035",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size: S/M  Incluye: Top + Leggings acampanado + Chaqueta",
+      "nombre": "Conjunto de Leggings Acampanado",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-035-1787033118282-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings acampanado",
+        "one size: s/m  incluye: top + leggings acampanado + chaqueta",
+        "conjunto",
+        "leggings",
+        "acampanado",
         "one",
         "size:",
         "incluye:",
