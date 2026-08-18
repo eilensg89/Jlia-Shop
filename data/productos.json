@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787024370764"
+    "updatedAt": "1787024501444"
   },
   "productos": [
     {
@@ -1274,6 +1274,39 @@
         "descuento": 0,
         "precioOferta": 20,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-013",
+      "carpeta": "CON-013",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M/L",
+      "nombre": "Conjunto Casual de Short",
+      "precio": 35,
+      "colores": "Gris",
+      "imagenes": [
+        "assets/productos/uploads/con-013-1787024501425-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto casual de short",
+        "one size: s/m/l",
+        "conjunto",
+        "casual",
+        "short",
+        "one",
+        "size:",
+        "gris"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
