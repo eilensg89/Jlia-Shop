@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787024501444"
+    "updatedAt": "1787024654596"
   },
   "productos": [
     {
@@ -1300,6 +1300,41 @@
         "one",
         "size:",
         "gris"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-014",
+      "carpeta": "CON-014",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "Tallas disponibles:M y L",
+      "nombre": "Conjunto Deportivo de Short",
+      "precio": 32,
+      "colores": "Blanco y negro",
+      "imagenes": [
+        "assets/productos/uploads/con-014-1787024654562-1.jpeg",
+        "assets/productos/uploads/con-014-1787024654562-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto deportivo de short",
+        "tallas disponibles:m y l",
+        "conjunto",
+        "deportivo",
+        "short",
+        "tallas",
+        "disponibles:m",
+        "blanco",
+        "negro"
       ],
       "promocion": {
         "activa": false,
