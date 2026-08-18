@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787030587246"
+    "updatedAt": "1787030613638"
   },
   "productos": [
     {
@@ -89,31 +89,6 @@
         "precioOferta": null,
         "etiqueta": ""
       }
-    },
-    {
-      "codigo": "CON-010",
-      "carpeta": "CON-010",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-010/1.webp",
-        "assets/productos/CON-010/2.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Pantalón + Malla y Blusa 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "Pantalón",
-        "CON-010",
-        "leggin",
-        "legging"
-      ]
     },
     {
       "codigo": "VES-001",
