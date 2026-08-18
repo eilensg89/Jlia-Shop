@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787030556375"
+    "updatedAt": "1787030587246"
   },
   "productos": [
     {
@@ -89,36 +89,6 @@
         "precioOferta": null,
         "etiqueta": ""
       }
-    },
-    {
-      "codigo": "CON-009",
-      "carpeta": "CON-009",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "3 piezas",
-      "nombre": "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
-      "precio": 40,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-009/1.webp",
-        "assets/productos/CON-009/2.webp",
-        "assets/productos/CON-009/3.webp",
-        "assets/productos/CON-009/4.webp",
-        "assets/productos/CON-009/5.webp",
-        "assets/productos/CON-009/6.webp",
-        "assets/productos/CON-009/7.webp"
-      ],
-      "destacado": true,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Pantalón + Banda para Cabello 3 Piezas",
-        "Conjuntos",
-        "3 piezas",
-        "Pantalón",
-        "CON-009",
-        "leggin",
-        "legging"
-      ]
     },
     {
       "codigo": "CON-010",
