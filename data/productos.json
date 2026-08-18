@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787025486331"
+    "updatedAt": "1787025595836"
   },
   "productos": [
     {
@@ -1481,6 +1481,42 @@
         "size:",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-019",
+      "carpeta": "CON-019",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M Incluye: Top + Short + Chaqueta",
+      "nombre": "Conjunto de Short 3 Piezas",
+      "precio": 36,
+      "colores": "Rosa",
+      "imagenes": [
+        "assets/productos/uploads/con-019-1787025595817-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto de short 3 piezas",
+        "one size: s/m incluye: top + short + chaqueta",
+        "conjunto",
+        "short",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "chaqueta",
+        "rosa"
       ],
       "promocion": {
         "activa": false,
