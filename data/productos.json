@@ -1,46 +1,8 @@
 {
+  "_meta": {
+    "updatedAt": "1787027825746"
+  },
   "productos": [
-    {
-      "codigo": "CON-001",
-      "carpeta": "CON-001",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "Casual",
-      "nombre": "Conjunto Deportivo Casual",
-      "precio": 32,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CON-001/1.webp",
-        "assets/productos/CON-001/2.webp",
-        "assets/productos/CON-001/3.webp",
-        "assets/productos/CON-001/4.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Conjunto Deportivo Casual",
-        "Conjuntos",
-        "Casual",
-        "CON-001",
-        "leggin",
-        "legging",
-        "conjuntos",
-        "conjunto deportivo casual",
-        "casual",
-        "conjunto",
-        "set",
-        "ropa",
-        "deportivo",
-        "varios"
-      ],
-      "promocion": {
-        "activa": true,
-        "tipo": "precio",
-        "descuento": 0,
-        "precioOferta": 26,
-        "etiqueta": "OFERTA"
-      }
-    },
     {
       "codigo": "CON-002",
       "carpeta": "CON-002",
