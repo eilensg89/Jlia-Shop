@@ -33,7 +33,7 @@
   "rewrites": [
     {
       "source": "/producto/:slug",
-      "destination": "/"
+      "destination": "/api/product-page?slug=:slug"
     }
   ]
 }

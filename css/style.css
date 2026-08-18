@@ -70,68 +70,63 @@
 /* Enlaces individuales y compartir producto */
 .card-actions{flex-wrap:wrap}.card-actions .share-product-btn{flex-basis:100%;background:#f7eff8;color:var(--purple);border-color:#e7d8ea}.btn-share{width:100%;margin-top:10px;background:#f7eff8;color:var(--purple);border:1px solid #e7d8ea;cursor:pointer}.btn-share:hover,.share-product-btn:hover{background:#efe1f2}
 
-/* ==========================================================
-   FIX JLIA MOBILE GALLERY — 2026-08-16
-   Mantiene cualquier proporción de foto dentro de la galería
-   y evita que invada el bloque de información del producto.
-   ========================================================== */
-@media (max-width:700px){
-  #productModal .modal-card{
-    display:flex;
-    flex-direction:column;
+
+/* ===== JLIA v11 · GALERÍA ADAPTATIVA + SOCIAL SHARE ===== */
+.product-image{aspect-ratio:4 / 5}
+.product-image img{width:100%;height:100%;object-fit:cover;object-position:center center}
+
+.modal-gallery{min-height:0;overflow:hidden;isolation:isolate}
+.modal-gallery>img{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  object-position:center center
+}
+
+@media(min-width:701px){
+  .modal-gallery{height:min(720px,76vh);min-height:560px}
+}
+
+@media(max-width:700px){
+  .modal-card{
+    display:block;
     width:100vw;
     height:100dvh;
     max-height:100dvh;
     overflow-y:auto;
-    overflow-x:hidden;
-    overscroll-behavior:contain;
+    overflow-x:hidden
   }
 
-  #productModal .modal-gallery{
-    display:grid;
-    place-items:center;
-    flex:0 0 auto;
+  .modal-gallery{
     width:100%;
-    height:58dvh;
-    min-height:0;
-    max-height:58dvh;
-    overflow:hidden;
-    position:relative;
+    min-height:0!important;
+    max-height:72dvh;
     background:#f3edf3;
+    flex:none
   }
 
-  #productModal .modal-gallery > #modalImage{
-    display:block;
+  .modal-gallery.media-portrait-916{height:min(177.78vw,72dvh)}
+  .modal-gallery.media-portrait-45{height:min(125vw,72dvh)}
+  .modal-gallery.media-square{height:min(100vw,72dvh)}
+  .modal-gallery.media-landscape-169{height:min(56.25vw,62dvh);min-height:220px!important}
+
+  .modal-gallery>img{
     width:100%;
     height:100%;
-    max-width:100%;
-    max-height:100%;
-    object-fit:contain;
-    object-position:center center;
-    margin:0;
+    object-fit:contain!important;
+    object-position:center center!important
   }
 
-  #productModal .modal-info{
+  .modal-info{
     position:relative;
-    z-index:1;
-    flex:0 0 auto;
+    z-index:2;
     width:100%;
-    min-width:0;
     padding:26px 22px calc(34px + env(safe-area-inset-bottom));
-    background:#fff;
+    background:#fff
   }
 
-  #productModal .gallery-dots{
-    left:50%;
-    transform:translateX(-50%);
-    max-width:70%;
-    overflow:hidden;
-  }
-}
-
-@media (max-width:420px){
-  #productModal .modal-gallery{
-    height:55dvh;
-    max-height:55dvh;
-  }
+  .gallery-counter,.gallery-dots,.modal-gallery>button{z-index:5}
 }

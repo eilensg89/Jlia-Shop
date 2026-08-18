@@ -1,0 +1,23 @@
+JLIA SHOP v11 — SOCIAL PREVIEW + GALERÍA ADAPTATIVA
+
+AGREGA:
+- Miniatura del producto al compartir su link individual.
+- Título, descripción, precio, canonical y Product JSON-LD por producto.
+- Galería adaptable a 9:16, 4:5, 1:1 y 16:9.
+- Detalle con object-fit: contain: no cortar ni deformar.
+- Tarjetas 4:5 con crop controlado para mantener el catálogo ordenado.
+
+NO TOCA:
+- OAuth
+- Login móvil
+- Admin
+- Guardado y commits
+- Deploy hook
+- Productos/categorías reales
+
+ARCHIVOS:
+- api/product-page.js (nuevo)
+- vercel.json
+- index.html
+- js/app.js
+- css/style.css
