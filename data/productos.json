@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787166458210"
+    "updatedAt": "1787167193537"
   },
   "productos": [
     {
@@ -3054,6 +3054,40 @@
         "camiseta",
         "corta",
         "blanco"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-055",
+      "carpeta": "CON-055",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Saya Short de Volantes",
+      "precio": 28,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-055-1787167193505-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "saya short de volantes",
+        "tallas disponibles: s y m",
+        "saya",
+        "short",
+        "volantes",
+        "tallas",
+        "disponibles:",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
