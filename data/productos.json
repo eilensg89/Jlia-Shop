@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787153576164"
+    "updatedAt": "1787154270121"
   },
   "productos": [
     {
@@ -2512,6 +2512,45 @@
         "top",
         "tallas",
         "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-042",
+      "carpeta": "CON-042",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size: S/M Incluye: Legging, top y banda para el cabello",
+      "nombre": "Conjunto Deportivo",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-042-1787154270078-1.jpeg",
+        "assets/productos/uploads/con-042-1787154270078-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto deportivo",
+        "one size: s/m incluye: legging, top y banda para el cabello",
+        "conjunto",
+        "deportivo",
+        "one",
+        "size:",
+        "incluye:",
+        "legging",
+        "top",
+        "banda",
+        "cabello",
         "disponibilidad",
         "fotos"
       ],
