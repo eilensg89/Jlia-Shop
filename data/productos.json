@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787167282399"
+    "updatedAt": "1787167534718"
   },
   "productos": [
     {
@@ -420,14 +420,12 @@
       "codigo": "CAL-002",
       "carpeta": "CAL-002",
       "categoria": "Calzado",
-      "subcategoria": "Sandalias",
-      "nombre": "Sandalias",
+      "subcategoria": "Número disponible: 37 / US 7",
+      "nombre": "Sandalias estilo casual",
       "precio": 40,
-      "colores": "Varios",
+      "colores": "Blanco",
       "imagenes": [
-        "assets/productos/CAL-002/1.webp",
-        "assets/productos/CAL-002/2.webp",
-        "assets/productos/CAL-002/3.webp"
+        "assets/productos/CAL-002/1.webp"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -437,8 +435,28 @@
         "Calzado",
         "CAL-002",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "calzado",
+        "sandalias estilo casual",
+        "número disponible: 37 / us 7",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "estilo",
+        "casual",
+        "número",
+        "disponible:",
+        "us",
+        "blanco"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "CAR-001",
