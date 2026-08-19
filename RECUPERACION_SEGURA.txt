@@ -1,0 +1,17 @@
+RECUPERACIÓN SEGURA JLIA SHOP
+
+BASE: Jlia-Shop(10).zip (la copia local que tenía CAL-001 = Inactivo).
+
+ESTA VERSIÓN:
+- NO modifica ningún producto existente.
+- NO cambia categorías.
+- NO cambia config.
+- Añade solamente:
+  PIJ-002 a PIJ-007
+  VES-005 a VES-007
+- Incluye las imágenes históricas asociadas a esos productos.
+- Incluye admin/panel.js con protección de guardado.
+
+IMPORTANTE:
+El paquete anterior estaba basado en otra instantánea y podía cambiar CAL-001 de Inactivo a Activo.
+Este paquete corrige eso: preserva el estado existente de todos los productos.
