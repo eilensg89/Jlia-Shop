@@ -57,7 +57,10 @@ async function loadAll(){
   setStatus('Cargando…');
   const [p,cfg,cats]=await Promise.all([loadJson('data/productos.json'),loadJson('data/config.json'),loadJson('data/categorias.json')]);
   state.products=Array.isArray(p)?p:(p.productos||[]);
-  state.categories=(Array.isArray(cats)?cats:(cats.categorias||[])).filter(c=>c.id!=='todos');
+  state.categories=(Array.isArray(cats)?cats:(cats.categorias||[]))
+    .filter(c=>c.id!=='todos')
+    .map((c,i)=>({...c,orden:Number.isFinite(Number(c.orden))?Number(c.orden):(i+1)*10}))
+    .sort((a,b)=>Number(a.orden)-Number(b.orden));
   state.config=cfg;
   setStatus('Sin cambios');
   $('#loadingView').hidden=true;
@@ -110,7 +113,7 @@ function hydrateRepoImages(root=document){root.querySelectorAll('img[data-repo-s
 
 function renderCategories(){
   const grid=$('#categoryGrid');
-  grid.innerHTML=state.categories.map(c=>{
+  grid.innerHTML=[...state.categories].sort((a,b)=>Number(a.orden??9999)-Number(b.orden??9999)).map(c=>{
     const count=state.products.filter(p=>p.categoria===c.id).length;
     return `<article class="category-card-admin" data-cat="${esc(c.id)}"><img src="/${esc(c.imagen)}" data-repo-src="${escAttr(c.imagen)}" alt="${esc(c.nombre)}"><div class="category-copy"><h3>${esc(c.nombre)}</h3><p>${count} producto${count===1?'':'s'}</p></div></article>`
   }).join('')||'<div class="empty">No hay categorías.</div>';
@@ -379,8 +382,14 @@ async function saveCategory(){
     let catalogHead=null;
     if(oldId&&oldId!==c.id){catalogHead=await branchHead();state.products=await loadProductsAt(catalogHead)}
     if(oldId){const idx=state.categories.findIndex(x=>x.id===oldId);state.categories[idx]=clone(c);if(oldId!==c.id)state.products.forEach(p=>{if(p.categoria===oldId)p.categoria=c.id})}
-    else{if(state.categories.some(x=>x.id.toLowerCase()===c.id.toLowerCase()))throw new Error('Ya existe una categoría con ese nombre.');state.categories.push(clone(c))}
-    const catsWithAll=[{id:'todos',nombre:'Todo',imagen:'assets/banners/principal.webp'},...state.categories];
+    else{
+      if(state.categories.some(x=>x.id.toLowerCase()===c.id.toLowerCase()))throw new Error('Ya existe una categoría con ese nombre.');
+      c.orden=(state.categories.reduce((m,x)=>Math.max(m,Number(x.orden)||0),0)||0)+10;
+      state.categories.push(clone(c))
+    }
+    state.categories=[...state.categories].sort((a,b)=>Number(a.orden??9999)-Number(b.orden??9999))
+      .map((x,i)=>({...x,orden:(i+1)*10}));
+    const catsWithAll=[{id:'todos',nombre:'Todo',imagen:'assets/banners/principal.webp',orden:0},...state.categories];
     files.push({path:'data/categorias.json',content:JSON.stringify({categorias:catsWithAll},null,2)});
     if(oldId&&oldId!==c.id)files.push({path:'data/productos.json',content:JSON.stringify({productos:state.products},null,2)});
     await gitCommit(files,`${oldId?'Actualizar':'Agregar'} categoría ${c.nombre} desde CMS`,catalogHead);
@@ -393,9 +402,83 @@ async function deleteCategory(){
   if(!confirm(`¿Eliminar la categoría “${c.nombre}”?`))return;
   const previous=state.categories;state.categories=state.categories.filter(x=>x.id!==c.id);
   try{
-    await gitCommit([{path:'data/categorias.json',content:JSON.stringify({categorias:[{id:'todos',nombre:'Todo',imagen:'assets/banners/principal.webp'},...state.categories]},null,2)}],`Eliminar categoría ${c.nombre} desde CMS`);
+    await gitCommit([{path:'data/categorias.json',content:JSON.stringify({categorias:[{id:'todos',nombre:'Todo',imagen:'assets/banners/principal.webp',orden:0},...state.categories.map((x,i)=>({...x,orden:(i+1)*10}))]},null,2)}],`Eliminar categoría ${c.nombre} desde CMS`);
     $('#categoryDialog').close();$('#categoryDetailView').hidden=true;$('#categoryListView').hidden=false;renderCategories();toast('Categoría eliminada. Publicando cambios…');publishInBackground();
   }catch(e){state.categories=previous;showFatal(e)}
+}
+
+
+let categoryOrderDraft=[];
+
+function openCategoryOrder(){
+  categoryOrderDraft=[...state.categories]
+    .sort((a,b)=>Number(a.orden??9999)-Number(b.orden??9999))
+    .map(clone);
+  renderCategoryOrder();
+  $('#categoryOrderDialog').showModal();
+}
+
+function renderCategoryOrder(){
+  const list=$('#categoryOrderList');
+  if(!list)return;
+  list.innerHTML=categoryOrderDraft.map((c,i)=>`
+    <div class="category-order-item" draggable="true" data-order-index="${i}">
+      <span class="drag-handle" aria-hidden="true">☰</span>
+      <img src="/${escAttr(c.imagen)}" data-repo-src="${escAttr(c.imagen)}" alt="">
+      <strong>${esc(c.nombre)}</strong>
+      <span class="order-position">${i+1}</span>
+      <div class="order-buttons">
+        <button type="button" class="icon-btn small" data-order-up="${i}" ${i===0?'disabled':''} aria-label="Subir ${escAttr(c.nombre)}">↑</button>
+        <button type="button" class="icon-btn small" data-order-down="${i}" ${i===categoryOrderDraft.length-1?'disabled':''} aria-label="Bajar ${escAttr(c.nombre)}">↓</button>
+      </div>
+    </div>`).join('');
+  hydrateRepoImages(list);
+
+  list.querySelectorAll('[data-order-up]').forEach(btn=>btn.onclick=()=>{
+    const i=Number(btn.dataset.orderUp); if(i<=0)return;
+    [categoryOrderDraft[i-1],categoryOrderDraft[i]]=[categoryOrderDraft[i],categoryOrderDraft[i-1]];
+    renderCategoryOrder();
+  });
+
+  list.querySelectorAll('[data-order-down]').forEach(btn=>btn.onclick=()=>{
+    const i=Number(btn.dataset.orderDown); if(i>=categoryOrderDraft.length-1)return;
+    [categoryOrderDraft[i+1],categoryOrderDraft[i]]=[categoryOrderDraft[i],categoryOrderDraft[i+1]];
+    renderCategoryOrder();
+  });
+
+  let dragIndex=null;
+  list.querySelectorAll('.category-order-item').forEach(item=>{
+    item.addEventListener('dragstart',()=>{dragIndex=Number(item.dataset.orderIndex);item.classList.add('dragging')});
+    item.addEventListener('dragend',()=>{dragIndex=null;item.classList.remove('dragging')});
+    item.addEventListener('dragover',e=>e.preventDefault());
+    item.addEventListener('drop',e=>{
+      e.preventDefault();
+      const target=Number(item.dataset.orderIndex);
+      if(dragIndex===null||dragIndex===target)return;
+      const [moved]=categoryOrderDraft.splice(dragIndex,1);
+      categoryOrderDraft.splice(target,0,moved);
+      renderCategoryOrder();
+    });
+  });
+}
+
+async function saveCategoryOrder(){
+  const btn=$('#saveCategoryOrderBtn');
+  if(btn?.disabled)return;
+  try{
+    if(btn){btn.disabled=true;btn.textContent='Guardando…'}
+    state.categories=categoryOrderDraft.map((c,i)=>({...c,orden:(i+1)*10}));
+    const content=JSON.stringify({categorias:[
+      {id:'todos',nombre:'Todo',imagen:'assets/banners/principal.webp',orden:0},
+      ...state.categories
+    ]},null,2);
+    await gitCommit([{path:'data/categorias.json',content}],'Reorganizar categorías desde CMS');
+    $('#categoryOrderDialog').close();
+    renderCategories();
+    toast('Orden de categorías guardado. Publicando cambios…');
+    publishInBackground();
+  }catch(e){showFatal(e)}
+  finally{if(btn){btn.disabled=false;btn.textContent='Guardar orden'}}
 }
 
 function field(label,id,value='',type='text',span=false){return `<label class="field ${span?'span-2':''}">${label}<input id="${id}" type="${type}" value="${escAttr(value)}"></label>`}
@@ -418,6 +501,11 @@ function escAttr(s){return esc(s)}
 
 $('#loginBtn').onclick=login;$('#logoutBtn').onclick=logout;
 $('#backCategoriesBtn').onclick=()=>{$('#categoryDetailView').hidden=true;$('#categoryListView').hidden=false;state.activeCategory=null;$('#productSearch').value=''};
+$('#reorderCategoriesBtn').onclick=openCategoryOrder;
+$('#closeCategoryOrderBtn').onclick=()=>$('#categoryOrderDialog').close();
+$('#cancelCategoryOrderBtn').onclick=()=>$('#categoryOrderDialog').close();
+$('#saveCategoryOrderBtn').onclick=saveCategoryOrder;
+$('#categoryOrderDialog').addEventListener('cancel',e=>{e.preventDefault();$('#categoryOrderDialog').close()});
 $('#addCategoryBtn').onclick=()=>openCategoryDialog(true);$('#editCategoryBtn').onclick=()=>openCategoryDialog(false);$('#addProductBtn').onclick=()=>openProduct();$('#productSearch').oninput=renderProducts;
 $('#saveProductBtn').onclick=saveProduct;
 $('#pName').addEventListener('input',refreshProductPublicLink);

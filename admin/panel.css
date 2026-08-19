@@ -7,3 +7,21 @@
 
 /* v10 · promoción temporal — añadido sin alterar el flujo estable de guardado/eliminación */
 .promo-box{border:1px solid #efd4e7;background:linear-gradient(135deg,#fff8fb,#fdf1f8);border-radius:18px;padding:18px;margin-top:2px}.promo-head{display:flex;justify-content:space-between;gap:18px;align-items:center}.promo-head strong{display:block;color:#5d183f;font-size:1rem}.promo-head small{display:block;color:#7f6577;margin-top:4px}.promo-switch{display:flex;align-items:center;gap:8px;font-weight:800;color:#a51f79;white-space:nowrap}.promo-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.promo-preview{border-radius:14px;background:#8d1b66;color:#fff;padding:14px;display:flex;flex-direction:column;justify-content:center}.promo-preview span{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;opacity:.8}.promo-preview strong{font-size:1.15rem;margin:3px 0}.promo-preview small{color:#ffe8f6}.span-2.promo-box{grid-column:1/-1}@media(max-width:720px){.promo-head{align-items:flex-start;flex-direction:column}.promo-fields{grid-template-columns:1fr}}
+
+
+/* === CATEGORY ORDERING — JLIA === */
+.category-order-card{width:min(680px,94vw)}
+.category-order-list{display:grid;gap:10px;margin:18px 0 8px}
+.category-order-item{display:grid;grid-template-columns:28px 54px 1fr 34px auto;gap:12px;align-items:center;padding:10px 12px;border:1px solid #eadde7;border-radius:16px;background:#fff;cursor:grab}
+.category-order-item.dragging{opacity:.55}
+.category-order-item img{width:54px;height:54px;border-radius:12px;object-fit:cover;background:#f6f1f4}
+.drag-handle{font-size:1.15rem;color:#8b7684;text-align:center}
+.order-position{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#f5edf3;color:#7d2d68;font-weight:800;font-size:.82rem}
+.order-buttons{display:flex;gap:6px}
+.icon-btn.small{width:34px;height:34px;font-size:1rem}
+.icon-btn.small:disabled{opacity:.35;cursor:not-allowed}
+@media(max-width:640px){
+  .category-order-item{grid-template-columns:24px 46px 1fr auto}
+  .category-order-item img{width:46px;height:46px}
+  .order-position{display:none}
+}

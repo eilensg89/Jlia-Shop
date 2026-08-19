@@ -43,7 +43,10 @@
           <div id="categoryListView">
             <div class="section-head">
               <div><p class="eyebrow">CATÁLOGO</p><h2>Categorías</h2><p>Entra en una categoría para ver y administrar solamente sus productos.</p></div>
-              <button id="addCategoryBtn" class="btn btn-primary" type="button">+ Nueva categoría</button>
+              <div class="row-actions">
+                <button id="reorderCategoriesBtn" class="btn btn-secondary" type="button">↕ Organizar categorías</button>
+                <button id="addCategoryBtn" class="btn btn-primary" type="button">+ Nueva categoría</button>
+              </div>
             </div>
             <div id="categoryGrid" class="category-grid"></div>
           </div>
@@ -72,6 +75,25 @@
       </section>
     </main>
   </div>
+
+
+  <dialog id="categoryOrderDialog" class="modal">
+    <div class="modal-card category-order-card">
+      <div class="modal-head">
+        <div>
+          <p class="eyebrow">ORGANIZACIÓN</p>
+          <h3>Orden de categorías</h3>
+          <p class="helper">Arrastra las categorías o usa las flechas. La tienda respetará este orden.</p>
+        </div>
+        <button id="closeCategoryOrderBtn" class="icon-btn" type="button" aria-label="Cerrar">×</button>
+      </div>
+      <div id="categoryOrderList" class="category-order-list"></div>
+      <div class="modal-actions">
+        <button id="cancelCategoryOrderBtn" class="btn btn-secondary" type="button">Cancelar</button>
+        <button id="saveCategoryOrderBtn" class="btn btn-primary" type="button">Guardar orden</button>
+      </div>
+    </div>
+  </dialog>
 
   <dialog id="productDialog" class="modal">
     <form id="productForm" class="modal-card modal-wide" novalidate>

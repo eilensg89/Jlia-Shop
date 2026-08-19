@@ -1,0 +1,22 @@
+JLIA SHOP — ORDEN MANUAL DE CATEGORÍAS
+
+Sustituir únicamente:
+- admin/index.html
+- admin/panel.js
+- admin/panel.css
+- js/app.js
+
+NO modifica:
+- data/productos.json
+- data/categorias.json
+- data/config.json
+- imágenes
+- OAuth
+- API
+- deploy
+
+Después del deploy:
+Admin → Categorías → Organizar categorías
+Arrastrar o usar ↑ / ↓ → Guardar orden.
+
+La primera vez que se guarda el orden, categorias.json añadirá el campo `orden` sin borrar ninguna categoría.
