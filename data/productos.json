@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787177075666"
+    "updatedAt": "1787177273203"
   },
   "productos": [
     {
@@ -416,29 +416,6 @@
         "precioOferta": 35,
         "etiqueta": "OFERTA"
       }
-    },
-    {
-      "codigo": "CAR-001",
-      "carpeta": "CAR-001",
-      "categoria": "Carteras",
-      "subcategoria": "Carteras",
-      "nombre": "Cartera",
-      "precio": 45,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CAR-001/1.webp",
-        "assets/productos/CAR-001/2.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Cartera",
-        "Carteras",
-        "CAR-001",
-        "leggin",
-        "legging"
-      ]
     },
     {
       "codigo": "CAR-002",
