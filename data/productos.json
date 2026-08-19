@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787177273203"
+    "updatedAt": "1787177353710"
   },
   "productos": [
     {
@@ -427,8 +427,7 @@
       "colores": "Varios",
       "imagenes": [
         "assets/productos/CAR-002/1.webp",
-        "assets/productos/CAR-002/2.webp",
-        "assets/productos/CAR-002/3.webp"
+        "assets/productos/CAR-002/2.webp"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -439,8 +438,24 @@
         "Sets",
         "CAR-002",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "carteras",
+        "set cartera + sandalias",
+        "sets",
+        "cartera",
+        "bolso",
+        "bolsos",
+        "set",
+        "sandalias",
+        "varios"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 45,
+        "etiqueta": "OFERTA"
+      }
     },
     {
       "codigo": "ACC-001",
