@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787177410764"
+    "updatedAt": "1787177458564"
   },
   "productos": [
     {
@@ -500,29 +500,6 @@
         "Gafas",
         "Accesorios",
         "ACC-002",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "ACC-003",
-      "carpeta": "ACC-003",
-      "categoria": "Accesorios",
-      "subcategoria": "Gorras",
-      "nombre": "Gorra",
-      "precio": 20,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/ACC-003/1.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Gorra",
-        "Accesorios",
-        "Gorras",
-        "ACC-003",
         "leggin",
         "legging"
       ]
