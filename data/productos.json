@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787158988733"
+    "updatedAt": "1787159089463"
   },
   "productos": [
     {
@@ -2746,6 +2746,42 @@
         "ancho",
         "talla",
         "disponible:s",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-048",
+      "carpeta": "CON-048",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "Talla Disponibles: S y M",
+      "nombre": "Conjunto de Pantalón Ancho con Chaqueta",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-048-1787159089427-1.jpeg",
+        "assets/productos/uploads/con-048-1787159089427-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto de pantalón ancho con chaqueta",
+        "talla disponibles: s y m",
+        "conjunto",
+        "pantalón",
+        "ancho",
+        "chaqueta",
+        "talla",
+        "disponibles:",
         "disponibilidad",
         "fotos"
       ],
