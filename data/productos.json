@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787152332347"
+    "updatedAt": "1787153101017"
   },
   "productos": [
     {
@@ -2446,6 +2446,45 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 35,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-040",
+      "carpeta": "CON-040",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size: L/XL Incluye: Legging, pulóver, medias y gorra",
+      "nombre": "Conjunto de Legging y Pulóver",
+      "precio": 45,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-040-1787153100927-1.png",
+        "assets/productos/uploads/con-040-1787153100927-2.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de legging y pulóver",
+        "one size: l/xl incluye: legging, pulóver, medias y gorra",
+        "conjunto",
+        "legging",
+        "pulóver",
+        "one",
+        "size:",
+        "xl",
+        "incluye:",
+        "medias",
+        "gorra",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 38,
         "etiqueta": "OFERTA"
       }
     }
