@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787168415398"
+    "updatedAt": "1787169266508"
   },
   "productos": [
     {
@@ -3183,6 +3183,44 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 35,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CAL-006",
+      "carpeta": "CAL-006",
+      "categoria": "Calzado",
+      "subcategoria": "Número disponible: 36 / US 6",
+      "nombre": "Sandalias estilo casual",
+      "precio": 55,
+      "colores": "Disponibilidades en las fotos",
+      "imagenes": [
+        "assets/productos/uploads/cal-006-1787169266444-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "sandalias estilo casual",
+        "número disponible: 36 / us 6",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "estilo",
+        "casual",
+        "número",
+        "disponible:",
+        "us",
+        "disponibilidades",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 45,
         "etiqueta": "OFERTA"
       }
     }
