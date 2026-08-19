@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787162683099"
+    "updatedAt": "1787163010082"
   },
   "productos": [
     {
@@ -297,7 +297,8 @@
       "imagenes": [
         "assets/productos/PAN-001/1.webp",
         "assets/productos/PAN-001/2.webp",
-        "assets/productos/PAN-001/3.webp"
+        "assets/productos/PAN-001/3.webp",
+        "assets/productos/uploads/pan-001-1787163010074-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -308,8 +309,22 @@
         "Casual",
         "PAN-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "pantalones",
+        "pantalón deportivo",
+        "casual",
+        "pantalón",
+        "pantalon",
+        "deportivo",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "BLU-001",
