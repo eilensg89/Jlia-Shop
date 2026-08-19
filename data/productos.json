@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787169746465"
+    "updatedAt": "1787170343218"
   },
   "productos": [
     {
@@ -527,29 +527,6 @@
         "Carteras",
         "Billeteras",
         "CAR-003",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CAR-004",
-      "carpeta": "CAR-004",
-      "categoria": "Carteras",
-      "subcategoria": "Monederos",
-      "nombre": "Monedero",
-      "precio": 35,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CAR-004/1.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Monedero",
-        "Carteras",
-        "Monederos",
-        "CAR-004",
         "leggin",
         "legging"
       ]
