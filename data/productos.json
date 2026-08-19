@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787167847180"
+    "updatedAt": "1787168040367"
   },
   "productos": [
     {
@@ -3091,6 +3091,44 @@
         "calzado",
         "sandalias estilo casual",
         "número disponible: 37 / us 7",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "estilo",
+        "casual",
+        "número",
+        "disponible:",
+        "us",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 35,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CAL-004",
+      "carpeta": "CAL-004",
+      "categoria": "Calzado",
+      "subcategoria": "Número disponible: 36 / US 6",
+      "nombre": "Sandalias estilo casual",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/cal-004-1787168040288-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "sandalias estilo casual",
+        "número disponible: 36 / us 6",
         "zapato",
         "zapatos",
         "tenis",
