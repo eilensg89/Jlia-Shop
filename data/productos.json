@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787163155452"
+    "updatedAt": "1787166458210"
   },
   "productos": [
     {
@@ -3017,6 +3017,43 @@
         "disponibles:",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-054",
+      "carpeta": "CON-054",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M/L    Incluye: Body + short + camiseta corta",
+      "nombre": "Conjunto de Short 3 Piezas",
+      "precio": 35,
+      "colores": "Blanco",
+      "imagenes": [
+        "assets/productos/uploads/con-054-1787166458192-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto de short 3 piezas",
+        "one size: s/m/l    incluye: body + short + camiseta corta",
+        "conjunto",
+        "short",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "body",
+        "camiseta",
+        "corta",
+        "blanco"
       ],
       "promocion": {
         "activa": false,
