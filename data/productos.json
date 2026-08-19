@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787162258589"
+    "updatedAt": "1787162399721"
   },
   "productos": [
     {
@@ -2890,6 +2890,44 @@
         "tejido",
         "tallas",
         "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-052",
+      "carpeta": "CON-052",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "One Size: S/M/L",
+      "nombre": "Conjunto Casual de Pantalón",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-052-1787162399645-1.jpeg",
+        "assets/productos/uploads/con-052-1787162399645-2.jpeg",
+        "assets/productos/uploads/con-052-1787162399645-3.jpeg",
+        "assets/productos/uploads/con-052-1787162399645-4.jpeg",
+        "assets/productos/uploads/con-052-1787162399645-5.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto casual de pantalón",
+        "one size: s/m/l",
+        "conjunto",
+        "casual",
+        "pantalón",
+        "one",
+        "size:",
         "disponibilidad",
         "fotos"
       ],
