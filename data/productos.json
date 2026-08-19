@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787167756757"
+    "updatedAt": "1787167847180"
   },
   "productos": [
     {
@@ -420,7 +420,7 @@
       "codigo": "CAL-002",
       "carpeta": "CAL-002",
       "categoria": "Calzado",
-      "subcategoria": "Número disponible: 37 / US 7",
+      "subcategoria": "Número disponible: 36 / US 6",
       "nombre": "Sandalias estilo casual",
       "precio": 40,
       "colores": "Blanco",
@@ -448,7 +448,8 @@
         "número",
         "disponible:",
         "us",
-        "blanco"
+        "blanco",
+        "número disponible: 36 / us 6"
       ],
       "promocion": {
         "activa": true,
