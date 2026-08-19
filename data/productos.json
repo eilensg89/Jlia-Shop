@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787159089463"
+    "updatedAt": "1787159679115"
   },
   "productos": [
     {
@@ -2782,6 +2782,46 @@
         "chaqueta",
         "talla",
         "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-049",
+      "carpeta": "CON-049",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "One Size: S/M Incluye: Top, pantalón cargo y banda para el cabello",
+      "nombre": "Conjunto Casual Cargo",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-049-1787159679092-1.jpeg",
+        "assets/productos/uploads/con-049-1787159679092-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto casual cargo",
+        "one size: s/m incluye: top, pantalón cargo y banda para el cabello",
+        "conjunto",
+        "casual",
+        "cargo",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "pantalón",
+        "banda",
+        "cabello",
         "disponibilidad",
         "fotos"
       ],
