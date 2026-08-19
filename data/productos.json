@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787167193537"
+    "updatedAt": "1787167282399"
   },
   "productos": [
     {
@@ -407,49 +407,6 @@
         "s-m",
         "disponibilidad",
         "fotos"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
-      }
-    },
-    {
-      "codigo": "CAL-001",
-      "carpeta": "CAL-001",
-      "categoria": "Calzado",
-      "subcategoria": "Zapatillas",
-      "nombre": "Zapatillas Deportivas (solo por encargo)",
-      "precio": 55,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CAL-001/1.webp",
-        "assets/productos/CAL-001/2.webp",
-        "assets/productos/CAL-001/3.webp"
-      ],
-      "destacado": false,
-      "estado": "Inactivo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Zapatillas Deportivas (solo por encargo)",
-        "Calzado",
-        "Zapatillas",
-        "CAL-001",
-        "leggin",
-        "legging",
-        "calzado",
-        "zapatillas deportivas (solo por encargo)",
-        "zapatillas",
-        "zapato",
-        "zapatos",
-        "tenis",
-        "sandalias",
-        "deportivas",
-        "(solo",
-        "encargo)",
-        "varios"
       ],
       "promocion": {
         "activa": false,
