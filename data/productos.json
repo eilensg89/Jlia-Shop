@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787033118299"
+    "updatedAt": "1787137977336"
   },
   "productos": [
     {
@@ -1937,6 +1937,351 @@
         "incluye:",
         "top",
         "chaqueta",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "PIJ-002",
+      "carpeta": "PIJ-002",
+      "categoria": "Pijamas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Pijama Oversize + Ropa Interior",
+      "precio": 22,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-002-1786992279865-1.jpeg",
+        "assets/productos/uploads/pij-002-1786992279865-2.jpeg",
+        "assets/productos/uploads/pij-002-1786992279865-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "blusones pijamas con ropa interior",
+        "one size (s-m)",
+        "pijama",
+        "blusones",
+        "ropa",
+        "interior",
+        "one",
+        "size",
+        "(s-m)",
+        "disponibles",
+        "fotos",
+        "one size: s/m",
+        "size:",
+        "según",
+        "disponibilidad",
+        "pijama oversize + ropa interior",
+        "oversize"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 18,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "PIJ-003",
+      "carpeta": "PIJ-003",
+      "categoria": "Pijamas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Pijama Pantalón 2 Piezas",
+      "precio": 25,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-003-1786992768985-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "pijamas de dos piezas",
+        "one size (s-m)",
+        "pijama",
+        "dos",
+        "piezas",
+        "one",
+        "size",
+        "(s-m)",
+        "disponibles",
+        "fotos",
+        "pijama pantalón 2 piezas",
+        "one size: s/m",
+        "pantalón",
+        "size:",
+        "según",
+        "disponibilidad"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 18,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "PIJ-004",
+      "carpeta": "PIJ-004",
+      "categoria": "Pijamas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Set de Pijama + Ropa Interior – 2 piezas",
+      "precio": 22,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-004-1786993122330-1.jpeg",
+        "assets/productos/uploads/pij-004-1786993122330-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "set de pijama + ropa interior – 2 piezas",
+        "one size: s/m",
+        "pijama",
+        "set",
+        "ropa",
+        "interior",
+        "piezas",
+        "one",
+        "size:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 18,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "PIJ-005",
+      "carpeta": "PIJ-005",
+      "categoria": "Pijamas",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Pijama Enterizo Corto Manga Larga",
+      "precio": 20,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-005-1786993639577-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "pijama enterizo corto manga larga",
+        "one size: s/m",
+        "pijama",
+        "enterizo",
+        "corto",
+        "manga",
+        "larga",
+        "one",
+        "size:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 16,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "PIJ-006",
+      "carpeta": "PIJ-006",
+      "categoria": "Pijamas",
+      "subcategoria": "Tallas disponibles: M y L",
+      "nombre": "Pijama Short 2 Piezas",
+      "precio": 10,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-006-1786994082285-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "pijama short 2 piezas",
+        "tallas disponibles: m y l",
+        "pijama",
+        "short",
+        "piezas",
+        "tallas",
+        "disponibles:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "PIJ-007",
+      "carpeta": "PIJ-007",
+      "categoria": "Pijamas",
+      "subcategoria": "Tallas disponibles: L y XL",
+      "nombre": "Pijama Vestido",
+      "precio": 10,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pij-007-1786994349874-1.jpeg",
+        "assets/productos/uploads/pij-007-1786994349874-2.jpeg",
+        "assets/productos/uploads/pij-007-1786994349874-3.jpeg",
+        "assets/productos/uploads/pij-007-1786994349874-4.jpeg",
+        "assets/productos/uploads/pij-007-1786994349874-5.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pijamas",
+        "pijama vestido",
+        "tallas disponibles: l y xl",
+        "pijama",
+        "vestido",
+        "tallas",
+        "disponibles:",
+        "xl",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 6,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "VES-005",
+      "carpeta": "VES-005",
+      "categoria": "Vestidos",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Vestido Midi Deportivo",
+      "precio": 30,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ves-005-1786994809235-1.jpeg",
+        "assets/productos/uploads/ves-005-1786994809235-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "vestidos",
+        "vestido midi deportivo",
+        "tallas disponibles: s y m",
+        "vestido",
+        "dress",
+        "midi",
+        "deportivo",
+        "tallas",
+        "disponibles:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 25,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "VES-006",
+      "carpeta": "VES-006",
+      "categoria": "Vestidos",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Vestido Corto Deportivo",
+      "precio": 30,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ves-006-1786995214358-1.jpeg",
+        "assets/productos/uploads/ves-006-1786995214358-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "vestidos",
+        "vestido corto deportivo",
+        "tallas disponibles: s y m",
+        "vestido",
+        "dress",
+        "corto",
+        "deportivo",
+        "tallas",
+        "disponibles:",
+        "según",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 25,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "VES-007",
+      "carpeta": "VES-007",
+      "categoria": "Vestidos",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Vestido Corto con Volantes",
+      "precio": 28,
+      "colores": "Según disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ves-007-1786995742388-1.jpeg",
+        "assets/productos/uploads/ves-007-1786995742388-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "vestidos",
+        "vestido corto con volantes",
+        "tallas disponibles: s y m",
+        "vestido",
+        "dress",
+        "corto",
+        "volantes",
+        "tallas",
+        "disponibles:",
+        "según",
         "disponibilidad",
         "fotos"
       ],

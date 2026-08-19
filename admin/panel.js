@@ -50,6 +50,8 @@ function ghHeaders(){return {Authorization:`Bearer ${state.token}`,Accept:'appli
 async function gh(path,opts={}){const r=await fetch(`${API}${path}`,{...opts,headers:{...ghHeaders(),...(opts.headers||{})}});if(!r.ok){const txt=await r.text();throw new Error(`GitHub ${r.status}: ${txt}`)}return r.status===204?null:r.json()}
 function decodeBase64Utf8(b64){const bytes=Uint8Array.from(atob(b64.replace(/\n/g,'')),c=>c.charCodeAt(0));return new TextDecoder().decode(bytes)}
 async function loadJson(path){const d=await gh(`/repos/${REPO}/contents/${path}?ref=${BRANCH}`);return JSON.parse(decodeBase64Utf8(d.content))}
+async function branchHead(){const r=await gh(`/repos/${REPO}/git/ref/heads/${BRANCH}`);return r.object.sha}
+async function loadProductsAt(ref){const d=await gh(`/repos/${REPO}/contents/data/productos.json?ref=${encodeURIComponent(ref)}`);const j=JSON.parse(decodeBase64Utf8(d.content));return Array.isArray(j)?j:(j.productos||[])}
 
 async function loadAll(){
   setStatus('Cargando…');
@@ -249,9 +251,10 @@ function moveImage(i,d){const arr=unifiedImages();const j=i+d;if(j<0||j>=arr.len
 
 async function fileToBase64(file){const buf=await file.arrayBuffer();let binary='';const bytes=new Uint8Array(buf);const chunk=0x8000;for(let i=0;i<bytes.length;i+=chunk)binary+=String.fromCharCode(...bytes.subarray(i,i+chunk));return btoa(binary)}
 async function triggerDeploy(){const r=await fetch('/api/deploy',{method:'POST',headers:{Authorization:`Bearer ${state.token}`}});const data=await r.json().catch(()=>({}));if(!r.ok)throw new Error(data.error||`No se pudo iniciar la publicación en Vercel (${r.status}).`);return data}
-async function gitCommit(files,message){
+async function gitCommit(files,message,expectedParent=null){
   setStatus('Guardando en GitHub…');
   const ref=await gh(`/repos/${REPO}/git/ref/heads/${BRANCH}`);const parent=ref.object.sha;
+  if(expectedParent&&parent!==expectedParent)throw new Error('El catálogo cambió desde otro dispositivo mientras editabas. No se sobrescribió nada. Pulsa guardar otra vez para usar la versión más reciente.');
   const commit=await gh(`/repos/${REPO}/git/commits/${parent}`);const entries=[];
   for(const f of files){
     const blob=await gh(`/repos/${REPO}/git/blobs`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({content:f.base64?f.content:btoa(unescape(encodeURIComponent(f.content))),encoding:'base64'})});
@@ -306,6 +309,10 @@ async function saveProduct(){
     const manual=$('#pKeywords').value.split(',').map(clean).filter(Boolean);
     p.palabrasClave=[...new Set([...manual,...generatedKeywords()])];
     p.categoria=state.activeCategory;
+
+    // PROTECCIÓN ANTI-SOBRESCRITURA: trabajar siempre sobre el catálogo más reciente.
+    const catalogHead=await branchHead();
+    state.products=await loadProductsAt(catalogHead);
     p.codigo=p.codigo||nextCode(p.categoria);p.carpeta=p.codigo;
 
     const files=[];const uploaded=[];const stamp=Date.now();
@@ -325,7 +332,7 @@ async function saveProduct(){
 
     const publicVersion=String(Date.now());
     files.push({path:'data/productos.json',content:JSON.stringify({_meta:{updatedAt:publicVersion},productos:state.products},null,2)});
-    await gitCommit(files,`${original?'Actualizar':'Agregar'} producto ${p.codigo} desde CMS`);
+    await gitCommit(files,`${original?'Actualizar':'Agregar'} producto ${p.codigo} desde CMS`,catalogHead);
 
     // Convertir la ficha en existente antes de cerrar evita cualquier duplicado si el navegador reacciona lento.
     $('#productOriginalCode').value=p.codigo;
@@ -348,9 +355,11 @@ async function deleteProduct(){
   const previous=clone(state.products);
   const code=current.codigo;
   try{
+    const catalogHead=await branchHead();
+    state.products=await loadProductsAt(catalogHead);
     state.products=state.products.filter(p=>p.codigo!==code);
     const publicVersion=String(Date.now());
-    await gitCommit([{path:'data/productos.json',content:JSON.stringify({_meta:{updatedAt:publicVersion},productos:state.products},null,2)}],`Eliminar producto ${code} desde CMS`);
+    await gitCommit([{path:'data/productos.json',content:JSON.stringify({_meta:{updatedAt:publicVersion},productos:state.products},null,2)}],`Eliminar producto ${code} desde CMS`,catalogHead);
     closeProductDialog(true);
     renderProducts();renderCategories();
     toast('Producto eliminado. La tienda se está publicando.',4200);
@@ -367,12 +376,14 @@ async function saveCategory(){
     let c=state.editingCategory;c.nombre=name;c.id=name;const files=[];
     if(state.pendingCategoryFile){const ext=(state.pendingCategoryFile.file.name.split('.').pop()||'jpg').toLowerCase().replace(/[^a-z0-9]/g,'');const path=`assets/banners/${slug(name)}-${Date.now()}.${ext}`;files.push({path,content:await fileToBase64(state.pendingCategoryFile.file),base64:true});c.imagen=path}
     if(!c.imagen)throw new Error('Agrega una imagen para la categoría.');
+    let catalogHead=null;
+    if(oldId&&oldId!==c.id){catalogHead=await branchHead();state.products=await loadProductsAt(catalogHead)}
     if(oldId){const idx=state.categories.findIndex(x=>x.id===oldId);state.categories[idx]=clone(c);if(oldId!==c.id)state.products.forEach(p=>{if(p.categoria===oldId)p.categoria=c.id})}
     else{if(state.categories.some(x=>x.id.toLowerCase()===c.id.toLowerCase()))throw new Error('Ya existe una categoría con ese nombre.');state.categories.push(clone(c))}
     const catsWithAll=[{id:'todos',nombre:'Todo',imagen:'assets/banners/principal.webp'},...state.categories];
     files.push({path:'data/categorias.json',content:JSON.stringify({categorias:catsWithAll},null,2)});
     if(oldId&&oldId!==c.id)files.push({path:'data/productos.json',content:JSON.stringify({productos:state.products},null,2)});
-    await gitCommit(files,`${oldId?'Actualizar':'Agregar'} categoría ${c.nombre} desde CMS`);
+    await gitCommit(files,`${oldId?'Actualizar':'Agregar'} categoría ${c.nombre} desde CMS`,catalogHead);
     $('#categoryDialog').close();state.activeCategory=c.id;renderCategories();openCategory(c.id);toast('Categoría guardada. Publicando cambios…');publishInBackground();
   }catch(e){showFatal(e)}
 }
