@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787167642766"
+    "updatedAt": "1787167756757"
   },
   "productos": [
     {
@@ -3070,6 +3070,44 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CAL-003",
+      "carpeta": "CAL-003",
+      "categoria": "Calzado",
+      "subcategoria": "Número disponible: 37 / US 7",
+      "nombre": "Sandalias estilo casual",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/cal-003-1787167756673-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "sandalias estilo casual",
+        "número disponible: 37 / us 7",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "estilo",
+        "casual",
+        "número",
+        "disponible:",
+        "us",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 35,
+        "etiqueta": "OFERTA"
       }
     }
   ]
