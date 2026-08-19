@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787153101017"
+    "updatedAt": "1787153576164"
   },
   "productos": [
     {
@@ -2486,6 +2486,41 @@
         "descuento": 0,
         "precioOferta": 38,
         "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-041",
+      "carpeta": "CON-041",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Tallas disponibles: S y M",
+      "nombre": "Conjunto de Legging y Top",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-041-1787153576099-1.png",
+        "assets/productos/uploads/con-041-1787153576099-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de legging y top",
+        "tallas disponibles: s y m",
+        "conjunto",
+        "legging",
+        "top",
+        "tallas",
+        "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
       }
     }
   ]
