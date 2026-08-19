@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787170379719"
+    "updatedAt": "1787177075666"
   },
   "productos": [
     {
@@ -46,48 +46,6 @@
         "descuento": 0,
         "precioOferta": 28,
         "etiqueta": "OFERTA"
-      }
-    },
-    {
-      "codigo": "CON-005",
-      "carpeta": "CON-005",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "One Size: S/M Incluye: Top + Falda Short + Banda para el cabello",
-      "nombre": "Conjunto de Falda Short con Top",
-      "precio": 36,
-      "colores": "Disponibilidad en fotos",
-      "imagenes": [
-        "assets/productos/CON-005/2.webp",
-        "assets/productos/uploads/con-005-1787028414472-1.jpeg",
-        "assets/productos/uploads/con-005-1787028414472-2.jpeg",
-        "assets/productos/uploads/con-005-1787028414472-3.jpeg"
-      ],
-      "destacado": true,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "conjuntos de faldas",
-        "conjunto de falda short con top",
-        "one size: s/m",
-        "conjunto",
-        "falda",
-        "short",
-        "top",
-        "one",
-        "size:",
-        "disponibilidad",
-        "fotos",
-        "one size: s/m incluye: top + falda short + banda para el cabello",
-        "incluye:",
-        "banda",
-        "cabello"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
       }
     },
     {
