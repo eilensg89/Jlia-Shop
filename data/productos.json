@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787155062511"
+    "updatedAt": "1787155435031"
   },
   "productos": [
     {
@@ -2638,6 +2638,51 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 26,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-045",
+      "carpeta": "CON-045",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Tallas disponibles: S y M Este modelo corre pequeño: S equivale aproximadamente a XS M equivale aproximadamente a S",
+      "nombre": "Conjunto de Legging Corto deportivo",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-045-1787155434886-1.jpeg",
+        "assets/productos/uploads/con-045-1787155434886-2.png",
+        "assets/productos/uploads/con-045-1787155434886-3.png",
+        "assets/productos/uploads/con-045-1787155434886-4.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de legging corto deportivo",
+        "tallas disponibles: s y m este modelo corre pequeño: s equivale aproximadamente a xs m equivale aproximadamente a s",
+        "conjunto",
+        "legging",
+        "corto",
+        "deportivo",
+        "tallas",
+        "disponibles:",
+        "este",
+        "modelo",
+        "corre",
+        "pequeño:",
+        "equivale",
+        "aproximadamente",
+        "xs",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 30,
         "etiqueta": "OFERTA"
       }
     }
