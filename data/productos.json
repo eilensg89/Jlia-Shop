@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787169266508"
+    "updatedAt": "1787169746465"
   },
   "productos": [
     {
@@ -3204,6 +3204,44 @@
         "calzado",
         "sandalias estilo casual",
         "número disponible: 36 / us 6",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "estilo",
+        "casual",
+        "número",
+        "disponible:",
+        "us",
+        "disponibilidades",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 45,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CAL-007",
+      "carpeta": "CAL-007",
+      "categoria": "Calzado",
+      "subcategoria": "Número disponible: 38 / US 8",
+      "nombre": "Sandalias estilo casual",
+      "precio": 55,
+      "colores": "Disponibilidades en fotos",
+      "imagenes": [
+        "assets/productos/uploads/cal-007-1787169746415-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "sandalias estilo casual",
+        "número disponible: 38 / us 8",
         "zapato",
         "zapatos",
         "tenis",
