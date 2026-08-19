@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787170343218"
+    "updatedAt": "1787170379719"
   },
   "productos": [
     {
@@ -503,30 +503,6 @@
         "Carteras",
         "Sets",
         "CAR-002",
-        "leggin",
-        "legging"
-      ]
-    },
-    {
-      "codigo": "CAR-003",
-      "carpeta": "CAR-003",
-      "categoria": "Carteras",
-      "subcategoria": "Billeteras",
-      "nombre": "Billetera",
-      "precio": 30,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/CAR-003/1.webp",
-        "assets/productos/CAR-003/2.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Billetera",
-        "Carteras",
-        "Billeteras",
-        "CAR-003",
         "leggin",
         "legging"
       ]
