@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787154270121"
+    "updatedAt": "1787154768773"
   },
   "productos": [
     {
@@ -2560,6 +2560,48 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-043",
+      "carpeta": "CON-043",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size: S/M Incluye: Legging corta, top y pulóver de malla",
+      "nombre": "Conjunto de Legging Corta 3 Piezas",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-043-1787154768705-1.jpeg",
+        "assets/productos/uploads/con-043-1787154768705-2.jpeg",
+        "assets/productos/uploads/con-043-1787154768705-3.jpeg",
+        "assets/productos/uploads/con-043-1787154768705-4.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de legging corta 3 piezas",
+        "one size: s/m incluye: legging corta, top y pulóver de malla",
+        "conjunto",
+        "legging",
+        "corta",
+        "piezas",
+        "one",
+        "size:",
+        "incluye:",
+        "top",
+        "pulóver",
+        "malla",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 28,
+        "etiqueta": "OFERTA"
       }
     }
   ]
