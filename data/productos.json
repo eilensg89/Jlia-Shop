@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787177353710"
+    "updatedAt": "1787177410764"
   },
   "productos": [
     {
@@ -618,8 +618,24 @@
         "Viseras",
         "ACC-007",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "accesorios",
+        "visera regular",
+        "viseras",
+        "accesorio",
+        "gafas",
+        "lentes",
+        "visera",
+        "regular",
+        "varios"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 16,
+        "etiqueta": "OFERTA"
+      }
     },
     {
       "codigo": "VES-004",
