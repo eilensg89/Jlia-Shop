@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787325188411"
+    "updatedAt": "1787325256958"
   },
   "productos": [
     {
@@ -623,7 +623,6 @@
       "colores": "Disponibilidad en fotos",
       "imagenes": [
         "assets/productos/uploads/ves-004-1786925822595-1.jpeg",
-        "assets/productos/uploads/ves-004-1786925822595-2.jpeg",
         "assets/productos/uploads/ves-004-1786925822595-3.jpeg",
         "assets/productos/uploads/ves-004-1786925822595-4.jpeg"
       ],
