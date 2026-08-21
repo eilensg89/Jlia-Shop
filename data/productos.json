@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787325581484"
+    "updatedAt": "1787330764801"
   },
   "productos": [
     {
@@ -488,9 +488,24 @@
       "precio": 40,
       "colores": "Varios",
       "imagenes": [
-        "assets/productos/ACC-002/1.webp",
-        "assets/productos/ACC-002/2.webp",
-        "assets/productos/ACC-002/3.webp"
+        "assets/productos/uploads/acc-002-1787330763976-1.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-2.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-3.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-4.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-5.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-6.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-7.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-8.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-9.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-10.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-11.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-12.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-13.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-14.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-15.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-16.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-17.jpeg",
+        "assets/productos/uploads/acc-002-1787330763976-18.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -500,8 +515,20 @@
         "Accesorios",
         "ACC-002",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "accesorios",
+        "gafas",
+        "accesorio",
+        "lentes",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "ACC-004",
