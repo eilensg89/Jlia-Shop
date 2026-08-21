@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787330764801"
+    "updatedAt": "1787330847892"
   },
   "productos": [
     {
@@ -562,7 +562,8 @@
       "precio": 10,
       "colores": "Varios",
       "imagenes": [
-        "assets/productos/ACC-005/1.webp"
+        "assets/productos/ACC-005/1.webp",
+        "assets/productos/uploads/acc-005-1787330847820-1.png"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -573,8 +574,23 @@
         "Medias",
         "ACC-005",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "accesorios",
+        "medias deportivas",
+        "medias",
+        "accesorio",
+        "gafas",
+        "lentes",
+        "deportivas",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "ACC-006",
