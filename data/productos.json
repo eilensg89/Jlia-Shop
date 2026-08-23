@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787449204465"
+    "updatedAt": "1787449324221"
   },
   "productos": [
     {
@@ -2266,9 +2266,7 @@
       "precio": 40,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/uploads/con-037-1787151826277-1.jpeg",
-        "assets/productos/uploads/con-037-1787151826277-2.jpeg",
-        "assets/productos/uploads/con-037-1787151826277-3.jpeg"
+        "assets/productos/uploads/con-037-1787151826277-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -2276,7 +2274,8 @@
       "palabrasClave": [
         "conjuntos de leggings",
         "conjunto deportivo de 3 piezas",
-        "one size:s/m incluye: top, legging y pulóver",
+        "one size:s/m incluye: top",
+        "legging y pulóver",
         "conjunto",
         "deportivo",
         "piezas",
@@ -2287,7 +2286,8 @@
         "legging",
         "pulóver",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "one size:s/m incluye: top, legging y pulóver"
       ],
       "promocion": {
         "activa": true,
