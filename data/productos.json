@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787449588686"
+    "updatedAt": "1787532296982"
   },
   "productos": [
     {
@@ -1649,7 +1649,7 @@
       "codigo": "CON-030",
       "carpeta": "CON-030",
       "categoria": "Conjuntos de Faldas",
-      "subcategoria": "Tallas disponibles: S y L",
+      "subcategoria": "Tallas disponibles: S",
       "nombre": "Conjunto de Falda Short Plisada con Top",
       "precio": 32,
       "colores": "Disponibilidad en fotos",
@@ -1671,7 +1671,8 @@
         "tallas",
         "disponibles:",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "tallas disponibles: s"
       ],
       "promocion": {
         "activa": false,
