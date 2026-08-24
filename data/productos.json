@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787532296982"
+    "updatedAt": "1787532582501"
   },
   "productos": [
     {
@@ -3191,6 +3191,38 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 45,
+        "etiqueta": "OFERTA"
+      }
+    },
+    {
+      "codigo": "CON-056",
+      "carpeta": "CON-056",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de shorts",
+      "precio": 35,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/uploads/con-056-1787532582476-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto de shorts",
+        "one size: s/m",
+        "conjunto",
+        "shorts",
+        "one",
+        "size:",
+        "varios"
+      ],
+      "promocion": {
+        "activa": true,
+        "tipo": "precio",
+        "descuento": 0,
+        "precioOferta": 32,
         "etiqueta": "OFERTA"
       }
     }
