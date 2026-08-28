@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787960149287"
+    "updatedAt": "1787960175799"
   },
   "productos": [
     {
@@ -837,43 +837,6 @@
         "tallas",
         "disponibles:",
         "amarillo"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
-      }
-    },
-    {
-      "codigo": "ENT-007",
-      "carpeta": "ENT-007",
-      "categoria": "Enterizos",
-      "subcategoria": "One Size: S/M",
-      "nombre": "Enterizo Deportivo Espalda Abierta",
-      "precio": 40,
-      "colores": "Disponibilidad en fotos",
-      "imagenes": [
-        "assets/productos/uploads/ent-007-1787004368075-1.jpeg",
-        "assets/productos/uploads/ent-007-1787004368075-2.jpeg"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "enterizos",
-        "enterizo deportivo espalda abierta",
-        "one size: s/m",
-        "enterizo",
-        "jumpsuit",
-        "deportivo",
-        "espalda",
-        "abierta",
-        "one",
-        "size:",
-        "disponibilidad",
-        "fotos"
       ],
       "promocion": {
         "activa": false,
