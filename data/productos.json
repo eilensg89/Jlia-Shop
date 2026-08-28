@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787943682128"
+    "updatedAt": "1787955478664"
   },
   "productos": [
     {
@@ -1403,8 +1403,7 @@
       "precio": 36,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/uploads/con-023-1787029106722-1.jpeg",
-        "assets/productos/uploads/con-023-1787029106722-2.jpeg"
+        "assets/productos/uploads/con-023-1787029106722-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
