@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787955478664"
+    "updatedAt": "1787960120931"
   },
   "productos": [
     {
@@ -1612,7 +1612,7 @@
       "codigo": "CON-029",
       "carpeta": "CON-029",
       "categoria": "Conjuntos de Faldas",
-      "subcategoria": "Tallas disponibles: S y M",
+      "subcategoria": "Tallas disponibles: S",
       "nombre": "Conjunto de Falda Short con Top",
       "precio": 32,
       "colores": "Blanco y gris",
@@ -1634,7 +1634,8 @@
         "tallas",
         "disponibles:",
         "blanco",
-        "gris"
+        "gris",
+        "tallas disponibles: s"
       ],
       "promocion": {
         "activa": false,
