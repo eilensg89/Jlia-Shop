@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787960175799"
+    "updatedAt": "1787960207331"
   },
   "productos": [
     {
@@ -2814,42 +2814,6 @@
         "pantalón",
         "one",
         "size:",
-        "disponibilidad",
-        "fotos"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
-      }
-    },
-    {
-      "codigo": "PAN-003",
-      "carpeta": "PAN-003",
-      "categoria": "Pantalones",
-      "subcategoria": "Tallas disponibles: M y L",
-      "nombre": "Legging Acampanado",
-      "precio": 25,
-      "colores": "Disponibilidad en fotos",
-      "imagenes": [
-        "assets/productos/uploads/pan-003-1787163155352-1.png",
-        "assets/productos/uploads/pan-003-1787163155352-2.jpeg"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "pantalones",
-        "legging acampanado",
-        "tallas disponibles: m y l",
-        "pantalón",
-        "pantalon",
-        "legging",
-        "acampanado",
-        "tallas",
-        "disponibles:",
         "disponibilidad",
         "fotos"
       ],
