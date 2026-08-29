@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787972329820"
+    "updatedAt": "1787972525911"
   },
   "productos": [
     {
@@ -3314,6 +3314,42 @@
         "conjunto",
         "sport",
         "relax",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-063",
+      "carpeta": "CON-063",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto Casual Wide Leg",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-063-1787972525859-1.jpeg",
+        "assets/productos/uploads/con-063-1787972525859-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto casual wide leg",
+        "one size: s/m",
+        "conjunto",
+        "casual",
+        "wide",
+        "leg",
         "one",
         "size:",
         "disponibilidad",
