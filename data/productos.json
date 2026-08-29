@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787973041650"
+    "updatedAt": "1787973250397"
   },
   "productos": [
     {
@@ -3458,6 +3458,45 @@
         "deportivo",
         "legging",
         "campana",
+        "one",
+        "size",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-067",
+      "carpeta": "CON-067",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size",
+      "nombre": "Conjunto Minnie con Legging y blusa  Oversize ❤️",
+      "precio": 38,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-067-1787973250321-1.jpeg",
+        "assets/productos/uploads/con-067-1787973250321-2.jpeg",
+        "assets/productos/uploads/con-067-1787973250321-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto minnie con legging y blusa  oversize ❤️",
+        "one size",
+        "conjunto",
+        "minnie",
+        "legging",
+        "blusa",
+        "oversize",
+        "❤️",
         "one",
         "size",
         "disponibilidad",
