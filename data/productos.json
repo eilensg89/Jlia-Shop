@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787972212304"
+    "updatedAt": "1787972329820"
   },
   "productos": [
     {
@@ -3279,6 +3279,43 @@
         "tallas",
         "disponibles",
         "s-m",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-062",
+      "carpeta": "CON-062",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto Sport Relax",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-062-1787972329736-1.jpeg",
+        "assets/productos/uploads/con-062-1787972329736-2.jpeg",
+        "assets/productos/uploads/con-062-1787972329736-3.jpeg",
+        "assets/productos/uploads/con-062-1787972329736-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto sport relax",
+        "one size: s/m",
+        "conjunto",
+        "sport",
+        "relax",
+        "one",
+        "size:",
         "disponibilidad",
         "fotos"
       ],
