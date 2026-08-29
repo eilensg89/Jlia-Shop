@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787972525911"
+    "updatedAt": "1787972622123"
   },
   "productos": [
     {
@@ -3350,6 +3350,41 @@
         "casual",
         "wide",
         "leg",
+        "one",
+        "size:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-064",
+      "carpeta": "CON-064",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto Sport de Rayas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-064-1787972622057-1.jpeg",
+        "assets/productos/uploads/con-064-1787972622057-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto sport de rayas",
+        "one size: s/m",
+        "conjunto",
+        "sport",
+        "rayas",
         "one",
         "size:",
         "disponibilidad",
