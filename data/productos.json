@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787971909218"
+    "updatedAt": "1787972066424"
   },
   "productos": [
     {
@@ -3207,6 +3207,41 @@
         "flare",
         "tallas",
         "disponibles:",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-060",
+      "carpeta": "CON-060",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "One Size S/M",
+      "nombre": "Conjunto Minnie Casual",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-060-1787972066365-1.jpeg",
+        "assets/productos/uploads/con-060-1787972066365-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto minnie casual",
+        "one size s/m",
+        "conjunto",
+        "minnie",
+        "casual",
+        "one",
+        "size",
         "disponibilidad",
         "fotos"
       ],
