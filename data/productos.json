@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787972066424"
+    "updatedAt": "1787972212304"
   },
   "productos": [
     {
@@ -3242,6 +3242,43 @@
         "casual",
         "one",
         "size",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-061",
+      "carpeta": "CON-061",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "Tallas Disponibles S-M y L",
+      "nombre": "Conjunto Sport Chic",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-061-1787972212274-1.jpeg",
+        "assets/productos/uploads/con-061-1787972212274-2.jpeg",
+        "assets/productos/uploads/con-061-1787972212274-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto sport chic",
+        "tallas disponibles s-m y l",
+        "conjunto",
+        "sport",
+        "chic",
+        "tallas",
+        "disponibles",
+        "s-m",
         "disponibilidad",
         "fotos"
       ],
