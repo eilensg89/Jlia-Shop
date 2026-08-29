@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1787973250397"
+    "updatedAt": "1787973493559"
   },
   "productos": [
     {
@@ -3499,6 +3499,41 @@
         "❤️",
         "one",
         "size",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-068",
+      "carpeta": "CON-068",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One Size: S/M",
+      "nombre": "Conjunto de Legging 3 Piezas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-068-1787973493535-1.jpeg",
+        "assets/productos/uploads/con-068-1787973493535-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de legging 3 piezas",
+        "one size: s/m",
+        "conjunto",
+        "legging",
+        "piezas",
+        "one",
+        "size:",
         "disponibilidad",
         "fotos"
       ],
