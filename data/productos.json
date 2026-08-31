@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1788140980740"
+    "updatedAt": "1788141009148"
   },
   "productos": [
     {
@@ -1254,44 +1254,6 @@
         "assets/productos/uploads/con-021-1787025835999-1.jpeg",
         "assets/productos/uploads/con-021-1787025835999-2.jpeg",
         "assets/productos/uploads/con-021-1787025835999-3.jpeg"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "conjuntos de short",
-        "conjunto de short 3 piezas",
-        "one size: s/m/l incluye: top + short + chaqueta",
-        "conjunto",
-        "short",
-        "piezas",
-        "one",
-        "size:",
-        "incluye:",
-        "top",
-        "chaqueta",
-        "disponibilidad",
-        "fotos"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
-      }
-    },
-    {
-      "codigo": "CON-022",
-      "carpeta": "CON-022",
-      "categoria": "Conjuntos de Short",
-      "subcategoria": "One Size: S/M/L Incluye: Top + Short + Chaqueta",
-      "nombre": "Conjunto de Short 3 Piezas",
-      "precio": 36,
-      "colores": "Disponibilidad en fotos",
-      "imagenes": [
-        "assets/productos/uploads/con-022-1787025945520-3.jpeg",
-        "assets/productos/uploads/con-022-1787025945520-4.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
