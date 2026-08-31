@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1788141962813"
+    "updatedAt": "1788142065777"
   },
   "productos": [
     {
@@ -3453,6 +3453,43 @@
         "disponibles:s-m",
         "negro",
         "blanco"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-070",
+      "carpeta": "CON-070",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Tallas disponibles:S-M y L",
+      "nombre": "Conjunto de leggings corta",
+      "precio": 30,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-070-1788142065656-1.jpeg",
+        "assets/productos/uploads/con-070-1788142065656-2.png",
+        "assets/productos/uploads/con-070-1788142065656-3.png",
+        "assets/productos/uploads/con-070-1788142065656-4.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings corta",
+        "tallas disponibles:s-m y l",
+        "conjunto",
+        "leggings",
+        "corta",
+        "tallas",
+        "disponibles:s-m",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
