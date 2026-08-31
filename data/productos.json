@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1788140936676"
+    "updatedAt": "1788140960041"
   },
   "productos": [
     {
@@ -2422,7 +2422,6 @@
       "imagenes": [
         "assets/productos/uploads/con-043-1787154768705-1.jpeg",
         "assets/productos/uploads/con-043-1787154768705-2.jpeg",
-        "assets/productos/uploads/con-043-1787154768705-3.jpeg",
         "assets/productos/uploads/con-043-1787154768705-4.png"
       ],
       "destacado": false,
@@ -2431,7 +2430,8 @@
       "palabrasClave": [
         "conjuntos de leggings",
         "conjunto de legging corta 3 piezas",
-        "one size: s/m incluye: legging corta, top y pulóver de malla",
+        "one size: s/m incluye: legging corta",
+        "top y pulóver de malla",
         "conjunto",
         "legging",
         "corta",
@@ -2443,7 +2443,8 @@
         "pulóver",
         "malla",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "one size: s/m incluye: legging corta, top y pulóver de malla"
       ],
       "promocion": {
         "activa": true,
