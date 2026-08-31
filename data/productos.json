@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1788141848135"
+    "updatedAt": "1788141898309"
   },
   "productos": [
     {
@@ -371,49 +371,6 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": ""
-      }
-    },
-    {
-      "codigo": "CAL-002",
-      "carpeta": "CAL-002",
-      "categoria": "Calzado",
-      "subcategoria": "Número disponible: 36 / US 6",
-      "nombre": "Sandalias estilo casual",
-      "precio": 40,
-      "colores": "Blanco",
-      "imagenes": [
-        "assets/productos/CAL-002/1.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Sandalias",
-        "Calzado",
-        "CAL-002",
-        "leggin",
-        "legging",
-        "calzado",
-        "sandalias estilo casual",
-        "número disponible: 37 / us 7",
-        "zapato",
-        "zapatos",
-        "tenis",
-        "sandalias",
-        "estilo",
-        "casual",
-        "número",
-        "disponible:",
-        "us",
-        "blanco",
-        "número disponible: 36 / us 6"
-      ],
-      "promocion": {
-        "activa": true,
-        "tipo": "precio",
-        "descuento": 0,
-        "precioOferta": 35,
-        "etiqueta": "OFERTA"
       }
     },
     {
