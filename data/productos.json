@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1788721211032"
+    "updatedAt": "1788721243033"
   },
   "productos": [
     {
@@ -1300,42 +1300,6 @@
         "size:",
         "azul",
         "amarillo"
-      ],
-      "promocion": {
-        "activa": true,
-        "tipo": "precio",
-        "descuento": 0,
-        "precioOferta": 26,
-        "etiqueta": "OFERTA"
-      }
-    },
-    {
-      "codigo": "CON-025",
-      "carpeta": "CON-025",
-      "categoria": "Conjuntos de Faldas",
-      "subcategoria": "One Size: S/M",
-      "nombre": "Conjunto de Falda Tejida con Top",
-      "precio": 30,
-      "colores": "Disponibilidad en fotos",
-      "imagenes": [
-        "assets/productos/uploads/con-025-1787030318402-1.jpeg",
-        "assets/productos/uploads/con-025-1787030318402-2.jpeg"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "conjuntos de faldas",
-        "conjunto de falda tejida con top",
-        "one size: s/m",
-        "conjunto",
-        "falda",
-        "tejida",
-        "top",
-        "one",
-        "size:",
-        "disponibilidad",
-        "fotos"
       ],
       "promocion": {
         "activa": true,
