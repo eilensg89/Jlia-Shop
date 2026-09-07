@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1788813466157"
+    "updatedAt": "1788813875939"
   },
   "productos": [
     {
@@ -3067,6 +3067,42 @@
         "corta",
         "tallas",
         "disponibles:s-m",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "VES-007",
+      "carpeta": "VES-007",
+      "categoria": "Vestidos",
+      "subcategoria": "Tallas disponibles:S y M",
+      "nombre": "Vestidos largos con sudadera",
+      "precio": 38,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/ves-007-1788813875926-1.jpeg",
+        "assets/productos/uploads/ves-007-1788813875926-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "vestidos",
+        "vestidos largos con sudadera",
+        "tallas disponibles:s y m",
+        "vestido",
+        "dress",
+        "largos",
+        "sudadera",
+        "tallas",
+        "disponibles:s",
         "disponibilidad",
         "fotos"
       ],
