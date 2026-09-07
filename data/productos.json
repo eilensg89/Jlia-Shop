@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1788721831809"
+    "updatedAt": "1788813200674"
   },
   "productos": [
     {
@@ -1387,8 +1387,7 @@
       "precio": 32,
       "colores": "Blanco y gris",
       "imagenes": [
-        "assets/productos/uploads/con-029-1787031347610-1.jpeg",
-        "assets/productos/uploads/con-029-1787031347610-2.jpeg"
+        "assets/productos/uploads/con-029-1787031347610-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
