@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1789085882254"
+    "updatedAt": "1789138440013"
   },
   "productos": [
     {
@@ -140,8 +140,7 @@
       "precio": 32,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/VES-003/1.webp",
-        "assets/productos/uploads/ves-003-1787026168161-1.jpeg"
+        "assets/productos/VES-003/1.webp"
       ],
       "destacado": false,
       "estado": "Activo",
