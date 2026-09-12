@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1789157112162"
+    "updatedAt": "1789225911896"
   },
   "productos": [
     {
@@ -2878,39 +2878,6 @@
         "disponibles:s",
         "disponibilidad",
         "fotos"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
-      }
-    },
-    {
-      "codigo": "CON-071",
-      "carpeta": "CON-071",
-      "categoria": "Conjuntos de Short",
-      "subcategoria": "Tallas disponibles:S M y L",
-      "nombre": "Conjunto de shorts con top",
-      "precio": 28,
-      "colores": "Negro",
-      "imagenes": [
-        "assets/productos/uploads/con-071-1788814075747-1.jpeg"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "conjuntos de short",
-        "conjunto de shorts con top",
-        "tallas disponibles:s m y l",
-        "conjunto",
-        "shorts",
-        "top",
-        "tallas",
-        "disponibles:s",
-        "negro"
       ],
       "promocion": {
         "activa": false,
