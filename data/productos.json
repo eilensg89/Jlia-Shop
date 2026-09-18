@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1789761359329"
+    "updatedAt": "1789761432935"
   },
   "productos": [
     {
@@ -255,9 +255,10 @@
       "colores": "Varios",
       "imagenes": [
         "assets/productos/PAN-001/1.webp",
-        "assets/productos/PAN-001/2.webp",
-        "assets/productos/PAN-001/3.webp",
-        "assets/productos/uploads/pan-001-1787163010074-1.jpeg"
+        "assets/productos/uploads/pan-001-1789761432838-1.jpeg",
+        "assets/productos/uploads/pan-001-1789761432838-2.jpeg",
+        "assets/productos/uploads/pan-001-1789761432838-3.png",
+        "assets/productos/uploads/pan-001-1789761432838-4.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
