@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1790217275943"
+    "updatedAt": "1790217319477"
   },
   "productos": [
     {
@@ -1244,7 +1244,6 @@
       "precio": 32,
       "colores": "Azul y amarillo",
       "imagenes": [
-        "assets/productos/uploads/con-024-1787030158231-1.jpeg",
         "assets/productos/uploads/con-024-1787030158231-2.jpeg"
       ],
       "destacado": false,
