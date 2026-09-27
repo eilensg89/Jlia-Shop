@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1790262692108"
+    "updatedAt": "1790529792078"
   },
   "productos": [
     {
@@ -255,7 +255,6 @@
       "colores": "Varios",
       "imagenes": [
         "assets/productos/PAN-001/1.webp",
-        "assets/productos/uploads/pan-001-1789761432838-1.jpeg",
         "assets/productos/uploads/pan-001-1789761432838-4.jpeg"
       ],
       "destacado": false,
