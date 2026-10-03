@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791067296834"
+    "updatedAt": "1791067388241"
   },
   "productos": [
     {
@@ -2614,6 +2614,41 @@
         "leggings",
         "talla",
         "única",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-077",
+      "carpeta": "CON-077",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Talla disponibles:S",
+      "nombre": "Conjunto de leggin 2 piezas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-077-1791067388218-1.jpeg",
+        "assets/productos/uploads/con-077-1791067388218-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggin 2 piezas",
+        "talla disponibles:s",
+        "conjunto",
+        "leggin",
+        "piezas",
+        "talla",
+        "disponibles:s",
         "disponibilidad",
         "fotos"
       ],
