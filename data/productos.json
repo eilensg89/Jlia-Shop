@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1790529926363"
+    "updatedAt": "1791067205583"
   },
   "productos": [
     {
@@ -1761,8 +1761,7 @@
       "precio": 45,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/uploads/con-040-1787153100927-1.png",
-        "assets/productos/uploads/con-040-1787153100927-2.png"
+        "assets/productos/uploads/con-040-1791067205562-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -1770,10 +1769,11 @@
       "palabrasClave": [
         "conjuntos de leggings",
         "conjunto de legging y pulóver",
-        "one size: l/xl incluye: legging, pulóver, medias y gorra",
+        "one size: l/xl incluye: legging",
+        "pulóver",
+        "medias y gorra",
         "conjunto",
         "legging",
-        "pulóver",
         "one",
         "size:",
         "xl",
@@ -1781,7 +1781,8 @@
         "medias",
         "gorra",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "one size: l/xl incluye: legging, pulóver, medias y gorra"
       ],
       "promocion": {
         "activa": true,
