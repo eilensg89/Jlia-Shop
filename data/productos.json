@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791067205583"
+    "updatedAt": "1791067296834"
   },
   "productos": [
     {
@@ -2578,6 +2578,42 @@
         "disponible",
         "negro",
         "azul",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-076",
+      "carpeta": "CON-076",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Talla única S/M",
+      "nombre": "Conjunto de leggings",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-076-1791067296726-1.jpeg",
+        "assets/productos/uploads/con-076-1791067296726-2.jpeg",
+        "assets/productos/uploads/con-076-1791067296726-3.jpeg",
+        "assets/productos/uploads/con-076-1791067296726-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings",
+        "talla única s/m",
+        "conjunto",
+        "leggings",
+        "talla",
+        "única",
         "disponibilidad",
         "fotos"
       ],
