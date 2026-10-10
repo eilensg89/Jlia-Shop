@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791648382758"
+    "updatedAt": "1791648433842"
   },
   "productos": [
     {
@@ -229,9 +229,7 @@
       "colores": "Varios",
       "imagenes": [
         "assets/productos/PIJ-001/1.webp",
-        "assets/productos/PIJ-001/2.webp",
-        "assets/productos/PIJ-001/3.webp",
-        "assets/productos/PIJ-001/4.webp"
+        "assets/productos/PIJ-001/2.webp"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -242,8 +240,20 @@
         "3 piezas",
         "PIJ-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "pijamas",
+        "pijama 3 piezas",
+        "pijama",
+        "piezas",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "PAN-001",
