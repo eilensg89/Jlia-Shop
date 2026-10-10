@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791648811638"
+    "updatedAt": "1791648917567"
   },
   "productos": [
     {
@@ -2723,6 +2723,41 @@
         "talla",
         "única",
         "xl",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-080",
+      "carpeta": "CON-080",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "Talla única S/M",
+      "nombre": "Conjunto Short Casual Beige",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-080-1791648917558-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto short casual beige",
+        "talla única s/m",
+        "conjunto",
+        "short",
+        "casual",
+        "beige",
+        "talla",
+        "única",
         "disponibilidad",
         "fotos"
       ],
