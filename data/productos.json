@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791649283412"
+    "updatedAt": "1791649473223"
   },
   "productos": [
     {
@@ -2768,6 +2768,41 @@
         "beige",
         "talla",
         "única",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "BLU-003",
+      "carpeta": "BLU-003",
+      "categoria": "Blusas",
+      "subcategoria": "Talla disponibles M",
+      "nombre": "Blusa básica",
+      "precio": 25,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/blu-003-1791649473178-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "blusas",
+        "blusa básica",
+        "talla disponibles m",
+        "blusa",
+        "top",
+        "tops",
+        "básica",
+        "talla",
+        "disponibles",
         "disponibilidad",
         "fotos"
       ],
