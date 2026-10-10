@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791067499147"
+    "updatedAt": "1791648315820"
   },
   "productos": [
     {
@@ -1571,11 +1571,8 @@
       "precio": 10,
       "colores": "Según disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/uploads/pij-007-1786994349874-1.jpeg",
         "assets/productos/uploads/pij-007-1786994349874-2.jpeg",
-        "assets/productos/uploads/pij-007-1786994349874-3.jpeg",
-        "assets/productos/uploads/pij-007-1786994349874-4.jpeg",
-        "assets/productos/uploads/pij-007-1786994349874-5.jpeg"
+        "assets/productos/uploads/pij-007-1786994349874-4.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
