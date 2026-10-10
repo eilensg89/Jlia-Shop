@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791649473223"
+    "updatedAt": "1791650107322"
   },
   "productos": [
     {
@@ -346,15 +346,16 @@
       "codigo": "BLU-002",
       "carpeta": "BLU-002",
       "categoria": "Blusas",
-      "subcategoria": "Tallas disponibles S-M y L",
+      "subcategoria": "Tallas disponibles M Azul en S",
       "nombre": "Blusa Premium",
       "precio": 20,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/BLU-002/1.webp",
-        "assets/productos/BLU-002/2.webp",
         "assets/productos/BLU-002/3.webp",
-        "assets/productos/BLU-002/4.webp"
+        "assets/productos/BLU-002/4.webp",
+        "assets/productos/uploads/blu-002-1791650107181-1.png",
+        "assets/productos/uploads/blu-002-1791650107181-2.png",
+        "assets/productos/uploads/blu-002-1791650107181-3.png"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -378,7 +379,9 @@
         "disponibles",
         "s-m",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "tallas disponibles m azul en s",
+        "azul"
       ],
       "promocion": {
         "activa": false,
