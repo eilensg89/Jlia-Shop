@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791648433842"
+    "updatedAt": "1791648811638"
   },
   "productos": [
     {
@@ -2688,6 +2688,41 @@
         "sudadera",
         "talla",
         "única",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-079",
+      "carpeta": "CON-079",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "Talla única L/XL",
+      "nombre": "Conjunto Short Fucsia",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-079-1791648811601-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "conjunto short fucsia",
+        "talla única l/xl",
+        "conjunto",
+        "short",
+        "fucsia",
+        "talla",
+        "única",
+        "xl",
         "disponibilidad",
         "fotos"
       ],
