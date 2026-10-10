@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791649209678"
+    "updatedAt": "1791649283412"
   },
   "productos": [
     {
@@ -302,12 +302,11 @@
       "codigo": "BLU-001",
       "carpeta": "BLU-001",
       "categoria": "Blusas",
-      "subcategoria": "Tallas disponibles M y L",
+      "subcategoria": "Tallas disponibles L",
       "nombre": "Blusa Básica",
       "precio": 25,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/BLU-001/1.webp",
         "assets/productos/BLU-001/2.webp"
       ],
       "destacado": false,
@@ -332,7 +331,8 @@
         "tallas",
         "disponibles",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "tallas disponibles l"
       ],
       "promocion": {
         "activa": false,
