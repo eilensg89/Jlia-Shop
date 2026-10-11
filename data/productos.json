@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791751799516"
+    "updatedAt": "1791751931412"
   },
   "productos": [
     {
@@ -3239,6 +3239,38 @@
         "única",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-096",
+      "carpeta": "CON-096",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "Talla única S/M/L",
+      "nombre": "Conjunto 3 piezas",
+      "precio": 40,
+      "colores": "Rosado",
+      "imagenes": [
+        "assets/productos/uploads/con-096-1791751931394-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto 3 piezas",
+        "talla única s/m/l",
+        "conjunto",
+        "piezas",
+        "talla",
+        "única",
+        "rosado"
       ],
       "promocion": {
         "activa": false,
