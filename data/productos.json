@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791749797776"
+    "updatedAt": "1791750201640"
   },
   "productos": [
     {
@@ -3017,6 +3017,42 @@
         "tallas",
         "disponibles",
         "s-m",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-090",
+      "carpeta": "CON-090",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Talla Única S/M",
+      "nombre": "Conjunto Deportivo 3 Piezas",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-090-1791750201553-1.jpeg",
+        "assets/productos/uploads/con-090-1791750201553-2.jpeg",
+        "assets/productos/uploads/con-090-1791750201553-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto deportivo 3 piezas",
+        "talla única s/m",
+        "conjunto",
+        "deportivo",
+        "piezas",
+        "talla",
+        "única",
         "disponibilidad",
         "fotos"
       ],
