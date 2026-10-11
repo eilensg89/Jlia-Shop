@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791740811648"
+    "updatedAt": "1791741428723"
   },
   "productos": [
     {
@@ -2692,6 +2692,41 @@
         "disponibles",
         "blanco",
         "negro"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-081",
+      "carpeta": "CON-081",
+      "categoria": "CONJUNTOS DE ABRIGO & MANGA LARGA",
+      "subcategoria": "Talla Única S/M/L",
+      "nombre": "CONJUNTO DE ABRIGO A RAYAS",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-081-1791741428697-1.jpeg",
+        "assets/productos/uploads/con-081-1791741428697-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de abrigo & manga larga",
+        "conjunto de abrigo a rayas",
+        "talla única s/m/l",
+        "conjunto",
+        "abrigo",
+        "rayas",
+        "talla",
+        "única",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
