@@ -1,4 +1,7 @@
 {
+  "_meta": {
+    "updatedAt": "1791742404954"
+  },
   "productos": [
     {
       "codigo": "CON-002",
@@ -2759,6 +2762,42 @@
         "conjunto",
         "abrigo",
         "tejido",
+        "talla",
+        "única",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-083",
+      "carpeta": "CON-083",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "Talla única S/M",
+      "nombre": "CONJUNTO CASUAL JOGGER",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-083-1791742404863-1.jpeg",
+        "assets/productos/uploads/con-083-1791742404863-2.jpeg",
+        "assets/productos/uploads/con-083-1791742404863-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto casual jogger",
+        "talla única s/m",
+        "conjunto",
+        "casual",
+        "jogger",
         "talla",
         "única",
         "disponibilidad",
