@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791741428723"
+    "updatedAt": "1791741615417"
   },
   "productos": [
     {
@@ -2723,6 +2723,45 @@
         "conjunto",
         "abrigo",
         "rayas",
+        "talla",
+        "única",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-082",
+      "carpeta": "CON-082",
+      "categoria": "CONJUNTOS DE ABRIGO & MANGA LARGA",
+      "subcategoria": "Talla única S/M/L",
+      "nombre": "Conjunto de abrigo tejido",
+      "precio": 30,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-082-1791741615325-1.jpeg",
+        "assets/productos/uploads/con-082-1791741615325-2.jpeg",
+        "assets/productos/uploads/con-082-1791741615325-3.jpeg",
+        "assets/productos/uploads/con-082-1791741615325-4.jpeg",
+        "assets/productos/uploads/con-082-1791741615325-5.jpeg",
+        "assets/productos/uploads/con-082-1791741615325-6.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de abrigo & manga larga",
+        "conjunto de abrigo tejido",
+        "talla única s/m/l",
+        "conjunto",
+        "abrigo",
+        "tejido",
         "talla",
         "única",
         "disponibilidad",
