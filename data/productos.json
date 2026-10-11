@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791752292709"
+    "updatedAt": "1791752433077"
   },
   "productos": [
     {
@@ -3342,6 +3342,41 @@
         "única",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-099",
+      "carpeta": "CON-099",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "Talla única S/M",
+      "nombre": "Conjunto play de vestir",
+      "precio": 32,
+      "colores": "Negro",
+      "imagenes": [
+        "assets/productos/uploads/con-099-1791752433005-1.jpeg",
+        "assets/productos/uploads/con-099-1791752433005-2.jpeg",
+        "assets/productos/uploads/con-099-1791752433005-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto play de vestir",
+        "talla única s/m",
+        "conjunto",
+        "play",
+        "vestir",
+        "talla",
+        "única",
+        "negro"
       ],
       "promocion": {
         "activa": false,
