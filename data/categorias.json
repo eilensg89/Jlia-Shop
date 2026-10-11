@@ -77,6 +77,12 @@
       "nombre": "Conjuntos Casuales",
       "imagen": "assets/banners/conjuntos-casuales-1787198831840.png",
       "orden": 120
+    },
+    {
+      "id": "CONJUNTOS DE ABRIGO & MANGA LARGA",
+      "nombre": "CONJUNTOS DE ABRIGO & MANGA LARGA",
+      "imagen": "assets/banners/conjuntos-de-abrigo-manga-larga-1791740423336.jpeg",
+      "orden": 130
     }
   ]
 }
