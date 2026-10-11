@@ -1,7 +1,4 @@
 {
-  "_meta": {
-    "updatedAt": "1791741615417"
-  },
   "productos": [
     {
       "codigo": "CON-002",
@@ -2704,7 +2701,7 @@
     {
       "codigo": "CON-081",
       "carpeta": "CON-081",
-      "categoria": "CONJUNTOS DE ABRIGO & MANGA LARGA",
+      "categoria": "Conjuntos de Abrigos y Mangas largas",
       "subcategoria": "Talla Única S/M/L",
       "nombre": "CONJUNTO DE ABRIGO A RAYAS",
       "precio": 35,
@@ -2739,7 +2736,7 @@
     {
       "codigo": "CON-082",
       "carpeta": "CON-082",
-      "categoria": "CONJUNTOS DE ABRIGO & MANGA LARGA",
+      "categoria": "Conjuntos de Abrigos y Mangas largas",
       "subcategoria": "Talla única S/M/L",
       "nombre": "Conjunto de abrigo tejido",
       "precio": 30,
