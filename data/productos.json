@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791745803927"
+    "updatedAt": "1791749797776"
   },
   "productos": [
     {
@@ -2979,6 +2979,44 @@
         "piezas",
         "talla",
         "única",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-089",
+      "carpeta": "CON-089",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Tallas disponibles S-M y L",
+      "nombre": "Conjunto Deportivo de Pierna Ancha",
+      "precio": 40,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-089-1791749797740-1.jpeg",
+        "assets/productos/uploads/con-089-1791749797740-2.jpeg",
+        "assets/productos/uploads/con-089-1791749797740-3.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto deportivo de pierna ancha",
+        "tallas disponibles s-m y l",
+        "conjunto",
+        "deportivo",
+        "pierna",
+        "ancha",
+        "tallas",
+        "disponibles",
+        "s-m",
         "disponibilidad",
         "fotos"
       ],
