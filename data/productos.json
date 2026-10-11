@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791751415762"
+    "updatedAt": "1791751574112"
   },
   "productos": [
     {
@@ -3164,6 +3164,45 @@
         "única",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-094",
+      "carpeta": "CON-094",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Talla disponibles S y M (corren pequeño así que sería una talla menos )",
+      "nombre": "Conjunto de leggings con piedras",
+      "precio": 40,
+      "colores": "Negros",
+      "imagenes": [
+        "assets/productos/uploads/con-094-1791751574103-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings con piedras",
+        "talla disponibles s y m (corren pequeño así que sería una talla menos )",
+        "conjunto",
+        "leggings",
+        "piedras",
+        "talla",
+        "disponibles",
+        "(corren",
+        "pequeño",
+        "así",
+        "que",
+        "sería",
+        "menos",
+        "negros"
       ],
       "promocion": {
         "activa": false,
