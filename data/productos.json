@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791740062062"
+    "updatedAt": "1791740170460"
   },
   "productos": [
     {
@@ -2724,6 +2724,42 @@
         "disponibles",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "BLU-004",
+      "carpeta": "BLU-004",
+      "categoria": "Blusas",
+      "subcategoria": "Tallas disponibles S",
+      "nombre": "Blusas tejidas",
+      "precio": 25,
+      "colores": "Blanco y negro",
+      "imagenes": [
+        "assets/productos/uploads/blu-004-1791740170399-1.jpeg",
+        "assets/productos/uploads/blu-004-1791740170399-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "blusas",
+        "blusas tejidas",
+        "tallas disponibles s",
+        "blusa",
+        "top",
+        "tops",
+        "tejidas",
+        "tallas",
+        "disponibles",
+        "blanco",
+        "negro"
       ],
       "promocion": {
         "activa": false,
