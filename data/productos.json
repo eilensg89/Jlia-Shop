@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791752107067"
+    "updatedAt": "1791752292709"
   },
   "productos": [
     {
@@ -3306,6 +3306,42 @@
         "talla",
         "única",
         "rojo"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-098",
+      "carpeta": "CON-098",
+      "categoria": "Conjuntos de Abrigos y Mangas largas",
+      "subcategoria": "Talla única S/M/L",
+      "nombre": "Abrigos de bola gordo",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-098-1791752292598-1.png",
+        "assets/productos/uploads/con-098-1791752292598-2.png",
+        "assets/productos/uploads/con-098-1791752292598-3.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de abrigos y mangas largas",
+        "abrigos de bola gordo",
+        "talla única s/m/l",
+        "abrigos",
+        "bola",
+        "gordo",
+        "talla",
+        "única",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
