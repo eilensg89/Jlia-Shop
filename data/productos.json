@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791743322051"
+    "updatedAt": "1791745299686"
   },
   "productos": [
     {
@@ -2910,6 +2910,41 @@
         "talla",
         "única",
         "gris"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-087",
+      "carpeta": "CON-087",
+      "categoria": "Conjuntos de Abrigos y Mangas largas",
+      "subcategoria": "Talla única S/M/L",
+      "nombre": "CONJUNTO DE ABRIGO CON CAPUCHA",
+      "precio": 42,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-087-1791745299632-1.jpeg",
+        "assets/productos/uploads/con-087-1791745299632-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de abrigos y mangas largas",
+        "conjunto de abrigo con capucha",
+        "talla única s/m/l",
+        "conjunto",
+        "abrigo",
+        "capucha",
+        "talla",
+        "única",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
