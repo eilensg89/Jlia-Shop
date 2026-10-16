@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1791941829714"
+    "updatedAt": "1792167943601"
   },
   "productos": [
     {
@@ -267,7 +267,7 @@
         "assets/productos/uploads/pan-001-1789761432838-4.jpeg"
       ],
       "destacado": false,
-      "estado": "Activo",
+      "estado": "Inactivo",
       "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
       "palabrasClave": [
         "Pantalón Deportivo",
