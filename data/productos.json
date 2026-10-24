@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1792807409567"
+    "updatedAt": "1792807461678"
   },
   "productos": [
     {
@@ -2804,40 +2804,6 @@
         "s-m",
         "disponibilidad",
         "fotos"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
-      }
-    },
-    {
-      "codigo": "CON-086",
-      "carpeta": "CON-086",
-      "categoria": "Conjuntos de Abrigos y Mangas largas",
-      "subcategoria": "Talla única S/M/L",
-      "nombre": "CONJUNTO ESSENTIALS PIERNA ANCHA",
-      "precio": 40,
-      "colores": "Gris",
-      "imagenes": [
-        "assets/productos/uploads/con-086-1791743322009-1.jpeg"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "conjuntos de abrigos y mangas largas",
-        "conjunto essentials pierna ancha",
-        "talla única s/m/l",
-        "conjunto",
-        "essentials",
-        "pierna",
-        "ancha",
-        "talla",
-        "única",
-        "gris"
       ],
       "promocion": {
         "activa": false,
