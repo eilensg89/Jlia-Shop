@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1792807461678"
+    "updatedAt": "1793481286602"
   },
   "productos": [
     {
@@ -3266,6 +3266,46 @@
         "única",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CAL-006",
+      "carpeta": "CAL-006",
+      "categoria": "Calzado",
+      "subcategoria": "Números disponibles en las fotos",
+      "nombre": "Zapatilla de mujer",
+      "precio": 65,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/cal-006-1793481286560-1.jpeg",
+        "assets/productos/uploads/cal-006-1793481286560-2.jpeg",
+        "assets/productos/uploads/cal-006-1793481286560-3.jpeg",
+        "assets/productos/uploads/cal-006-1793481286560-4.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "zapatilla de mujer",
+        "números disponibles en las fotos",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "zapatilla",
+        "mujer",
+        "números",
+        "disponibles",
+        "fotos",
+        "disponibilidad"
       ],
       "promocion": {
         "activa": false,
