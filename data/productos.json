@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1793487001188"
+    "updatedAt": "1793639033383"
   },
   "productos": [
     {
@@ -259,12 +259,12 @@
       "codigo": "PAN-001",
       "carpeta": "PAN-001",
       "categoria": "Pantalones",
-      "subcategoria": "Talla Disponibles XS",
+      "subcategoria": "Talla Disponibles M",
       "nombre": "Pantalón Deportivo",
       "precio": 30,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/uploads/pan-001-1789761432838-4.jpeg"
+        "assets/productos/uploads/pan-001-1793639033324-1.png"
       ],
       "destacado": false,
       "estado": "Inactivo",
@@ -288,7 +288,8 @@
         "disponibles",
         "xs",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "talla disponibles m"
       ],
       "promocion": {
         "activa": false,
