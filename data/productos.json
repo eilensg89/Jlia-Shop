@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1793639127645"
+    "updatedAt": "1793839409086"
   },
   "productos": [
     {
@@ -47,47 +47,6 @@
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 30,
-        "etiqueta": "OFERTA"
-      }
-    },
-    {
-      "codigo": "VES-001",
-      "carpeta": "VES-001",
-      "categoria": "Vestidos",
-      "subcategoria": "One Size: S/M",
-      "nombre": "Vestido Deportivo Casual",
-      "precio": 32,
-      "colores": "Disponibilidad en fotos",
-      "imagenes": [
-        "assets/productos/VES-001/3.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Vestido Deportivo Casual",
-        "Vestidos",
-        "Casual",
-        "VES-001",
-        "leggin",
-        "legging",
-        "vestidos",
-        "vestido deportivo casual",
-        "one size: s/m",
-        "vestido",
-        "dress",
-        "deportivo",
-        "casual",
-        "one",
-        "size:",
-        "disponibilidad",
-        "fotos"
-      ],
-      "promocion": {
-        "activa": true,
-        "tipo": "precio",
-        "descuento": 0,
-        "precioOferta": 26,
         "etiqueta": "OFERTA"
       }
     },
