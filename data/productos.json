@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794114039740"
+    "updatedAt": "1794235760743"
   },
   "productos": [
     {
@@ -2974,6 +2974,41 @@
         "disponibilidad",
         "fotos",
         "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CAL-008",
+      "carpeta": "CAL-008",
+      "categoria": "Calzado",
+      "subcategoria": "Números  en las fotos",
+      "nombre": "Sandalias de mujer",
+      "precio": 45,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/cal-008-1794235760729-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "sandalias de mujer",
+        "números  en las fotos",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "mujer",
+        "números",
+        "fotos",
+        "disponibilidad"
       ],
       "promocion": {
         "activa": false,
