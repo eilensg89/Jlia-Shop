@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794611670371"
+    "updatedAt": "1794612367913"
   },
   "productos": [
     {
@@ -1999,7 +1999,7 @@
       "codigo": "CON-069",
       "carpeta": "CON-069",
       "categoria": "Conjuntos de Faldas",
-      "subcategoria": "Tallas disponibles:M y L",
+      "subcategoria": "Tallas disponibles:L",
       "nombre": "Faldas con shorts debajo",
       "precio": 25,
       "colores": "Negro y blanco",
@@ -2022,7 +2022,9 @@
         "negro",
         "blanco",
         "tallas disponibles:m y l",
-        "disponibles:m"
+        "disponibles:m",
+        "tallas disponibles:l",
+        "disponibles:l"
       ],
       "promocion": {
         "activa": false,
