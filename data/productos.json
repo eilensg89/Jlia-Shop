@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794613841999"
+    "updatedAt": "1794613962479"
   },
   "productos": [
     {
@@ -2925,6 +2925,40 @@
         "tops",
         "tallas",
         "disponibles",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-103",
+      "carpeta": "CON-103",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "One size S/M",
+      "nombre": "Conjunto de leggings",
+      "precio": 36,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-103-1794613962429-1.jpeg",
+        "assets/productos/uploads/con-103-1794613962429-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings",
+        "one size s/m",
+        "conjunto",
+        "leggings",
+        "one",
+        "size",
         "disponibilidad",
         "fotos"
       ],
