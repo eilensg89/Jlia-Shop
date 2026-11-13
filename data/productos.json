@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794613138309"
+    "updatedAt": "1794613199040"
   },
   "productos": [
     {
@@ -2976,6 +2976,37 @@
         "disponibles",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "PAN-005",
+      "carpeta": "PAN-005",
+      "categoria": "Pantalones",
+      "subcategoria": "Talla disponibles M",
+      "nombre": "Pantalones",
+      "precio": 30,
+      "colores": "Negro",
+      "imagenes": [
+        "assets/productos/uploads/pan-005-1794613199028-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pantalones",
+        "talla disponibles m",
+        "pantalón",
+        "pantalon",
+        "talla",
+        "disponibles",
+        "negro"
       ],
       "promocion": {
         "activa": false,
