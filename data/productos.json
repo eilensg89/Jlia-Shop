@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794613013646"
+    "updatedAt": "1794613138309"
   },
   "productos": [
     {
@@ -2940,6 +2940,40 @@
         "tallas",
         "disponible",
         "6-10-12-16",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "PAN-004",
+      "carpeta": "PAN-004",
+      "categoria": "Pantalones",
+      "subcategoria": "Talla disponibles S",
+      "nombre": "Pantalones de animados",
+      "precio": 35,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pan-004-1794613138295-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pantalones",
+        "pantalones de animados",
+        "talla disponibles s",
+        "pantalón",
+        "pantalon",
+        "animados",
+        "talla",
+        "disponibles",
         "disponibilidad",
         "fotos"
       ],
