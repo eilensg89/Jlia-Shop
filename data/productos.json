@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794614079367"
+    "updatedAt": "1794614179513"
   },
   "productos": [
     {
@@ -2022,13 +2022,12 @@
       "codigo": "CON-075",
       "carpeta": "CON-075",
       "categoria": "Conjuntos Casuales",
-      "subcategoria": "Talla disponible negro L Y azul S",
+      "subcategoria": "Talla disponible  S",
       "nombre": "Conjunto pata ancha top corto",
       "precio": 38,
       "colores": "Disponibilidad en fotos",
       "imagenes": [
-        "assets/productos/uploads/con-075-1789761359297-1.jpeg",
-        "assets/productos/uploads/con-075-1789761359297-2.jpeg"
+        "assets/productos/uploads/con-075-1789761359297-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -2047,7 +2046,8 @@
         "negro",
         "azul",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "talla disponible  s"
       ],
       "promocion": {
         "activa": false,
