@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794613689376"
+    "updatedAt": "1794613778684"
   },
   "productos": [
     {
@@ -1319,46 +1319,6 @@
         "descuento": 0,
         "precioOferta": null,
         "etiqueta": "OFERTA"
-      }
-    },
-    {
-      "codigo": "CON-036",
-      "carpeta": "CON-036",
-      "categoria": "Conjuntos de Leggings",
-      "subcategoria": "One Size: S/M  Incluye Top, legging y pulóver",
-      "nombre": "Conjunto Deportivo de 3 Piezas",
-      "precio": 40,
-      "colores": "Disponibilidad en fotos",
-      "imagenes": [
-        "assets/productos/uploads/con-036-1787151603574-1.jpeg",
-        "assets/productos/uploads/con-036-1787151603574-2.jpeg",
-        "assets/productos/uploads/con-036-1787151603574-3.jpeg"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "conjuntos de leggings",
-        "conjunto deportivo de 3 piezas",
-        "one size: s/m  incluye top, legging y pulóver",
-        "conjunto",
-        "deportivo",
-        "piezas",
-        "one",
-        "size:",
-        "incluye",
-        "top",
-        "legging",
-        "pulóver",
-        "disponibilidad",
-        "fotos"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
       }
     },
     {
