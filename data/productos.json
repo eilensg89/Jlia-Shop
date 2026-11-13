@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794612367913"
+    "updatedAt": "1794612919464"
   },
   "productos": [
     {
@@ -205,50 +205,6 @@
         "pijama",
         "piezas",
         "varios"
-      ],
-      "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
-        "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
-      }
-    },
-    {
-      "codigo": "PAN-001",
-      "carpeta": "PAN-001",
-      "categoria": "Pantalones",
-      "subcategoria": "Talla Disponibles M",
-      "nombre": "Pantalón Deportivo",
-      "precio": 30,
-      "colores": "Disponibilidad en fotos",
-      "imagenes": [
-        "assets/productos/uploads/pan-001-1793639033324-1.png"
-      ],
-      "destacado": false,
-      "estado": "Inactivo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Pantalón Deportivo",
-        "Pantalones",
-        "Casual",
-        "PAN-001",
-        "leggin",
-        "legging",
-        "pantalones",
-        "pantalón deportivo",
-        "casual",
-        "pantalón",
-        "pantalon",
-        "deportivo",
-        "varios",
-        "talla disponibles xs",
-        "talla",
-        "disponibles",
-        "xs",
-        "disponibilidad",
-        "fotos",
-        "talla disponibles m"
       ],
       "promocion": {
         "activa": false,
