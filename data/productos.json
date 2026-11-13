@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794611347375"
+    "updatedAt": "1794611505473"
   },
   "productos": [
     {
@@ -2947,6 +2947,40 @@
         "sencillo",
         "talla",
         "disponibles",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-102",
+      "carpeta": "CON-102",
+      "categoria": "Conjuntos de Faldas",
+      "subcategoria": "Talla única S/M",
+      "nombre": "Jueguito de falda shorts",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-102-1794611505465-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de faldas",
+        "jueguito de falda shorts",
+        "talla única s/m",
+        "jueguito",
+        "falda",
+        "shorts",
+        "talla",
+        "única",
         "disponibilidad",
         "fotos"
       ],
