@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794611505473"
+    "updatedAt": "1794611670371"
   },
   "productos": [
     {
@@ -1786,10 +1786,10 @@
       "categoria": "Conjuntos de Faldas",
       "subcategoria": "Tallas disponibles: S",
       "nombre": "Saya Short de Volantes",
-      "precio": 28,
+      "precio": 25,
       "colores": "Solo negra",
       "imagenes": [
-        "assets/productos/uploads/con-055-1787167193505-1.jpeg"
+        "assets/productos/uploads/con-055-1794611670304-1.png"
       ],
       "destacado": false,
       "estado": "Activo",
