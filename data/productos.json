@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794518334769"
+    "updatedAt": "1794577593391"
   },
   "productos": [
     {
@@ -460,29 +460,6 @@
         "precioOferta": null,
         "etiqueta": ""
       }
-    },
-    {
-      "codigo": "ACC-004",
-      "carpeta": "ACC-004",
-      "categoria": "Accesorios",
-      "subcategoria": "Viseras",
-      "nombre": "Visera Efecto Espejo",
-      "precio": 22,
-      "colores": "Varios",
-      "imagenes": [
-        "assets/productos/ACC-004/1.webp"
-      ],
-      "destacado": false,
-      "estado": "Activo",
-      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
-      "palabrasClave": [
-        "Visera Efecto Espejo",
-        "Accesorios",
-        "Viseras",
-        "ACC-004",
-        "leggin",
-        "legging"
-      ]
     },
     {
       "codigo": "ACC-005",
