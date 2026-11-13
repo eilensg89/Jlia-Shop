@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794613353369"
+    "updatedAt": "1794613449803"
   },
   "productos": [
     {
@@ -2972,6 +2972,39 @@
         "talla",
         "disponibles",
         "negro"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "BLU-005",
+      "carpeta": "BLU-005",
+      "categoria": "Blusas",
+      "subcategoria": "Tallas disponibles S y M",
+      "nombre": "Top",
+      "precio": 20,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/blu-005-1794613449739-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "blusas",
+        "top",
+        "tallas disponibles s y m",
+        "blusa",
+        "tops",
+        "tallas",
+        "disponibles",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
