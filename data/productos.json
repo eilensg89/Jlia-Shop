@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794612919464"
+    "updatedAt": "1794612984252"
   },
   "productos": [
     {
@@ -2939,6 +2939,41 @@
         "shorts",
         "talla",
         "única",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "PAN-003",
+      "carpeta": "PAN-003",
+      "categoria": "Pantalones",
+      "subcategoria": "Tallas disponible 6-10-12-16",
+      "nombre": "Pantalones colombianos",
+      "precio": 30,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/pan-003-1794612984240-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "pantalones",
+        "pantalones colombianos",
+        "tallas disponible 6-10-12-16",
+        "pantalón",
+        "pantalon",
+        "colombianos",
+        "tallas",
+        "disponible",
+        "6-10-12-16",
         "disponibilidad",
         "fotos"
       ],
