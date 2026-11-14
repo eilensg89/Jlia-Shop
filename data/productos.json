@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794615875783"
+    "updatedAt": "1794615967712"
   },
   "productos": [
     {
@@ -464,8 +464,8 @@
       "precio": 10,
       "colores": "Varios",
       "imagenes": [
-        "assets/productos/ACC-006/1.webp",
-        "assets/productos/ACC-006/2.webp"
+        "assets/productos/uploads/acc-006-1794615967552-1.jpeg",
+        "assets/productos/uploads/acc-006-1794615967552-2.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -476,8 +476,23 @@
         "Cabello",
         "ACC-006",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "accesorios",
+        "banda para cabello",
+        "cabello",
+        "accesorio",
+        "gafas",
+        "lentes",
+        "banda",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "ACC-007",
