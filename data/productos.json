@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794618970503"
+    "updatedAt": "1794619041617"
   },
   "productos": [
     {
@@ -3350,6 +3350,38 @@
         "zapatos",
         "tenis",
         "sandalias",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CAL-012",
+      "carpeta": "CAL-012",
+      "categoria": "Calzado",
+      "subcategoria": "Disponibilidad en fotos",
+      "nombre": "Sandalias",
+      "precio": 45,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/cal-012-1794619041608-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "sandalias",
+        "disponibilidad en fotos",
+        "zapato",
+        "zapatos",
+        "tenis",
         "disponibilidad",
         "fotos"
       ],
