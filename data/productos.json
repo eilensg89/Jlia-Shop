@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794616233400"
+    "updatedAt": "1794616330107"
   },
   "productos": [
     {
@@ -1693,7 +1693,7 @@
       "codigo": "CAL-005",
       "carpeta": "CAL-005",
       "categoria": "Calzado",
-      "subcategoria": "Número disponible: 37 / US 7",
+      "subcategoria": "Número disponible: 37 / US 7 y 39/9",
       "nombre": "Sandalias de Plataforma",
       "precio": 45,
       "colores": "Disponibilidad en fotos",
@@ -1716,7 +1716,8 @@
         "disponible:",
         "us",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "número disponible: 37 / us 7 y 39/9"
       ],
       "promocion": {
         "activa": true,
