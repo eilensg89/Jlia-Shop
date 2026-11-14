@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794677987545"
+    "updatedAt": "1794678056219"
   },
   "productos": [
     {
@@ -1366,7 +1366,8 @@
       "palabrasClave": [
         "conjuntos de leggings",
         "conjunto deportivo de 3 piezas",
-        "one size: s/m incluye: legging, top y chaqueta",
+        "one size: s/m incluye: legging",
+        "top y chaqueta",
         "conjunto",
         "deportivo",
         "piezas",
@@ -1377,13 +1378,14 @@
         "top",
         "chaqueta",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "one size: s/m incluye: legging, top y chaqueta"
       ],
       "promocion": {
         "activa": true,
         "tipo": "precio",
         "descuento": 0,
-        "precioOferta": 35,
+        "precioOferta": 32,
         "etiqueta": "OFERTA"
       }
     },
