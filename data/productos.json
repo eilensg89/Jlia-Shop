@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794616330107"
+    "updatedAt": "1794616868094"
   },
   "productos": [
     {
@@ -3187,6 +3187,40 @@
         "accesorio",
         "gafas",
         "lentes",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CAL-009",
+      "carpeta": "CAL-009",
+      "categoria": "Calzado",
+      "subcategoria": "Número 37/7",
+      "nombre": "Sandalias plataforma",
+      "precio": 38,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/uploads/cal-009-1794616868082-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "sandalias plataforma",
+        "número 37/7",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "plataforma",
+        "número",
         "varios"
       ],
       "promocion": {
