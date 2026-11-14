@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794676570058"
+    "updatedAt": "1794676674565"
   },
   "productos": [
     {
@@ -1000,11 +1000,11 @@
         "azul"
       ],
       "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
+        "activa": true,
+        "tipo": "precio",
         "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
+        "precioOferta": 26,
+        "etiqueta": "OFERTA"
       }
     },
     {
