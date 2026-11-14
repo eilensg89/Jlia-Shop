@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794615066180"
+    "updatedAt": "1794615254113"
   },
   "productos": [
     {
@@ -2999,6 +2999,39 @@
         "size",
         "disponibilidad",
         "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-106",
+      "carpeta": "CON-106",
+      "categoria": "Conjuntos Casuales",
+      "subcategoria": "One size S/M/L",
+      "nombre": "Conjunto 3 piezas",
+      "precio": 40,
+      "colores": "Blanco",
+      "imagenes": [
+        "assets/productos/uploads/con-106-1794615254065-1.jpeg",
+        "assets/productos/uploads/con-106-1794615254065-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos casuales",
+        "conjunto 3 piezas",
+        "one size s/m/l",
+        "conjunto",
+        "piezas",
+        "one",
+        "size",
+        "blanco"
       ],
       "promocion": {
         "activa": false,
