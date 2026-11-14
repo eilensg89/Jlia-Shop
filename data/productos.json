@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794680939078"
+    "updatedAt": "1794681006536"
   },
   "productos": [
     {
@@ -3124,11 +3124,11 @@
         "negro"
       ],
       "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
+        "activa": true,
+        "tipo": "precio",
         "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
+        "precioOferta": 20,
+        "etiqueta": "OFERTA"
       }
     },
     {
