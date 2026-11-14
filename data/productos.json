@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794615312927"
+    "updatedAt": "1794615465296"
   },
   "productos": [
     {
@@ -3031,6 +3031,38 @@
         "one",
         "size",
         "blanco"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-107",
+      "carpeta": "CON-107",
+      "categoria": "Conjuntos de Abrigos y Mangas largas",
+      "subcategoria": "Talla disponible M",
+      "nombre": "Conjunto de sudadera",
+      "precio": 40,
+      "colores": "Azul",
+      "imagenes": [
+        "assets/productos/uploads/con-107-1794615465289-1.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de abrigos y mangas largas",
+        "conjunto de sudadera",
+        "talla disponible m",
+        "conjunto",
+        "sudadera",
+        "talla",
+        "disponible",
+        "azul"
       ],
       "promocion": {
         "activa": false,
