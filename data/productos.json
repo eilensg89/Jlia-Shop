@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794676746914"
+    "updatedAt": "1794676822418"
   },
   "productos": [
     {
@@ -866,11 +866,11 @@
         "rosa"
       ],
       "promocion": {
-        "activa": false,
-        "tipo": "porcentaje",
+        "activa": true,
+        "tipo": "precio",
         "descuento": 0,
-        "precioOferta": null,
-        "etiqueta": ""
+        "precioOferta": 30,
+        "etiqueta": "OFERTA"
       }
     },
     {
