@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794615830799"
+    "updatedAt": "1794615875783"
   },
   "productos": [
     {
@@ -426,7 +426,6 @@
       "precio": 10,
       "colores": "Varios",
       "imagenes": [
-        "assets/productos/uploads/acc-005-1794615823353-1.png",
         "assets/productos/uploads/acc-005-1794615830713-1.png"
       ],
       "destacado": false,
