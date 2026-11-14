@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794615967712"
+    "updatedAt": "1794616046443"
   },
   "productos": [
     {
@@ -356,7 +356,7 @@
       "precio": 10,
       "colores": "Varios",
       "imagenes": [
-        "assets/productos/ACC-001/1.webp"
+        "assets/productos/uploads/acc-001-1794616046379-1.png"
       ],
       "destacado": false,
       "estado": "Activo",
@@ -367,8 +367,23 @@
         "Cabello",
         "ACC-001",
         "leggin",
-        "legging"
-      ]
+        "legging",
+        "accesorios",
+        "clip para cabello",
+        "cabello",
+        "accesorio",
+        "gafas",
+        "lentes",
+        "clip",
+        "varios"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
     },
     {
       "codigo": "ACC-002",
