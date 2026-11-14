@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794616046443"
+    "updatedAt": "1794616132313"
   },
   "productos": [
     {
@@ -3157,6 +3157,37 @@
         "talla",
         "disponibles",
         "negro"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "ACC-008",
+      "carpeta": "ACC-008",
+      "categoria": "Accesorios",
+      "subcategoria": "Gorras",
+      "nombre": "Gorras",
+      "precio": 20,
+      "colores": "Varios",
+      "imagenes": [
+        "assets/productos/uploads/acc-008-1794616132207-1.png",
+        "assets/productos/uploads/acc-008-1794616132207-2.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "accesorios",
+        "gorras",
+        "accesorio",
+        "gafas",
+        "lentes",
+        "varios"
       ],
       "promocion": {
         "activa": false,
