@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794678130166"
+    "updatedAt": "1794678170407"
   },
   "productos": [
     {
@@ -1043,7 +1043,7 @@
         "activa": true,
         "tipo": "precio",
         "descuento": 0,
-        "precioOferta": 35,
+        "precioOferta": 32,
         "etiqueta": "OFERTA"
       }
     },
