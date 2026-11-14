@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794678609221"
+    "updatedAt": "1794678687306"
   },
   "productos": [
     {
@@ -1464,7 +1464,7 @@
         "one size: s/m incluye: legging corta, top y pulóver de malla"
       ],
       "promocion": {
-        "activa": false,
+        "activa": true,
         "tipo": "precio",
         "descuento": 0,
         "precioOferta": 28,
