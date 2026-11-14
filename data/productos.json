@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794615767122"
+    "updatedAt": "1794615830799"
   },
   "productos": [
     {
@@ -426,8 +426,8 @@
       "precio": 10,
       "colores": "Varios",
       "imagenes": [
-        "assets/productos/ACC-005/1.webp",
-        "assets/productos/uploads/acc-005-1787330847820-1.png"
+        "assets/productos/uploads/acc-005-1794615823353-1.png",
+        "assets/productos/uploads/acc-005-1794615830713-1.png"
       ],
       "destacado": false,
       "estado": "Activo",
