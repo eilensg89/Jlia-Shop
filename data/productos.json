@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794614546129"
+    "updatedAt": "1794614912444"
   },
   "productos": [
     {
@@ -2925,6 +2925,44 @@
         "leggings",
         "one",
         "size",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-104",
+      "carpeta": "CON-104",
+      "categoria": "Conjuntos de Leggings",
+      "subcategoria": "Tallas disponibles M",
+      "nombre": "Conjunto de leggings corto",
+      "precio": 32,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-104-1794614912406-1.jpeg",
+        "assets/productos/uploads/con-104-1794614912406-2.jpeg",
+        "assets/productos/uploads/con-104-1794614912406-3.jpeg",
+        "assets/productos/uploads/con-104-1794614912406-4.jpeg",
+        "assets/productos/uploads/con-104-1794614912406-5.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de leggings",
+        "conjunto de leggings corto",
+        "tallas disponibles m",
+        "conjunto",
+        "leggings",
+        "corto",
+        "tallas",
+        "disponibles",
         "disponibilidad",
         "fotos"
       ],
