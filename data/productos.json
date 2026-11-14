@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794681061341"
+    "updatedAt": "1794681434216"
   },
   "productos": [
     {
@@ -2631,9 +2631,7 @@
       "precio": 60,
       "colores": "Varios",
       "imagenes": [
-        "assets/productos/uploads/cal-007-1793639127620-1.jpeg",
-        "assets/productos/uploads/cal-007-1793639127620-2.jpeg",
-        "assets/productos/uploads/cal-007-1793639127620-3.jpeg"
+        "assets/productos/uploads/cal-007-1793639127620-2.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
