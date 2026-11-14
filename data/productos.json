@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794618108818"
+    "updatedAt": "1794618247315"
   },
   "productos": [
     {
@@ -3217,6 +3217,39 @@
         "one",
         "size",
         "negro"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CON-110",
+      "carpeta": "CON-110",
+      "categoria": "Conjuntos de Short",
+      "subcategoria": "Tallas disponibles M y S",
+      "nombre": "Shorts",
+      "precio": 25,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/con-110-1794618247218-1.png",
+        "assets/productos/uploads/con-110-1794618247218-2.png",
+        "assets/productos/uploads/con-110-1794618247218-3.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "conjuntos de short",
+        "shorts",
+        "tallas disponibles m y s",
+        "tallas",
+        "disponibles",
+        "disponibilidad",
+        "fotos"
       ],
       "promocion": {
         "activa": false,
