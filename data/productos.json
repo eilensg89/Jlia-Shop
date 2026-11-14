@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794615606381"
+    "updatedAt": "1794615767122"
   },
   "productos": [
     {
@@ -3095,6 +3095,38 @@
         "fajín",
         "talla",
         "disponible",
+        "negro"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "BLU-006",
+      "carpeta": "BLU-006",
+      "categoria": "Blusas",
+      "subcategoria": "Talla disponibles M",
+      "nombre": "Top",
+      "precio": 25,
+      "colores": "Negro",
+      "imagenes": [
+        "assets/productos/uploads/blu-006-1794615767061-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "blusas",
+        "top",
+        "talla disponibles m",
+        "blusa",
+        "tops",
+        "talla",
+        "disponibles",
         "negro"
       ],
       "promocion": {
