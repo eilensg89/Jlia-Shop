@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794687610733"
+    "updatedAt": "1794694588404"
   },
   "productos": [
     {
@@ -3263,7 +3263,7 @@
       "codigo": "BLU-007",
       "carpeta": "BLU-007",
       "categoria": "Blusas",
-      "subcategoria": "Tallas disponibles S y M",
+      "subcategoria": "Tallas disponibles S",
       "nombre": "Blusas de tirante",
       "precio": 20,
       "colores": "Disponibilidad en fotos",
@@ -3284,7 +3284,8 @@
         "tallas",
         "disponibles",
         "disponibilidad",
-        "fotos"
+        "fotos",
+        "tallas disponibles s"
       ],
       "promocion": {
         "activa": true,
