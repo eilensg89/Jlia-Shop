@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794618247315"
+    "updatedAt": "1794618337695"
   },
   "productos": [
     {
@@ -3246,6 +3246,41 @@
         "conjuntos de short",
         "shorts",
         "tallas disponibles m y s",
+        "tallas",
+        "disponibles",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "BLU-007",
+      "carpeta": "BLU-007",
+      "categoria": "Blusas",
+      "subcategoria": "Tallas disponibles S y M",
+      "nombre": "Blusas de tirante",
+      "precio": 20,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/blu-007-1794618337633-1.png"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "blusas",
+        "blusas de tirante",
+        "tallas disponibles s y m",
+        "blusa",
+        "top",
+        "tops",
+        "tirante",
         "tallas",
         "disponibles",
         "disponibilidad",
