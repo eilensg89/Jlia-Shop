@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "1794618898803"
+    "updatedAt": "1794618970503"
   },
   "productos": [
     {
@@ -3305,6 +3305,39 @@
       "imagenes": [
         "assets/productos/uploads/cal-010-1794618898774-1.jpeg",
         "assets/productos/uploads/cal-010-1794618898774-2.jpeg"
+      ],
+      "destacado": false,
+      "estado": "Activo",
+      "descripcion": "Consulta por WhatsApp la disponibilidad actual de colores, tallas y modelos.",
+      "palabrasClave": [
+        "calzado",
+        "sandalia",
+        "disponibilidad en fotos",
+        "zapato",
+        "zapatos",
+        "tenis",
+        "sandalias",
+        "disponibilidad",
+        "fotos"
+      ],
+      "promocion": {
+        "activa": false,
+        "tipo": "porcentaje",
+        "descuento": 0,
+        "precioOferta": null,
+        "etiqueta": ""
+      }
+    },
+    {
+      "codigo": "CAL-011",
+      "carpeta": "CAL-011",
+      "categoria": "Calzado",
+      "subcategoria": "Disponibilidad en fotos",
+      "nombre": "Sandalia",
+      "precio": 45,
+      "colores": "Disponibilidad en fotos",
+      "imagenes": [
+        "assets/productos/uploads/cal-011-1794618970491-1.jpeg"
       ],
       "destacado": false,
       "estado": "Activo",
